@@ -188,11 +188,17 @@ def parse_cars_from_markdown(input_path: Path) -> list[dict]:
   return cars
 
 
+def derive_source_from_filename(source_filename: str) -> str:
+  if source_filename.endswith("-CARS.md"):
+    return source_filename[: -len("-CARS.md")]
+  return Path(source_filename).stem
+
+
 def build_output(cars: list[dict], source_filename: str) -> dict:
   return {
     "_metadata": {
       "generator": "markdown_to_json.py",
-      "source": source_filename,
+      "source": derive_source_from_filename(source_filename),
     },
     "cars": cars,
   }
