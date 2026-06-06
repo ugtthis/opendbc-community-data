@@ -199,6 +199,7 @@ def build_output(cars: list[dict], source_filename: str) -> dict:
     "_metadata": {
       "generator": "markdown_to_json.py",
       "source": derive_source_from_filename(source_filename),
+      "total": f"{len(cars)} cars",
     },
     "cars": cars,
   }
