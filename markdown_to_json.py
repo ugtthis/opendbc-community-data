@@ -6,8 +6,8 @@ import sys
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
-DEFAULT_INPUT = SCRIPT_DIR / "data" / "ref" / "CARS.md"
-DEFAULT_OUTPUT = SCRIPT_DIR / "data" / "ref" / "cars.json"
+REF_DIR = SCRIPT_DIR / "data" / "ref"
+OUTPUT_DIR = SCRIPT_DIR / "data"
 
 # Output keys -> acceptable markdown header aliases.
 REQUIRED_COLUMNS = {
@@ -204,21 +204,54 @@ def build_output(cars: list[dict], source_filename: str) -> dict:
   }
 
 
+def find_input_markdown_files() -> list[Path]:
+  return sorted(REF_DIR.glob("*.md"))
+
+
+def output_path_for_input(input_path: Path) -> Path:
+  return OUTPUT_DIR / input_path.with_suffix(".json").name.lower()
+
+
+def process_markdown_file(input_path: Path, output_path: Path) -> int:
+  cars = parse_cars_from_markdown(input_path)
+  output_data = build_output(cars, input_path.name)
+  output_path.parent.mkdir(parents=True, exist_ok=True)
+  output_path.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
+  print(f"Processed {len(cars)} vehicles from {input_path.name} -> {output_path}")
+  return len(cars)
+
+
 def main() -> None:
   parser = argparse.ArgumentParser()
-  parser.add_argument("--input", "-i", type=Path, default=DEFAULT_INPUT)
-  parser.add_argument("--output", "-o", type=Path, default=DEFAULT_OUTPUT)
+  parser.add_argument("--input", "-i", type=Path, help="Single markdown file to convert")
+  parser.add_argument("--output", "-o", type=Path, help="Output JSON path (only with --input)")
   args = parser.parse_args()
 
-  try:
-    cars = parse_cars_from_markdown(args.input)
-  except (RowValidationError, ValueError) as error:
-    print(f"\nError: {error}\n")
+  if args.output and not args.input:
+    print("Error: --output requires --input\n")
     sys.exit(1)
 
-  output_data = build_output(cars, args.input.name)
-  args.output.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
-  print(f"Processed {len(cars)} vehicles from {args.input.name}")
+  if not args.input:
+    if not REF_DIR.is_dir():
+      print(f"Error: input directory not found: {REF_DIR}\n")
+      sys.exit(1)
+
+  input_files = [args.input] if args.input else find_input_markdown_files()
+  if not input_files:
+    print(f"Error: no markdown files found in {REF_DIR}\n")
+    sys.exit(1)
+
+  failed = False
+  for input_path in input_files:
+    output_path = args.output or output_path_for_input(input_path)
+    try:
+      process_markdown_file(input_path, output_path)
+    except (RowValidationError, ValueError) as error:
+      print(f"\nError processing {input_path.name}: {error}\n")
+      failed = True
+
+  if failed:
+    sys.exit(1)
 
 
 if __name__ == "__main__":
