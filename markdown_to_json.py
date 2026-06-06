@@ -205,9 +205,7 @@ def build_output(cars: list[dict], source_filename: str) -> dict:
 
 
 def main() -> None:
-  parser = argparse.ArgumentParser(
-    description="Convert openpilot-style CARS.md table rows into JSON."
-  )
+  parser = argparse.ArgumentParser()
   parser.add_argument("--input", "-i", type=Path, default=DEFAULT_INPUT)
   parser.add_argument("--output", "-o", type=Path, default=DEFAULT_OUTPUT)
   args = parser.parse_args()
