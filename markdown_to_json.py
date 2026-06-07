@@ -19,9 +19,14 @@ REQUIRED_COLUMNS = {
   "no_alc_below": ["No ALC below"],
   "auto_resume_available": ["Resume from stop"],
 }
+OPTIONAL_COLUMNS = {
+  "video": ["Video"],
+  "setup_video": ["Setup Video"],
+}
 
 FOOTNOTE_PATTERN = re.compile(r"\[<sup>([^<]+)</sup>\]\(#footnotes\)", re.IGNORECASE)
 FOOTNOTE_DEFINITION_PATTERN = re.compile(r"<sup>(\d+)</sup>\s*(.*?)\s*<br\s*/?>", re.IGNORECASE)
+HREF_PATTERN = re.compile(r'href="([^"]+)"', re.IGNORECASE)
 HTML_TAG_PATTERN = re.compile(r"<[^>]+>")
 MULTISPACE_PATTERN = re.compile(r"\s+")
 YEAR_RANGE = r"(?:19|20)\d{2}(?:-\d{2,4})?"
@@ -99,6 +104,14 @@ def clean_cell_text(cell_text: str) -> str:
   return collapsed_whitespace.strip()
 
 
+def parse_link(cell_text: str | None) -> str | None:
+  match = HREF_PATTERN.search(cell_text or "")
+  if not match:
+    return None
+  url = match.group(1).strip()
+  return url or None
+
+
 def extract_years(model_string: str) -> list[int]:
   match = re.search(YEAR_SUFFIX_PATTERN, model_string)
   if not match:
@@ -132,8 +145,10 @@ def find_first_compatible_table_header(lines: list[str]) -> tuple[dict[str, int]
   for index, line in enumerate(lines):
     if not is_table_row(line):
       continue
-    col_map = map_columns(parse_row(line), REQUIRED_COLUMNS)
+    headers = parse_row(line)
+    col_map = map_columns(headers, REQUIRED_COLUMNS)
     if set(col_map.keys()) == required_keys:
+      col_map.update(map_columns(headers, OPTIONAL_COLUMNS))
       return col_map, index
   raise ValueError(
     "No CARS table found with required columns: "
@@ -150,9 +165,13 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
     "no_acc_below": get_cell(row, col_map, "no_acc_below"),
     "no_alc_below": get_cell(row, col_map, "no_alc_below"),
     "auto_resume_available": get_cell(row, col_map, "auto_resume_available"),
+    "video": get_cell(row, col_map, "video"),
+    "setup_video": get_cell(row, col_map, "setup_video"),
   }
 
-  missing_required_fields = tuple(key for key, value in raw_fields.items() if not value)
+  missing_required_fields = tuple(
+    key for key in REQUIRED_COLUMNS.keys() if not raw_fields.get(key)
+  )
   if missing_required_fields:
     return None, missing_required_fields
 
@@ -174,6 +193,8 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
     "no_acc_below": clean_cell_text(raw_fields["no_acc_below"] or ""),
     "no_alc_below": clean_cell_text(raw_fields["no_alc_below"] or ""),
     "auto_resume_available": "icon-star-full.svg" in (raw_fields["auto_resume_available"] or ""),
+    "video": parse_link(raw_fields["video"]),
+    "setup_video": parse_link(raw_fields["setup_video"]),
     "footnotes": {
       "make": parse_footnotes(raw_make),
       "model": parse_footnotes(raw_model),
