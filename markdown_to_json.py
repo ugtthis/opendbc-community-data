@@ -259,7 +259,8 @@ def find_input_markdown_files() -> list[Path]:
 
 
 def output_path_for_input(input_path: Path) -> Path:
-  return OUTPUT_DIR / input_path.with_suffix(".json").name.lower()
+  source_name = derive_source_from_filename(input_path.name).lower()
+  return OUTPUT_DIR / f"{source_name}.json"
 
 
 def process_markdown_file(input_path: Path, output_path: Path) -> int:
