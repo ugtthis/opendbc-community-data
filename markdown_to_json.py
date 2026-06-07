@@ -21,6 +21,7 @@ REQUIRED_COLUMNS = {
 }
 
 FOOTNOTE_PATTERN = re.compile(r"\[<sup>([^<]+)</sup>\]\(#footnotes\)", re.IGNORECASE)
+FOOTNOTE_DEFINITION_PATTERN = re.compile(r"<sup>(\d+)</sup>\s*(.*?)\s*<br\s*/?>", re.IGNORECASE)
 HTML_TAG_PATTERN = re.compile(r"<[^>]+>")
 MULTISPACE_PATTERN = re.compile(r"\s+")
 YEAR_RANGE = r"(?:19|20)\d{2}(?:-\d{2,4})?"
@@ -67,6 +68,28 @@ def parse_footnotes(cell_text: str) -> list[int]:
         numbers.append(int(token))
   # Keep stable order while removing duplicates.
   return list(dict.fromkeys(numbers))
+
+
+def parse_footnote_definitions(lines: list[str]) -> dict[int, str]:
+  footnotes: dict[int, str] = {}
+  in_footnotes_section = False
+
+  for line in lines:
+    stripped = line.strip()
+
+    if not in_footnotes_section:
+      if stripped == "### Footnotes":
+        in_footnotes_section = True
+      continue
+
+    if stripped.startswith("#"):
+      break
+
+    match = FOOTNOTE_DEFINITION_PATTERN.search(line)
+    if match:
+      footnotes[int(match.group(1))] = clean_cell_text(match.group(2))
+
+  return footnotes
 
 
 def clean_cell_text(cell_text: str) -> str:
@@ -158,9 +181,10 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
   }, ()
 
 
-def parse_cars_from_markdown(input_path: Path) -> list[dict]:
+def parse_cars_from_markdown(input_path: Path) -> tuple[list[dict], dict[int, str]]:
   lines = input_path.read_text(encoding="utf-8").splitlines()
   col_map, header_index = find_first_compatible_table_header(lines)
+  footnote_definitions = parse_footnote_definitions(lines)
 
   cars: list[dict] = []
   row_validation_errors: list[str] = []
@@ -188,7 +212,7 @@ def parse_cars_from_markdown(input_path: Path) -> list[dict]:
       f"{formatted_errors}"
     )
 
-  return cars
+  return cars, footnote_definitions
 
 
 def derive_source_from_filename(source_filename: str) -> str:
@@ -197,13 +221,14 @@ def derive_source_from_filename(source_filename: str) -> str:
   return Path(source_filename).stem
 
 
-def build_output(cars: list[dict], source_filename: str) -> dict:
+def build_output(cars: list[dict], source_filename: str, footnotes: dict[int, str]) -> dict:
   return {
     "_metadata": {
       "generator": "markdown_to_json.py",
       "source": derive_source_from_filename(source_filename),
       "total": f"{len(cars)} cars",
     },
+    "footnote_definitions": footnotes,
     "cars": cars,
   }
 
@@ -217,8 +242,8 @@ def output_path_for_input(input_path: Path) -> Path:
 
 
 def process_markdown_file(input_path: Path, output_path: Path) -> int:
-  cars = parse_cars_from_markdown(input_path)
-  output_data = build_output(cars, input_path.name)
+  cars, footnotes = parse_cars_from_markdown(input_path)
+  output_data = build_output(cars, input_path.name, footnotes)
   output_path.parent.mkdir(parents=True, exist_ok=True)
   output_path.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
   print(f"Processed {len(cars)} vehicles from {input_path.name} -> {output_path}")
