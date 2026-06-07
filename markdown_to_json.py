@@ -13,9 +13,9 @@ OUTPUT_DIR = SCRIPT_DIR / "data"
 REQUIRED_COLUMNS = {
   "make": ["Make"],
   "model": ["Model"],
-  "supported_package": ["Supported Package", "Required Package/Features", "Package"],
+  "supported_package": ["Supported Package"],
   "acc": ["ACC"],
-  "no_acc_below": ["No ACC accel below", "No ACC below"],
+  "no_acc_below": ["No ACC accel below"],
   "no_alc_below": ["No ALC below"],
   "auto_resume_available": ["Resume from stop"],
 }
