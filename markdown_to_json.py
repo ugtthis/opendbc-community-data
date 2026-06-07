@@ -17,6 +17,7 @@ REQUIRED_COLUMNS = {
   "acc": ["ACC"],
   "no_acc_below": ["No ACC accel below", "No ACC below"],
   "no_alc_below": ["No ALC below"],
+  "auto_resume_available": ["Resume from stop"],
 }
 
 FOOTNOTE_PATTERN = re.compile(r"\[<sup>([^<]+)</sup>\]\(#footnotes\)", re.IGNORECASE)
@@ -125,6 +126,7 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
     "acc": get_cell(row, col_map, "acc"),
     "no_acc_below": get_cell(row, col_map, "no_acc_below"),
     "no_alc_below": get_cell(row, col_map, "no_alc_below"),
+    "auto_resume_available": get_cell(row, col_map, "auto_resume_available"),
   }
 
   missing_required_fields = tuple(key for key, value in raw_fields.items() if not value)
@@ -148,6 +150,7 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
     "acc": clean_cell_text(raw_fields["acc"] or ""),
     "no_acc_below": clean_cell_text(raw_fields["no_acc_below"] or ""),
     "no_alc_below": clean_cell_text(raw_fields["no_alc_below"] or ""),
+    "auto_resume_available": "icon-star-full.svg" in (raw_fields["auto_resume_available"] or ""),
     "footnotes": {
       "make": parse_footnotes(raw_make),
       "model": parse_footnotes(raw_model),
@@ -181,7 +184,7 @@ def parse_cars_from_markdown(input_path: Path) -> list[dict]:
   if row_validation_errors:
     formatted_errors = "\n".join(f"  - {error}" for error in row_validation_errors)
     raise RowValidationError(
-      "Each row must include make, model, supported_package, acc, no_acc_below, and no_alc_below.\n"
+      "Each row must include make, model, supported_package, acc, no_acc_below, no_alc_below, and auto_resume_available.\n"
       f"{formatted_errors}"
     )
 
