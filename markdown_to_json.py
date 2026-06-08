@@ -163,10 +163,15 @@ def format_years_abbreviated(year_list: list[int]) -> str | None:
   return ", ".join(formatted_ranges)
 
 
-def clean_model(model: str) -> str:
-  model = re.sub(YEAR_SUFFIX_PATTERN, "", model)
-  model = re.sub(PARENTHESES_CONTENT, "", model)
-  return model.strip()
+def split_model_and_variant(model_original: str) -> tuple[str, str | None]:
+  model_without_years = re.sub(YEAR_SUFFIX_PATTERN, "", model_original).strip()
+  variant_parts = [
+    variant.strip()
+    for variant in re.findall(r"\([^)]*\)", model_without_years)
+    if variant.strip("() ").strip()
+  ]
+  model = MULTISPACE_PATTERN.sub(" ", re.sub(PARENTHESES_CONTENT, "", model_without_years)).strip()
+  return model, (" ".join(variant_parts) or None)
 
 
 def find_first_compatible_table_header(lines: list[str]) -> tuple[dict[str, int], int]:
@@ -208,16 +213,18 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
   raw_make = raw_fields["make"] or ""
   raw_model = raw_fields["model"] or ""
   clean_make = clean_cell_text(raw_make)
-  model_original = clean_cell_text(raw_model)
-  model = clean_model(model_original)
-  year_list = extract_years(model_original)
+  clean_model = clean_cell_text(raw_model)
+  model, model_variant = split_model_and_variant(clean_model)
+  year_list = extract_years(clean_model)
+  years = format_years_abbreviated(year_list)
+  model_name_for_display = " ".join(part for part in [model, model_variant, years] if part)
 
   return {
-    "name": f"{clean_make} {model_original}",
+    "name": f"{clean_make} {model_name_for_display}",
     "make": clean_make,
     "model": model,
-    "model_original": model_original,
-    "years": format_years_abbreviated(year_list),
+    "model_variant": model_variant,
+    "years": years,
     "year_list": year_list,
     "supported_package": clean_cell_text(raw_fields["supported_package"] or ""),
     "acc": clean_cell_text(raw_fields["acc"] or ""),
