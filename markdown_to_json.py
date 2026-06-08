@@ -134,6 +134,35 @@ def extract_years(model_string: str) -> list[int]:
   return sorted(set(years))
 
 
+def format_years_abbreviated(year_list: list[int]) -> str | None:
+  if not year_list:
+    return None
+
+  ranges: list[tuple[int, int]] = []
+  start = year_list[0]
+  end = year_list[0]
+
+  for year in year_list[1:]:
+    if year == end + 1:
+      end = year
+    else:
+      ranges.append((start, end))
+      start = year
+      end = year
+  ranges.append((start, end))
+
+  formatted_ranges: list[str] = []
+  for range_start, range_end in ranges:
+    if range_start == range_end:
+      formatted_ranges.append(str(range_start))
+    elif range_start // 100 == range_end // 100:
+      formatted_ranges.append(f"{range_start}-{range_end % 100:02d}")
+    else:
+      formatted_ranges.append(f"{range_start}-{range_end}")
+
+  return ", ".join(formatted_ranges)
+
+
 def clean_model(model: str) -> str:
   model = re.sub(YEAR_SUFFIX_PATTERN, "", model)
   model = re.sub(PARENTHESES_CONTENT, "", model)
@@ -181,13 +210,15 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
   clean_make = clean_cell_text(raw_make)
   model_original = clean_cell_text(raw_model)
   model = clean_model(model_original)
+  year_list = extract_years(model_original)
 
   return {
     "name": f"{clean_make} {model_original}",
     "make": clean_make,
     "model": model,
     "model_original": model_original,
-    "years": extract_years(model_original),
+    "years": format_years_abbreviated(year_list),
+    "year_list": year_list,
     "supported_package": clean_cell_text(raw_fields["supported_package"] or ""),
     "acc": clean_cell_text(raw_fields["acc"] or ""),
     "no_acc_below": clean_cell_text(raw_fields["no_acc_below"] or ""),
