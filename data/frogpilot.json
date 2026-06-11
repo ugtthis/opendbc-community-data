@@ -32,6 +32,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "AcuraWatch Plus",
       "acc": "openpilot",
       "no_acc_below": "25 mph",
@@ -55,6 +56,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "AcuraWatch Plus",
       "acc": "openpilot",
       "no_acc_below": "25 mph",
@@ -79,6 +81,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -105,6 +108,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -127,6 +131,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -148,6 +153,7 @@
       "year_list": [
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -173,6 +179,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -194,6 +201,7 @@
       "year_list": [
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -217,6 +225,7 @@
         2016,
         2017
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -239,6 +248,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Premier or Premier Redline Trim without Super Cruise Package",
       "acc": "openpilot available",
       "no_acc_below": "3 mph",
@@ -261,6 +271,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "2LT Trim with Adaptive Cruise Control Package",
       "acc": "openpilot available",
       "no_acc_below": "3 mph",
@@ -285,6 +296,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "openpilot available",
       "no_acc_below": "3 mph",
@@ -307,6 +319,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Safety Package II",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -329,6 +342,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "openpilot available",
       "no_acc_below": "3 mph",
@@ -351,6 +365,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -373,6 +388,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -396,6 +412,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -417,6 +434,7 @@
       "year_list": [
         2017
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -438,6 +456,7 @@
       "year_list": [
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -463,6 +482,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -482,6 +502,7 @@
       "model_variant": null,
       "years": null,
       "year_list": [],
+      "hardware_needed": "N/A",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -508,6 +529,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -530,6 +552,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -553,6 +576,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -576,6 +600,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -599,6 +624,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -622,6 +648,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -646,6 +673,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -670,6 +698,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -691,6 +720,7 @@
       "year_list": [
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -714,6 +744,7 @@
       "year_list": [
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -739,6 +770,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -762,6 +794,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -785,6 +818,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -806,6 +840,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "LARIAT Luxury",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -828,6 +863,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -849,6 +885,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "LARIAT Luxury",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -871,6 +908,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -892,6 +930,7 @@
       "year_list": [
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -915,6 +954,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -937,6 +977,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -958,6 +999,7 @@
       "year_list": [
         2017
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "19 mph",
@@ -980,6 +1022,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -1004,6 +1047,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1025,6 +1069,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1048,6 +1093,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1072,6 +1118,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -1096,6 +1143,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -1119,6 +1167,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -1143,6 +1192,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Driver Alert Package II",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1168,6 +1218,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1193,6 +1244,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1216,6 +1268,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -1239,6 +1292,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1261,6 +1315,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1286,6 +1341,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1308,6 +1364,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1330,6 +1387,7 @@
         2015,
         2016
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Touring Trim",
       "acc": "openpilot",
       "no_acc_below": "25 mph",
@@ -1356,6 +1414,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1381,6 +1440,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1402,6 +1462,7 @@
       "year_list": [
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1425,6 +1486,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "acc": "openpilot",
       "no_acc_below": "25 mph",
@@ -1446,6 +1508,7 @@
       "year_list": [
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "acc": "openpilot",
       "no_acc_below": "25 mph",
@@ -1470,6 +1533,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "acc": "openpilot",
       "no_acc_below": "25 mph",
@@ -1491,6 +1555,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1515,6 +1580,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1536,6 +1602,7 @@
       "year_list": [
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1559,6 +1626,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "acc": "openpilot",
       "no_acc_below": "25 mph",
@@ -1584,6 +1652,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "25 mph",
@@ -1611,6 +1680,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "acc": "openpilot",
       "no_acc_below": "25 mph",
@@ -1639,6 +1709,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "acc": "openpilot",
       "no_acc_below": "25 mph",
@@ -1660,6 +1731,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1681,6 +1753,7 @@
       "year_list": [
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1702,6 +1775,7 @@
       "year_list": [
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1723,6 +1797,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1745,6 +1820,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "19 mph",
@@ -1766,6 +1842,7 @@
       "year_list": [
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "19 mph",
@@ -1789,6 +1866,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1812,6 +1890,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -1835,6 +1914,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1857,6 +1937,7 @@
         2015,
         2016
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "19 mph",
@@ -1880,6 +1961,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -1902,6 +1984,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1926,6 +2009,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist II",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1950,6 +2034,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -1974,6 +2059,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist II",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -1997,6 +2083,7 @@
       "year_list": [
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -2018,6 +2105,7 @@
       "year_list": [
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2041,6 +2129,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2064,6 +2153,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -2085,6 +2175,7 @@
       "year_list": [
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2108,6 +2199,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2129,6 +2221,7 @@
       "year_list": [
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "6 mph",
@@ -2153,6 +2246,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2175,6 +2269,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -2196,6 +2291,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -2219,6 +2315,7 @@
       "year_list": [
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2242,6 +2339,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2265,6 +2363,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2289,6 +2388,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2312,6 +2412,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2334,6 +2435,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2356,6 +2458,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2378,6 +2481,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -2402,6 +2506,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2426,6 +2531,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2447,6 +2553,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2470,6 +2577,7 @@
       "year_list": [
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -2491,6 +2599,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2515,6 +2624,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2538,6 +2648,7 @@
       "year_list": [
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2561,6 +2672,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2584,6 +2696,7 @@
       "year_list": [
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2608,6 +2721,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "5 mph",
@@ -2631,6 +2745,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -2654,6 +2769,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -2677,6 +2793,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -2700,6 +2817,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -2723,6 +2841,7 @@
       "year_list": [
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -2746,6 +2865,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2771,6 +2891,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist II",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2796,6 +2917,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2821,6 +2943,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "6 mph",
@@ -2843,6 +2966,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2867,6 +2991,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2890,6 +3015,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2911,6 +3037,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist II",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2934,6 +3061,7 @@
       "year_list": [
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2955,6 +3083,7 @@
       "year_list": [
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2976,6 +3105,7 @@
       "year_list": [
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -2997,6 +3127,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3018,6 +3149,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3041,6 +3173,7 @@
       "year_list": [
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "10 mph",
@@ -3062,6 +3195,7 @@
       "year_list": [
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3083,6 +3217,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3104,6 +3239,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3128,6 +3264,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "10 mph",
@@ -3149,6 +3286,7 @@
       "year_list": [
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -3170,6 +3308,7 @@
       "year_list": [
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3191,6 +3330,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3212,6 +3352,7 @@
       "year_list": [
         2017
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Advanced Smart Cruise Control",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -3234,6 +3375,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -3255,6 +3397,7 @@
       "year_list": [
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -3276,6 +3419,7 @@
       "year_list": [
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3297,6 +3441,7 @@
       "year_list": [
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Advanced Smart Cruise Control & LKAS",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -3318,6 +3463,7 @@
       "year_list": [
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -3341,6 +3487,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -3366,6 +3513,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -3390,6 +3538,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -3414,6 +3563,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3437,6 +3587,7 @@
       "year_list": [
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3462,6 +3613,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3484,6 +3636,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3507,6 +3660,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3529,6 +3683,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Lexus Safety System+",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3551,6 +3706,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -3577,6 +3733,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -3599,6 +3756,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -3625,6 +3783,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -3646,6 +3805,7 @@
       "year_list": [
         2016
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "19 mph",
@@ -3669,6 +3829,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "19 mph",
@@ -3691,6 +3852,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -3712,6 +3874,7 @@
       "year_list": [
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -3734,6 +3897,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3756,6 +3920,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -3778,6 +3943,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3800,6 +3966,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -3823,6 +3990,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "19 mph",
@@ -3844,6 +4012,7 @@
       "year_list": [
         2016
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Lexus Safety System+",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3867,6 +4036,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3890,6 +4060,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -3911,6 +4082,7 @@
       "year_list": [
         2016
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Lexus Safety System+",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3934,6 +4106,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3957,6 +4130,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -3982,6 +4156,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -4006,6 +4181,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Plus",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4030,6 +4206,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Plus",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4055,6 +4232,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4083,6 +4261,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4106,6 +4285,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -4129,6 +4309,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -4151,6 +4332,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "ProPILOT Assist",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -4177,6 +4359,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "ProPILOT Assist",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -4200,6 +4383,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "ProPILOT Assist",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -4221,6 +4405,7 @@
       "year_list": [
         2017
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "ProPILOT Assist",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -4247,6 +4432,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -4275,6 +4461,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4302,6 +4489,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4325,6 +4513,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4347,6 +4536,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4371,6 +4561,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4394,6 +4585,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4417,6 +4609,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4440,6 +4633,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4463,6 +4657,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -4486,6 +4681,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -4508,6 +4704,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4530,6 +4727,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4552,6 +4750,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4577,6 +4776,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4605,6 +4805,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4634,6 +4835,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4661,6 +4863,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4684,6 +4887,7 @@
       "year_list": [
         2016
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4709,6 +4913,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4735,6 +4940,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4765,6 +4971,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4789,6 +4996,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -4810,6 +5018,7 @@
       "year_list": [
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -4831,6 +5040,7 @@
       "year_list": [
         2016
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Toyota Safety Sense P",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -4853,6 +5063,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -4876,6 +5087,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4897,6 +5109,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -4920,6 +5133,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -4941,6 +5155,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -4965,6 +5180,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -4986,6 +5202,7 @@
       "year_list": [
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5010,6 +5227,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -5032,6 +5250,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5055,6 +5274,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -5079,6 +5299,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5102,6 +5323,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "Stock",
       "no_acc_below": "0 mph",
@@ -5126,6 +5348,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5149,6 +5372,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -5172,6 +5396,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5196,6 +5421,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "17 mph",
@@ -5219,6 +5445,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "17 mph",
@@ -5243,6 +5470,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5266,6 +5494,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5290,6 +5519,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "17 mph",
@@ -5313,6 +5543,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -5337,6 +5568,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5360,6 +5592,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -5384,6 +5617,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5405,6 +5639,7 @@
       "year_list": [
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5426,6 +5661,7 @@
       "year_list": [
         2016
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Toyota Safety Sense P",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5450,6 +5686,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5472,6 +5709,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5496,6 +5734,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5518,6 +5757,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5539,6 +5779,7 @@
       "year_list": [
         2017
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Toyota Safety Sense P",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -5560,6 +5801,7 @@
       "year_list": [
         2016
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Toyota Safety Sense P",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -5582,6 +5824,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -5605,6 +5848,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5626,6 +5870,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5648,6 +5893,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5669,6 +5915,7 @@
       "year_list": [
         2016
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Toyota Safety Sense P",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -5691,6 +5938,7 @@
         2017,
         2018
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -5714,6 +5962,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -5735,6 +5984,7 @@
       "year_list": [
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5757,6 +6007,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5780,6 +6031,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
@@ -5806,6 +6058,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5830,6 +6083,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5854,6 +6108,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5878,6 +6133,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5904,6 +6160,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5927,6 +6184,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5950,6 +6208,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5971,6 +6230,7 @@
       "year_list": [
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -5996,6 +6256,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6024,6 +6285,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6051,6 +6313,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6078,6 +6341,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6104,6 +6368,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6129,6 +6394,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6155,6 +6421,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6181,6 +6448,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6208,6 +6476,7 @@
         2020,
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6233,6 +6502,7 @@
         2018,
         2019
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6259,6 +6529,7 @@
         2019,
         2020
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6285,6 +6556,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6312,6 +6584,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6336,6 +6609,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6364,6 +6638,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6394,6 +6669,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6422,6 +6698,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6448,6 +6725,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6474,6 +6752,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6495,6 +6774,7 @@
       "year_list": [
         2021
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6521,6 +6801,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6543,6 +6824,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6568,6 +6850,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6590,6 +6873,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6612,6 +6896,7 @@
         2021,
         2022
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6639,6 +6924,7 @@
         2023,
         2024
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6662,6 +6948,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -6690,6 +6977,7 @@
         2022,
         2023
       ],
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
