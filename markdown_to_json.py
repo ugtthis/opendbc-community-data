@@ -3,6 +3,7 @@ import argparse
 import json
 import re
 import sys
+from html import unescape
 from pathlib import Path
 
 SCRIPT_DIR = Path(__file__).parent
@@ -13,6 +14,7 @@ OUTPUT_DIR = SCRIPT_DIR / "data"
 REQUIRED_COLUMNS = {
   "make": ["Make"],
   "model": ["Model"],
+  "hardware_needed": ["Hardware Needed"],
   "supported_package": ["Supported Package"],
   "acc": ["ACC"],
   "no_acc_below": ["No ACC accel below"],
@@ -23,6 +25,7 @@ OPTIONAL_COLUMNS = {
   "video": ["Video"],
   "setup_video": ["Setup Video"],
 }
+HARDWARE_DEVICES = ("comma 3X", "comma four")
 
 FOOTNOTE_PATTERN = re.compile(r"\[<sup>([^<]+)</sup>\]\(#footnotes\)", re.IGNORECASE)
 FOOTNOTE_DEFINITION_PATTERN = re.compile(r"<sup>(\d+)</sup>\s*(.*?)\s*<br\s*/?>", re.IGNORECASE)
@@ -47,11 +50,17 @@ def is_table_row(text_line: str) -> bool:
 
 
 def map_columns(headers: list[str], column_spec: dict[str, list[str]]) -> dict[str, int]:
+  normalized_headers = {
+    normalize_header_text(header): index
+    for index, header in enumerate(headers)
+  }
+
   column_map = {}
   for key, aliases in column_spec.items():
     for alias in aliases:
-      if alias in headers:
-        column_map[key] = headers.index(alias)
+      column_index = normalized_headers.get(normalize_header_text(alias))
+      if column_index is not None:
+        column_map[key] = column_index
         break
   return column_map
 
@@ -98,10 +107,23 @@ def parse_footnote_definitions(lines: list[str]) -> dict[int, str]:
 
 
 def clean_cell_text(cell_text: str) -> str:
-  without_footnotes = FOOTNOTE_PATTERN.sub("", cell_text)
-  without_html = HTML_TAG_PATTERN.sub("", without_footnotes)
-  collapsed_whitespace = MULTISPACE_PATTERN.sub(" ", without_html)
-  return collapsed_whitespace.strip()
+  remove_footnotes = FOOTNOTE_PATTERN.sub("", cell_text)
+  remove_html_tags = HTML_TAG_PATTERN.sub("", remove_footnotes)
+  decode_html_entities = unescape(remove_html_tags)
+  remove_extra_whitespace = MULTISPACE_PATTERN.sub(" ", decode_html_entities)
+  return remove_extra_whitespace.strip()
+
+
+def normalize_header_text(header_text: str) -> str:
+  return clean_cell_text(header_text).lower()
+
+
+def detect_hardware_needed(cell_text: str | None) -> str:
+  normalized_cell = clean_cell_text(cell_text or "").lower()
+  for device in HARDWARE_DEVICES:
+    if device.lower() in normalized_cell:
+      return device
+  return "N/A"
 
 
 def parse_link(cell_text: str | None) -> str | None:
@@ -194,6 +216,7 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
   raw_fields = {
     "make": get_cell(row, col_map, "make"),
     "model": get_cell(row, col_map, "model"),
+    "hardware_needed": get_cell(row, col_map, "hardware_needed"),
     "supported_package": get_cell(row, col_map, "supported_package"),
     "acc": get_cell(row, col_map, "acc"),
     "no_acc_below": get_cell(row, col_map, "no_acc_below"),
@@ -226,6 +249,7 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
     "model_variant": model_variant,
     "years": years,
     "year_list": year_list,
+    "hardware_needed": detect_hardware_needed(raw_fields["hardware_needed"]),
     "supported_package": clean_cell_text(raw_fields["supported_package"] or ""),
     "acc": clean_cell_text(raw_fields["acc"] or ""),
     "no_acc_below": clean_cell_text(raw_fields["no_acc_below"] or ""),
@@ -267,7 +291,7 @@ def parse_cars_from_markdown(input_path: Path) -> tuple[list[dict], dict[int, st
   if row_validation_errors:
     formatted_errors = "\n".join(f"  - {error}" for error in row_validation_errors)
     raise RowValidationError(
-      "Each row must include make, model, supported_package, acc, no_acc_below, no_alc_below, and auto_resume_available.\n"
+      "Each row must include make, model, hardware_needed, supported_package, acc, no_acc_below, no_alc_below, and auto_resume_available.\n"
       f"{formatted_errors}"
     )
 
