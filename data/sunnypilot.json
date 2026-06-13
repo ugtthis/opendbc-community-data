@@ -2,25 +2,26 @@
   "_metadata": {
     "generator": "markdown_to_json.py",
     "source": "sunnypilot",
-    "total": "340 cars"
+    "total": "341 cars"
   },
   "footnote_definitions": {
     "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `nightly-dev`.",
     "2": "Refers only to the Focus Mk4 (C519) available in Europe/China/Taiwan/Australasia, not the Focus Mk3 (C346) in North and South America/Southeast Asia.",
     "3": "See more setup details for GM.",
     "4": "2019 Honda Civic 1.6L Diesel Sedan does not have ALC below 12mph.",
-    "5": "See more setup details for Nissan.",
-    "6": "In the non-US market, openpilot requires the car to come equipped with EyeSight with Lane Keep Assistance.",
-    "7": "Enabling longitudinal control (alpha) will disable all EyeSight functionality, including AEB, LDW, and RAB.",
-    "8": "Some 2023 model years have HW4. To check which hardware type your vehicle has, look for Autopilot computer under Software -> Additional Vehicle Information on your vehicle's touchscreen. See this page for more information.",
-    "9": "See more setup details for Tesla.",
-    "10": "openpilot operates above 28mph for Camry 4CYL L, 4CYL LE and 4CYL SE which don't have Full-Speed Range Dynamic Radar Cruise Control.",
-    "11": "The J533 harness plugs in at the CAN gateway under the dashboard, just above the steering column. More information can be found at this guide.",
-    "12": "Not including the China market Kamiq, which is based on the (currently) unsupported PQ34 platform.",
-    "13": "Refers only to the MQB-based European B8 Passat, not the NMS Passat in the USA/China/Mideast markets.",
-    "14": "Some Škoda vehicles are equipped with heated windshields, which are known to block GPS signal needed for some comma four functionality.",
-    "15": "Only available for vehicles using a gateway (J533) harness. At this time, vehicles using a camera harness are limited to using stock ACC.",
-    "16": "Model-years 2022 and beyond may have a combined CAN gateway and BCM, which is supported by openpilot in software, but doesn't yet have a harness available from the comma store."
+    "5": "Enabling longitudinal control (alpha) will disable all CMBS functionality, including AEB and FCW.",
+    "6": "See more setup details for Nissan.",
+    "7": "In the non-US market, openpilot requires the car to come equipped with EyeSight with Lane Keep Assistance.",
+    "8": "Enabling longitudinal control (alpha) will disable all EyeSight functionality, including AEB, LDW, and RAB.",
+    "9": "Some 2023 model years have HW4. To check which hardware type your vehicle has, look for Autopilot computer under Software -> Additional Vehicle Information on your vehicle's touchscreen. See this page for more information.",
+    "10": "See more setup details for Tesla.",
+    "11": "openpilot operates above 28mph for Camry 4CYL L, 4CYL LE and 4CYL SE which don't have Full-Speed Range Dynamic Radar Cruise Control.",
+    "12": "The J533 harness plugs in at the CAN gateway under the dashboard, just above the steering column. More information can be found at this guide.",
+    "13": "Not including the China market Kamiq, which is based on the (currently) unsupported PQ34 platform.",
+    "14": "Refers only to the MQB-based European B8 Passat, not the NMS Passat in the USA/China/Mideast markets.",
+    "15": "Some Škoda vehicles are equipped with heated windshields, which are known to block GPS signal needed for some comma four functionality.",
+    "16": "Only available for vehicles using a gateway (J533) harness. At this time, vehicles using a camera harness are limited to using stock ACC.",
+    "17": "Model-years 2022 and beyond may have a combined CAN gateway and BCM, which is supported by openpilot in software, but doesn't yet have a harness available from the comma store."
   },
   "cars": [
     {
@@ -233,7 +234,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -258,7 +259,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -282,7 +283,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -311,7 +312,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -335,7 +336,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -361,7 +362,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -648,7 +649,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -967,13 +968,17 @@
       }
     },
     {
-      "name": "Ford Focus 2018",
+      "name": "Ford Focus 2018-22",
       "make": "Ford",
       "model": "Focus",
       "model_variant": null,
-      "years": "2018",
+      "years": "2018-22",
       "year_list": [
-        2018
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
@@ -991,13 +996,17 @@
       }
     },
     {
-      "name": "Ford Focus Hybrid 2018",
+      "name": "Ford Focus Hybrid 2018-22",
       "make": "Ford",
       "model": "Focus Hybrid",
       "model_variant": null,
-      "years": "2018",
+      "years": "2018-22",
       "year_list": [
-        2018
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
@@ -2824,6 +2833,29 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist II",
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      }
+    },
+    {
+      "name": "Hyundai Ioniq 6 (without HDA II) 2023-24",
+      "make": "Hyundai",
+      "model": "Ioniq 6",
+      "model_variant": "(without HDA II)",
+      "years": "2023-24",
+      "year_list": [
+        2023,
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist",
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5109,7 +5141,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -5140,7 +5172,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -5195,14 +5227,17 @@
       }
     },
     {
-      "name": "Nissan Altima 2019-20, 2024",
+      "name": "Nissan Altima 2019-24",
       "make": "Nissan",
       "model": "Altima",
       "model_variant": null,
-      "years": "2019-20, 2024",
+      "years": "2019-24",
       "year_list": [
         2019,
         2020,
+        2021,
+        2022,
+        2023,
         2024
       ],
       "hardware_needed": "comma four",
@@ -5215,7 +5250,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          5
+          6
         ],
         "model": []
       }
@@ -5244,7 +5279,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          5
+          6
         ],
         "model": []
       }
@@ -5270,7 +5305,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          5
+          6
         ],
         "model": []
       }
@@ -5294,7 +5329,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          5
+          6
         ],
         "model": []
       }
@@ -5495,7 +5530,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -5525,7 +5560,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -5884,7 +5919,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          14
+          15
         ]
       }
     },
@@ -5910,8 +5945,8 @@
       "footnotes": {
         "make": [],
         "model": [
-          12,
-          14
+          13,
+          15
         ]
       }
     },
@@ -5938,10 +5973,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": [
-          14
+          15
         ]
       }
     },
@@ -5970,10 +6005,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": [
-          14
+          15
         ]
       }
     },
@@ -6000,10 +6035,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": [
-          14
+          15
         ]
       }
     },
@@ -6026,10 +6061,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": [
-          14
+          15
         ]
       }
     },
@@ -6054,10 +6089,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": [
-          14
+          15
         ]
       }
     },
@@ -6084,7 +6119,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          14
+          15
         ]
       }
     },
@@ -6114,10 +6149,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": [
-          14
+          15
         ]
       }
     },
@@ -6144,10 +6179,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          9
+          10
         ],
         "model": [
-          8
+          9
         ]
       }
     },
@@ -6171,10 +6206,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          9
+          10
         ],
         "model": [
-          8
+          9
         ]
       }
     },
@@ -6200,10 +6235,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          9
+          10
         ],
         "model": [
-          8
+          9
         ]
       }
     },
@@ -6227,10 +6262,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          9
+          10
         ],
         "model": [
-          8
+          9
         ]
       }
     },
@@ -7318,7 +7353,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7345,7 +7380,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7372,7 +7407,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7399,7 +7434,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7428,7 +7463,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7454,7 +7489,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7480,7 +7515,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7504,7 +7539,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7532,7 +7567,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7563,7 +7598,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7593,7 +7628,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7623,7 +7658,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7652,7 +7687,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7680,7 +7715,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7709,7 +7744,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7738,7 +7773,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7768,7 +7803,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7796,7 +7831,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7825,7 +7860,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7854,7 +7889,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7882,7 +7917,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7908,7 +7943,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -7940,7 +7975,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       }
     },
@@ -7970,7 +8005,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -8001,7 +8036,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -8106,7 +8141,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -8132,7 +8167,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -8160,7 +8195,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -8185,7 +8220,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -8210,7 +8245,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -8240,7 +8275,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -8266,7 +8301,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
@@ -8297,7 +8332,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          11
+          12
         ],
         "model": []
       }
