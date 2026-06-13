@@ -1,0 +1,22 @@
+[
+  {
+    "source": "openpilot",
+    "url": "https://raw.githubusercontent.com/commaai/openpilot/refs/heads/master/docs/CARS.md"
+  },
+  {
+    "source": "sunnypilot",
+    "url": "https://raw.githubusercontent.com/sunnypilot/sunnypilot/refs/heads/master/docs/CARS.md"
+  },
+  {
+    "source": "starpilot",
+    "url": "https://raw.githubusercontent.com/firestar5683/StarPilot/refs/heads/StarPilot/docs/CARS.md"
+  },
+  {
+    "source": "frogpilot",
+    "url": "https://raw.githubusercontent.com/FrogAi/FrogPilot/refs/heads/FrogPilot/docs/CARS.md"
+  },
+  {
+    "source": "bluepilot",
+    "url": "https://raw.githubusercontent.com/BluePilotDev/bluepilot/refs/heads/bp-dev/docs/CARS.md"
+  }
+]
