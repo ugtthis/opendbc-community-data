@@ -298,17 +298,11 @@ def parse_cars_from_markdown(input_path: Path) -> tuple[list[dict], dict[int, st
   return cars, footnote_definitions
 
 
-def derive_source_from_filename(source_filename: str) -> str:
-  if source_filename.endswith("-CARS.md"):
-    return source_filename[: -len("-CARS.md")]
-  return Path(source_filename).stem
-
-
 def build_output(cars: list[dict], source_filename: str, footnotes: dict[int, str]) -> dict:
   return {
     "_metadata": {
       "generator": "markdown_to_json.py",
-      "source": derive_source_from_filename(source_filename),
+      "source": Path(source_filename).stem,
       "total": f"{len(cars)} cars",
     },
     "footnote_definitions": footnotes,
@@ -321,7 +315,7 @@ def find_input_markdown_files() -> list[Path]:
 
 
 def output_path_for_input(input_path: Path) -> Path:
-  source_name = derive_source_from_filename(input_path.name).lower()
+  source_name = input_path.stem.lower()
   return OUTPUT_DIR / f"{source_name}.json"
 
 
