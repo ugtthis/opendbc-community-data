@@ -324,7 +324,11 @@ def process_markdown_file(input_path: Path, output_path: Path) -> int:
   output_data = build_output(cars, input_path.name, footnotes)
   output_path.parent.mkdir(parents=True, exist_ok=True)
   output_path.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
-  print(f"Processed {len(cars)} vehicles from {input_path.name} -> {output_path}")
+  try:
+    display_output_path = output_path.relative_to(BASE_DIR)
+  except ValueError:
+    display_output_path = output_path
+  print(f"Processed {input_path.name}: {len(cars)} cars -> {display_output_path}")
   return len(cars)
 
 
@@ -335,17 +339,17 @@ def main() -> None:
   args = parser.parse_args()
 
   if args.output and not args.input:
-    print("Error: --output requires --input\n")
+    print("Error: --output requires --input", file=sys.stderr)
     sys.exit(1)
 
   if not args.input:
     if not REF_DIR.is_dir():
-      print(f"Error: input directory not found: {REF_DIR}\n")
+      print(f"Error: input directory not found: {REF_DIR}", file=sys.stderr)
       sys.exit(1)
 
   input_files = [args.input] if args.input else find_input_markdown_files()
   if not input_files:
-    print(f"Error: no markdown files found in {REF_DIR}\n")
+    print(f"Error: no markdown files found in {REF_DIR}", file=sys.stderr)
     sys.exit(1)
 
   failed = False
@@ -354,7 +358,7 @@ def main() -> None:
     try:
       process_markdown_file(input_path, output_path)
     except (RowValidationError, ValueError) as error:
-      print(f"\nError processing {input_path.name}: {error}\n")
+      print(f"Error processing {input_path.name}: {error}", file=sys.stderr)
       failed = True
 
   if failed:
