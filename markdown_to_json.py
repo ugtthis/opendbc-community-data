@@ -6,9 +6,9 @@ import sys
 from html import unescape
 from pathlib import Path
 
-SCRIPT_DIR = Path(__file__).parent
-REF_DIR = SCRIPT_DIR / "data" / "ref"
-OUTPUT_DIR = SCRIPT_DIR / "data"
+BASE_DIR = Path(__file__).parent
+REF_DIR = BASE_DIR / "data" / "ref"
+OUTPUT_DIR = BASE_DIR / "data"
 
 # Output keys -> acceptable markdown header aliases.
 REQUIRED_COLUMNS = {
