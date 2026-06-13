@@ -14,7 +14,7 @@ def main() -> None:
 
     for source_config in sources:
         source = source_config["source"]
-        raw_url = source_config["url"]
+        raw_url = source_config["raw_url"]
         output_path = REF_DIR / f"{source}.md"
 
         with urllib.request.urlopen(raw_url, timeout=30) as response:

@@ -1,22 +1,27 @@
 [
   {
     "source": "openpilot",
-    "url": "https://raw.githubusercontent.com/commaai/openpilot/refs/heads/master/docs/CARS.md"
+    "url": "https://github.com/commaai/openpilot/blob/master/docs/CARS.md",
+    "raw_url": "https://raw.githubusercontent.com/commaai/openpilot/master/docs/CARS.md"
   },
   {
     "source": "sunnypilot",
-    "url": "https://raw.githubusercontent.com/sunnypilot/sunnypilot/refs/heads/master/docs/CARS.md"
+    "url": "https://github.com/sunnypilot/sunnypilot/blob/master/docs/CARS.md",
+    "raw_url": "https://raw.githubusercontent.com/sunnypilot/sunnypilot/master/docs/CARS.md"
   },
   {
     "source": "starpilot",
-    "url": "https://raw.githubusercontent.com/firestar5683/StarPilot/refs/heads/StarPilot/docs/CARS.md"
+    "url": "https://github.com/firestar5683/StarPilot/blob/StarPilot/docs/CARS.md",
+    "raw_url": "https://raw.githubusercontent.com/firestar5683/StarPilot/StarPilot/docs/CARS.md"
   },
   {
     "source": "frogpilot",
-    "url": "https://raw.githubusercontent.com/FrogAi/FrogPilot/refs/heads/FrogPilot/docs/CARS.md"
+    "url": "https://github.com/FrogAi/FrogPilot/blob/FrogPilot/docs/CARS.md",
+    "raw_url": "https://raw.githubusercontent.com/FrogAi/FrogPilot/FrogPilot/docs/CARS.md"
   },
   {
     "source": "bluepilot",
-    "url": "https://raw.githubusercontent.com/BluePilotDev/bluepilot/refs/heads/bp-dev/docs/CARS.md"
+    "url": "https://github.com/BluePilotDev/bluepilot/blob/bp-dev/docs/CARS.md",
+    "raw_url": "https://raw.githubusercontent.com/BluePilotDev/bluepilot/bp-dev/docs/CARS.md"
   }
 ]
