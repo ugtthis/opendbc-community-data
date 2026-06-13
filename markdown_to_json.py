@@ -9,6 +9,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).parent
 REF_DIR = BASE_DIR / "data" / "ref"
 OUTPUT_DIR = BASE_DIR / "data"
+SOURCES_FILE = BASE_DIR / "md_sources.json"
 
 # Output keys -> acceptable markdown header aliases.
 REQUIRED_COLUMNS = {
@@ -298,11 +299,23 @@ def parse_cars_from_markdown(input_path: Path) -> tuple[list[dict], dict[int, st
   return cars, footnote_definitions
 
 
-def build_output(cars: list[dict], source_filename: str, footnotes: dict[int, str]) -> dict:
+def load_source_urls() -> dict[str, str]:
+  if not SOURCES_FILE.exists():
+    raise ValueError(f"Missing source config file: {SOURCES_FILE}")
+  source_configs = json.loads(SOURCES_FILE.read_text(encoding="utf-8"))
+  return {
+    config["source"].strip().lower(): config["url"]
+    for config in source_configs
+    if isinstance(config, dict) and config.get("source") and config.get("url")
+  }
+
+
+def build_output(cars: list[dict], source_name: str, source_url: str, footnotes: dict[int, str]) -> dict:
   return {
     "_metadata": {
+      "url": source_url,
       "generator": "markdown_to_json.py",
-      "source": Path(source_filename).stem,
+      "source": source_name,
       "total": f"{len(cars)} cars",
     },
     "footnote_definitions": footnotes,
@@ -319,9 +332,15 @@ def output_path_for_input(input_path: Path) -> Path:
   return OUTPUT_DIR / f"{source_name}.json"
 
 
-def process_markdown_file(input_path: Path, output_path: Path) -> int:
+def process_markdown_file(input_path: Path, output_path: Path, source_urls: dict[str, str]) -> int:
   cars, footnotes = parse_cars_from_markdown(input_path)
-  output_data = build_output(cars, input_path.name, footnotes)
+  source_name = input_path.stem.lower()
+  source_url = source_urls.get(source_name)
+  if not source_url:
+    raise ValueError(
+      f"Missing URL for '{source_name}' in {SOURCES_FILE.name}"
+    )
+  output_data = build_output(cars, source_name, source_url, footnotes)
   output_path.parent.mkdir(parents=True, exist_ok=True)
   output_path.write_text(json.dumps(output_data, indent=2, ensure_ascii=False), encoding="utf-8")
   try:
@@ -352,11 +371,13 @@ def main() -> None:
     print(f"Error: no markdown files found in {REF_DIR}", file=sys.stderr)
     sys.exit(1)
 
+  source_urls = load_source_urls()
+
   failed = False
   for input_path in input_files:
     output_path = args.output or output_path_for_input(input_path)
     try:
-      process_markdown_file(input_path, output_path)
+      process_markdown_file(input_path, output_path, source_urls)
     except (RowValidationError, ValueError) as error:
       print(f"Error processing {input_path.name}: {error}", file=sys.stderr)
       failed = True
