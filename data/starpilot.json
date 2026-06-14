@@ -28,6 +28,7 @@
       "make": "Acura",
       "model": "ILX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016-18",
       "year_list": [
         2016,
@@ -52,6 +53,7 @@
       "make": "Acura",
       "model": "ILX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019",
       "year_list": [
         2019
@@ -74,6 +76,7 @@
       "make": "Acura",
       "model": "MDX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2025",
       "year_list": [
         2025
@@ -96,6 +99,7 @@
       "make": "Acura",
       "model": "RDX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016-18",
       "year_list": [
         2016,
@@ -120,6 +124,7 @@
       "make": "Acura",
       "model": "RDX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -144,6 +149,7 @@
       "make": "Acura",
       "model": "TLX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -166,6 +172,7 @@
       "make": "Audi",
       "model": "A3",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2014-19",
       "year_list": [
         2014,
@@ -193,6 +200,7 @@
       "make": "Audi",
       "model": "A3 Sportback e-tron",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -216,6 +224,7 @@
       "make": "Audi",
       "model": "Q2",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018",
       "year_list": [
         2018
@@ -238,6 +247,7 @@
       "make": "Audi",
       "model": "Q3",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-24",
       "year_list": [
         2019,
@@ -265,6 +275,7 @@
       "make": "Audi",
       "model": "RS3",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018",
       "year_list": [
         2018
@@ -287,6 +298,7 @@
       "make": "Audi",
       "model": "S3",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-17",
       "year_list": [
         2015,
@@ -311,6 +323,7 @@
       "make": "Chevrolet",
       "model": "Bolt EUV",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -334,6 +347,7 @@
       "make": "Chevrolet",
       "model": "Bolt EV",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -357,6 +371,7 @@
       "make": "Chevrolet",
       "model": "Equinox",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-22",
       "year_list": [
         2019,
@@ -382,6 +397,7 @@
       "make": "Chevrolet",
       "model": "Silverado 1500",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-21",
       "year_list": [
         2020,
@@ -405,6 +421,7 @@
       "make": "Chevrolet",
       "model": "Trailblazer",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-22",
       "year_list": [
         2021,
@@ -428,6 +445,7 @@
       "make": "Chrysler",
       "model": "Pacifica",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -451,6 +469,7 @@
       "make": "Chrysler",
       "model": "Pacifica",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-20",
       "year_list": [
         2019,
@@ -474,6 +493,7 @@
       "make": "Chrysler",
       "model": "Pacifica",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -498,6 +518,7 @@
       "make": "Chrysler",
       "model": "Pacifica Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -521,6 +542,7 @@
       "make": "Chrysler",
       "model": "Pacifica Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-25",
       "year_list": [
         2019,
@@ -549,6 +571,7 @@
       "make": "comma",
       "model": "body",
       "model_variant": null,
+      "model_variant_list": [],
       "years": null,
       "year_list": [],
       "hardware_needed": "N/A",
@@ -569,6 +592,7 @@
       "make": "CUPRA",
       "model": "Ateca",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-23",
       "year_list": [
         2018,
@@ -596,6 +620,7 @@
       "make": "Dodge",
       "model": "Durango",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-21",
       "year_list": [
         2020,
@@ -619,6 +644,7 @@
       "make": "Ford",
       "model": "Bronco Sport",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-24",
       "year_list": [
         2021,
@@ -644,6 +670,7 @@
       "make": "Ford",
       "model": "Escape",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -668,6 +695,7 @@
       "make": "Ford",
       "model": "Escape",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-24",
       "year_list": [
         2023,
@@ -691,6 +719,7 @@
       "make": "Ford",
       "model": "Escape Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -715,6 +744,7 @@
       "make": "Ford",
       "model": "Escape Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-24",
       "year_list": [
         2023,
@@ -738,6 +768,7 @@
       "make": "Ford",
       "model": "Escape Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -762,6 +793,7 @@
       "make": "Ford",
       "model": "Escape Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-24",
       "year_list": [
         2023,
@@ -785,6 +817,7 @@
       "make": "Ford",
       "model": "Expedition",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -809,6 +842,7 @@
       "make": "Ford",
       "model": "Explorer",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-24",
       "year_list": [
         2020,
@@ -835,6 +869,7 @@
       "make": "Ford",
       "model": "Explorer Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-24",
       "year_list": [
         2020,
@@ -861,6 +896,7 @@
       "make": "Ford",
       "model": "F-150",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -885,6 +921,7 @@
       "make": "Ford",
       "model": "F-150 Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -909,6 +946,7 @@
       "make": "Ford",
       "model": "Focus",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018",
       "year_list": [
         2018
@@ -933,6 +971,7 @@
       "make": "Ford",
       "model": "Focus Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018",
       "year_list": [
         2018
@@ -957,6 +996,7 @@
       "make": "Ford",
       "model": "Kuga",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -982,6 +1022,7 @@
       "make": "Ford",
       "model": "Kuga Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -1007,6 +1048,7 @@
       "make": "Ford",
       "model": "Kuga Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2024",
       "year_list": [
         2024
@@ -1029,6 +1071,7 @@
       "make": "Ford",
       "model": "Kuga Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -1054,6 +1097,7 @@
       "make": "Ford",
       "model": "Kuga Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2024",
       "year_list": [
         2024
@@ -1076,6 +1120,7 @@
       "make": "Ford",
       "model": "Maverick",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -1098,6 +1143,7 @@
       "make": "Ford",
       "model": "Maverick",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-24",
       "year_list": [
         2023,
@@ -1121,6 +1167,7 @@
       "make": "Ford",
       "model": "Maverick Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -1143,6 +1190,7 @@
       "make": "Ford",
       "model": "Maverick Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-24",
       "year_list": [
         2023,
@@ -1166,6 +1214,7 @@
       "make": "Ford",
       "model": "Mustang Mach-E",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-24",
       "year_list": [
         2021,
@@ -1191,6 +1240,7 @@
       "make": "Ford",
       "model": "Ranger",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2024",
       "year_list": [
         2024
@@ -1213,6 +1263,7 @@
       "make": "Genesis",
       "model": "G70",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018",
       "year_list": [
         2018
@@ -1235,6 +1286,7 @@
       "make": "Genesis",
       "model": "G70",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -1259,6 +1311,7 @@
       "make": "Genesis",
       "model": "G70",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -1282,6 +1335,7 @@
       "make": "Genesis",
       "model": "G80",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017",
       "year_list": [
         2017
@@ -1304,6 +1358,7 @@
       "make": "Genesis",
       "model": "G80",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-19",
       "year_list": [
         2018,
@@ -1327,6 +1382,10 @@
       "make": "Genesis",
       "model": "G80",
       "model_variant": "(2.5T Advanced Trim, with HDA II)",
+      "model_variant_list": [
+        "2.5T Advanced Trim",
+        "with HDA II"
+      ],
       "years": "2024",
       "year_list": [
         2024
@@ -1349,6 +1408,7 @@
       "make": "Genesis",
       "model": "G90",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-20",
       "year_list": [
         2017,
@@ -1374,6 +1434,9 @@
       "make": "Genesis",
       "model": "GV60",
       "model_variant": "(Advanced Trim)",
+      "model_variant_list": [
+        "Advanced Trim"
+      ],
       "years": "2023",
       "year_list": [
         2023
@@ -1396,6 +1459,9 @@
       "make": "Genesis",
       "model": "GV60",
       "model_variant": "(Performance Trim)",
+      "model_variant_list": [
+        "Performance Trim"
+      ],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -1419,6 +1485,10 @@
       "make": "Genesis",
       "model": "GV70",
       "model_variant": "(2.5T Trim, without HDA II)",
+      "model_variant_list": [
+        "2.5T Trim",
+        "without HDA II"
+      ],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -1443,6 +1513,10 @@
       "make": "Genesis",
       "model": "GV70",
       "model_variant": "(3.5T Trim, without HDA II)",
+      "model_variant_list": [
+        "3.5T Trim",
+        "without HDA II"
+      ],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -1466,6 +1540,9 @@
       "make": "Genesis",
       "model": "GV70 Electrified",
       "model_variant": "(Australia Only)",
+      "model_variant_list": [
+        "Australia Only"
+      ],
       "years": "2022",
       "year_list": [
         2022
@@ -1488,6 +1565,9 @@
       "make": "Genesis",
       "model": "GV70 Electrified",
       "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
       "years": "2023-24",
       "year_list": [
         2023,
@@ -1511,6 +1591,7 @@
       "make": "Genesis",
       "model": "GV80",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023",
       "year_list": [
         2023
@@ -1533,6 +1614,7 @@
       "make": "GMC",
       "model": "Sierra 1500",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-21",
       "year_list": [
         2020,
@@ -1556,6 +1638,7 @@
       "make": "Honda",
       "model": "Accord",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-22",
       "year_list": [
         2018,
@@ -1582,6 +1665,7 @@
       "make": "Honda",
       "model": "Accord",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-25",
       "year_list": [
         2023,
@@ -1606,6 +1690,7 @@
       "make": "Honda",
       "model": "Accord Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-22",
       "year_list": [
         2018,
@@ -1632,6 +1717,7 @@
       "make": "Honda",
       "model": "Accord Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-25",
       "year_list": [
         2023,
@@ -1656,6 +1742,9 @@
       "make": "Honda",
       "model": "City",
       "model_variant": "(Brazil only)",
+      "model_variant_list": [
+        "Brazil only"
+      ],
       "years": "2023",
       "year_list": [
         2023
@@ -1678,6 +1767,7 @@
       "make": "Honda",
       "model": "Civic",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016-18",
       "year_list": [
         2016,
@@ -1702,6 +1792,7 @@
       "make": "Honda",
       "model": "Civic",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -1726,6 +1817,7 @@
       "make": "Honda",
       "model": "Civic",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -1750,6 +1842,7 @@
       "make": "Honda",
       "model": "Civic Hatchback",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -1773,6 +1866,7 @@
       "make": "Honda",
       "model": "Civic Hatchback",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -1797,6 +1891,7 @@
       "make": "Honda",
       "model": "Civic Hatchback",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -1821,6 +1916,7 @@
       "make": "Honda",
       "model": "Civic Hatchback Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2025-26",
       "year_list": [
         2025,
@@ -1844,6 +1940,9 @@
       "make": "Honda",
       "model": "Civic Hatchback Hybrid",
       "model_variant": "(Europe only)",
+      "model_variant_list": [
+        "Europe only"
+      ],
       "years": "2023",
       "year_list": [
         2023
@@ -1866,6 +1965,7 @@
       "make": "Honda",
       "model": "Civic Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2025-26",
       "year_list": [
         2025,
@@ -1889,6 +1989,7 @@
       "make": "Honda",
       "model": "CR-V",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-16",
       "year_list": [
         2015,
@@ -1912,6 +2013,7 @@
       "make": "Honda",
       "model": "CR-V",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-22",
       "year_list": [
         2017,
@@ -1939,6 +2041,7 @@
       "make": "Honda",
       "model": "CR-V",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-26",
       "year_list": [
         2023,
@@ -1964,6 +2067,7 @@
       "make": "Honda",
       "model": "CR-V Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-22",
       "year_list": [
         2017,
@@ -1991,6 +2095,7 @@
       "make": "Honda",
       "model": "CR-V Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-25",
       "year_list": [
         2023,
@@ -2015,6 +2120,7 @@
       "make": "Honda",
       "model": "e",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020",
       "year_list": [
         2020
@@ -2037,6 +2143,7 @@
       "make": "Honda",
       "model": "Fit",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-20",
       "year_list": [
         2018,
@@ -2061,6 +2168,7 @@
       "make": "Honda",
       "model": "Freed",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020",
       "year_list": [
         2020
@@ -2083,6 +2191,7 @@
       "make": "Honda",
       "model": "HR-V",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-22",
       "year_list": [
         2019,
@@ -2108,6 +2217,7 @@
       "make": "Honda",
       "model": "HR-V",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-25",
       "year_list": [
         2023,
@@ -2132,6 +2242,7 @@
       "make": "Honda",
       "model": "Insight",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-22",
       "year_list": [
         2019,
@@ -2157,6 +2268,7 @@
       "make": "Honda",
       "model": "Inspire",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018",
       "year_list": [
         2018
@@ -2179,6 +2291,7 @@
       "make": "Honda",
       "model": "N-Box",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018",
       "year_list": [
         2018
@@ -2201,6 +2314,7 @@
       "make": "Honda",
       "model": "Odyssey",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-20",
       "year_list": [
         2018,
@@ -2225,6 +2339,7 @@
       "make": "Honda",
       "model": "Odyssey",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-26",
       "year_list": [
         2021,
@@ -2252,6 +2367,7 @@
       "make": "Honda",
       "model": "Passport",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-25",
       "year_list": [
         2019,
@@ -2280,6 +2396,7 @@
       "make": "Honda",
       "model": "Passport",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2026",
       "year_list": [
         2026
@@ -2302,6 +2419,7 @@
       "make": "Honda",
       "model": "Pilot",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016-22",
       "year_list": [
         2016,
@@ -2330,6 +2448,7 @@
       "make": "Honda",
       "model": "Pilot",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-25",
       "year_list": [
         2023,
@@ -2354,6 +2473,7 @@
       "make": "Honda",
       "model": "Ridgeline",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-25",
       "year_list": [
         2017,
@@ -2384,6 +2504,7 @@
       "make": "Hyundai",
       "model": "Azera",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -2406,6 +2527,7 @@
       "make": "Hyundai",
       "model": "Azera Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019",
       "year_list": [
         2019
@@ -2428,6 +2550,7 @@
       "make": "Hyundai",
       "model": "Azera Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020",
       "year_list": [
         2020
@@ -2450,6 +2573,7 @@
       "make": "Hyundai",
       "model": "Custin",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023",
       "year_list": [
         2023
@@ -2472,6 +2596,7 @@
       "make": "Hyundai",
       "model": "Elantra",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -2495,6 +2620,7 @@
       "make": "Hyundai",
       "model": "Elantra",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019",
       "year_list": [
         2019
@@ -2517,6 +2643,7 @@
       "make": "Hyundai",
       "model": "Elantra",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -2541,6 +2668,7 @@
       "make": "Hyundai",
       "model": "Elantra GT",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-20",
       "year_list": [
         2017,
@@ -2566,6 +2694,7 @@
       "make": "Hyundai",
       "model": "Elantra Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -2590,6 +2719,7 @@
       "make": "Hyundai",
       "model": "Genesis",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-16",
       "year_list": [
         2015,
@@ -2613,6 +2743,7 @@
       "make": "Hyundai",
       "model": "i30",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-19",
       "year_list": [
         2017,
@@ -2637,6 +2768,10 @@
       "make": "Hyundai",
       "model": "Ioniq 5",
       "model_variant": "(Southeast Asia and Europe only)",
+      "model_variant_list": [
+        "Southeast Asia only",
+        "Europe only"
+      ],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -2661,6 +2796,9 @@
       "make": "Hyundai",
       "model": "Ioniq 5",
       "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -2685,6 +2823,9 @@
       "make": "Hyundai",
       "model": "Ioniq 5",
       "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -2709,6 +2850,9 @@
       "make": "Hyundai",
       "model": "Ioniq 6",
       "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
       "years": "2023-24",
       "year_list": [
         2023,
@@ -2732,6 +2876,7 @@
       "make": "Hyundai",
       "model": "Ioniq Electric",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019",
       "year_list": [
         2019
@@ -2754,6 +2899,7 @@
       "make": "Hyundai",
       "model": "Ioniq Electric",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020",
       "year_list": [
         2020
@@ -2776,6 +2922,7 @@
       "make": "Hyundai",
       "model": "Ioniq Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-19",
       "year_list": [
         2017,
@@ -2800,6 +2947,7 @@
       "make": "Hyundai",
       "model": "Ioniq Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -2824,6 +2972,7 @@
       "make": "Hyundai",
       "model": "Ioniq Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019",
       "year_list": [
         2019
@@ -2846,6 +2995,7 @@
       "make": "Hyundai",
       "model": "Ioniq Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -2870,6 +3020,7 @@
       "make": "Hyundai",
       "model": "Kona",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020",
       "year_list": [
         2020
@@ -2892,6 +3043,7 @@
       "make": "Hyundai",
       "model": "Kona Electric",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-21",
       "year_list": [
         2018,
@@ -2917,6 +3069,7 @@
       "make": "Hyundai",
       "model": "Kona Electric",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -2940,6 +3093,10 @@
       "make": "Hyundai",
       "model": "Kona Electric",
       "model_variant": "(with HDA II, Korea only)",
+      "model_variant_list": [
+        "with HDA II",
+        "Korea only"
+      ],
       "years": "2023",
       "year_list": [
         2023
@@ -2962,6 +3119,7 @@
       "make": "Hyundai",
       "model": "Kona Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020",
       "year_list": [
         2020
@@ -2984,6 +3142,7 @@
       "make": "Hyundai",
       "model": "Nexo",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -3006,6 +3165,7 @@
       "make": "Hyundai",
       "model": "Palisade",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -3030,6 +3190,7 @@
       "make": "Hyundai",
       "model": "Santa Cruz",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -3054,6 +3215,7 @@
       "make": "Hyundai",
       "model": "Santa Fe",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-20",
       "year_list": [
         2019,
@@ -3077,6 +3239,7 @@
       "make": "Hyundai",
       "model": "Santa Fe",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -3101,6 +3264,7 @@
       "make": "Hyundai",
       "model": "Santa Fe Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -3124,6 +3288,7 @@
       "make": "Hyundai",
       "model": "Santa Fe Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -3147,6 +3312,7 @@
       "make": "Hyundai",
       "model": "Sonata",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-19",
       "year_list": [
         2018,
@@ -3170,6 +3336,7 @@
       "make": "Hyundai",
       "model": "Sonata",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -3195,6 +3362,7 @@
       "make": "Hyundai",
       "model": "Sonata Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -3220,6 +3388,7 @@
       "make": "Hyundai",
       "model": "Staria",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023",
       "year_list": [
         2023
@@ -3242,6 +3411,7 @@
       "make": "Hyundai",
       "model": "Tucson",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -3264,6 +3434,7 @@
       "make": "Hyundai",
       "model": "Tucson",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -3286,6 +3457,7 @@
       "make": "Hyundai",
       "model": "Tucson",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-24",
       "year_list": [
         2023,
@@ -3309,6 +3481,7 @@
       "make": "Hyundai",
       "model": "Tucson Diesel",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019",
       "year_list": [
         2019
@@ -3331,6 +3504,7 @@
       "make": "Hyundai",
       "model": "Tucson Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -3355,6 +3529,7 @@
       "make": "Hyundai",
       "model": "Tucson Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2024",
       "year_list": [
         2024
@@ -3377,6 +3552,7 @@
       "make": "Hyundai",
       "model": "Veloster",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-20",
       "year_list": [
         2019,
@@ -3400,6 +3576,7 @@
       "make": "Jeep",
       "model": "Grand Cherokee",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016-18",
       "year_list": [
         2016,
@@ -3424,6 +3601,7 @@
       "make": "Jeep",
       "model": "Grand Cherokee",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -3448,6 +3626,7 @@
       "make": "Kia",
       "model": "Carnival",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -3472,6 +3651,9 @@
       "make": "Kia",
       "model": "Carnival",
       "model_variant": "(China only)",
+      "model_variant_list": [
+        "China only"
+      ],
       "years": "2023",
       "year_list": [
         2023
@@ -3494,6 +3676,7 @@
       "make": "Kia",
       "model": "Ceed",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -3518,6 +3701,9 @@
       "make": "Kia",
       "model": "EV6",
       "model_variant": "(Southeast Asia only)",
+      "model_variant_list": [
+        "Southeast Asia only"
+      ],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -3542,6 +3728,9 @@
       "make": "Kia",
       "model": "EV6",
       "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -3566,6 +3755,9 @@
       "make": "Kia",
       "model": "EV6",
       "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -3590,6 +3782,7 @@
       "make": "Kia",
       "model": "Forte",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -3614,6 +3807,7 @@
       "make": "Kia",
       "model": "Forte",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -3637,6 +3831,7 @@
       "make": "Kia",
       "model": "K5",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-24",
       "year_list": [
         2021,
@@ -3662,6 +3857,7 @@
       "make": "Kia",
       "model": "K5 Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -3686,6 +3882,9 @@
       "make": "Kia",
       "model": "K8 Hybrid",
       "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
       "years": "2023",
       "year_list": [
         2023
@@ -3708,6 +3907,7 @@
       "make": "Kia",
       "model": "Niro EV",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019",
       "year_list": [
         2019
@@ -3730,6 +3930,7 @@
       "make": "Kia",
       "model": "Niro EV",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020",
       "year_list": [
         2020
@@ -3752,6 +3953,7 @@
       "make": "Kia",
       "model": "Niro EV",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -3774,6 +3976,7 @@
       "make": "Kia",
       "model": "Niro EV",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -3796,6 +3999,9 @@
       "make": "Kia",
       "model": "Niro EV",
       "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
       "years": "2025",
       "year_list": [
         2025
@@ -3818,6 +4024,9 @@
       "make": "Kia",
       "model": "Niro EV",
       "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
       "years": "2023-25",
       "year_list": [
         2023,
@@ -3842,6 +4051,7 @@
       "make": "Kia",
       "model": "Niro Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018",
       "year_list": [
         2018
@@ -3864,6 +4074,7 @@
       "make": "Kia",
       "model": "Niro Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -3886,6 +4097,7 @@
       "make": "Kia",
       "model": "Niro Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -3908,6 +4120,7 @@
       "make": "Kia",
       "model": "Niro Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023",
       "year_list": [
         2023
@@ -3930,6 +4143,7 @@
       "make": "Kia",
       "model": "Niro Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-19",
       "year_list": [
         2018,
@@ -3953,6 +4167,7 @@
       "make": "Kia",
       "model": "Niro Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020",
       "year_list": [
         2020
@@ -3975,6 +4190,7 @@
       "make": "Kia",
       "model": "Niro Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -3997,6 +4213,7 @@
       "make": "Kia",
       "model": "Niro Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -4019,6 +4236,7 @@
       "make": "Kia",
       "model": "Optima",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017",
       "year_list": [
         2017
@@ -4041,6 +4259,7 @@
       "make": "Kia",
       "model": "Optima",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-20",
       "year_list": [
         2019,
@@ -4064,6 +4283,7 @@
       "make": "Kia",
       "model": "Optima Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019",
       "year_list": [
         2019
@@ -4086,6 +4306,7 @@
       "make": "Kia",
       "model": "Seltos",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -4108,6 +4329,7 @@
       "make": "Kia",
       "model": "Sorento",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018",
       "year_list": [
         2018
@@ -4130,6 +4352,7 @@
       "make": "Kia",
       "model": "Sorento",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019",
       "year_list": [
         2019
@@ -4152,6 +4375,7 @@
       "make": "Kia",
       "model": "Sorento",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -4176,6 +4400,7 @@
       "make": "Kia",
       "model": "Sorento Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -4200,6 +4425,7 @@
       "make": "Kia",
       "model": "Sorento Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -4223,6 +4449,7 @@
       "make": "Kia",
       "model": "Sportage",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-24",
       "year_list": [
         2023,
@@ -4246,6 +4473,7 @@
       "make": "Kia",
       "model": "Sportage Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023",
       "year_list": [
         2023
@@ -4268,6 +4496,7 @@
       "make": "Kia",
       "model": "Stinger",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-20",
       "year_list": [
         2018,
@@ -4292,6 +4521,7 @@
       "make": "Kia",
       "model": "Stinger",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -4315,6 +4545,7 @@
       "make": "Kia",
       "model": "Telluride",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -4339,6 +4570,7 @@
       "make": "Lexus",
       "model": "CT Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -4362,6 +4594,7 @@
       "make": "Lexus",
       "model": "ES",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -4385,6 +4618,7 @@
       "make": "Lexus",
       "model": "ES",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-25",
       "year_list": [
         2019,
@@ -4413,6 +4647,7 @@
       "make": "Lexus",
       "model": "ES Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -4436,6 +4671,7 @@
       "make": "Lexus",
       "model": "ES Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-25",
       "year_list": [
         2019,
@@ -4464,6 +4700,7 @@
       "make": "Lexus",
       "model": "GS F",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016",
       "year_list": [
         2016
@@ -4486,6 +4723,7 @@
       "make": "Lexus",
       "model": "IS",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-19",
       "year_list": [
         2017,
@@ -4510,6 +4748,7 @@
       "make": "Lexus",
       "model": "IS",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -4534,6 +4773,7 @@
       "make": "Lexus",
       "model": "LC",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2024-25",
       "year_list": [
         2024,
@@ -4557,6 +4797,7 @@
       "make": "Lexus",
       "model": "NX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-19",
       "year_list": [
         2018,
@@ -4580,6 +4821,7 @@
       "make": "Lexus",
       "model": "NX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-21",
       "year_list": [
         2020,
@@ -4603,6 +4845,7 @@
       "make": "Lexus",
       "model": "NX Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-19",
       "year_list": [
         2018,
@@ -4626,6 +4869,7 @@
       "make": "Lexus",
       "model": "NX Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-21",
       "year_list": [
         2020,
@@ -4649,6 +4893,7 @@
       "make": "Lexus",
       "model": "RC",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-20",
       "year_list": [
         2018,
@@ -4673,6 +4918,7 @@
       "make": "Lexus",
       "model": "RC",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023",
       "year_list": [
         2023
@@ -4695,6 +4941,7 @@
       "make": "Lexus",
       "model": "RX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016",
       "year_list": [
         2016
@@ -4717,6 +4964,7 @@
       "make": "Lexus",
       "model": "RX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-19",
       "year_list": [
         2017,
@@ -4741,6 +4989,7 @@
       "make": "Lexus",
       "model": "RX",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -4765,6 +5014,7 @@
       "make": "Lexus",
       "model": "RX Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016",
       "year_list": [
         2016
@@ -4787,6 +5037,7 @@
       "make": "Lexus",
       "model": "RX Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-19",
       "year_list": [
         2017,
@@ -4811,6 +5062,7 @@
       "make": "Lexus",
       "model": "RX Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -4835,6 +5087,7 @@
       "make": "Lexus",
       "model": "UX Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-24",
       "year_list": [
         2019,
@@ -4862,6 +5115,7 @@
       "make": "Lincoln",
       "model": "Aviator",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-24",
       "year_list": [
         2020,
@@ -4888,6 +5142,7 @@
       "make": "Lincoln",
       "model": "Aviator Plug-in Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-24",
       "year_list": [
         2020,
@@ -4914,6 +5169,7 @@
       "make": "MAN",
       "model": "eTGE",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-24",
       "year_list": [
         2020,
@@ -4940,6 +5196,7 @@
       "make": "MAN",
       "model": "TGE",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-24",
       "year_list": [
         2017,
@@ -4969,6 +5226,7 @@
       "make": "Mazda",
       "model": "CX-5",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-25",
       "year_list": [
         2022,
@@ -4994,6 +5252,7 @@
       "make": "Mazda",
       "model": "CX-9",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -5018,6 +5277,7 @@
       "make": "Nissan",
       "model": "Altima",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-20, 2024",
       "year_list": [
         2019,
@@ -5044,6 +5304,7 @@
       "make": "Nissan",
       "model": "Leaf",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-23",
       "year_list": [
         2018,
@@ -5073,6 +5334,7 @@
       "make": "Nissan",
       "model": "Rogue",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-20",
       "year_list": [
         2018,
@@ -5099,6 +5361,7 @@
       "make": "Nissan",
       "model": "X-Trail",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017",
       "year_list": [
         2017
@@ -5123,6 +5386,7 @@
       "make": "Ram",
       "model": "1500",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-24",
       "year_list": [
         2019,
@@ -5150,6 +5414,7 @@
       "make": "Rivian",
       "model": "R1S",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -5174,6 +5439,7 @@
       "make": "Rivian",
       "model": "R1T",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -5198,6 +5464,7 @@
       "make": "SEAT",
       "model": "Ateca",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016-23",
       "year_list": [
         2016,
@@ -5227,6 +5494,7 @@
       "make": "SEAT",
       "model": "Leon",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2014-20",
       "year_list": [
         2014,
@@ -5255,6 +5523,7 @@
       "make": "Subaru",
       "model": "Ascent",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -5279,6 +5548,7 @@
       "make": "Subaru",
       "model": "Crosstrek",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-19",
       "year_list": [
         2018,
@@ -5302,6 +5572,7 @@
       "make": "Subaru",
       "model": "Crosstrek",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -5327,6 +5598,7 @@
       "make": "Subaru",
       "model": "Forester",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -5351,6 +5623,7 @@
       "make": "Subaru",
       "model": "Impreza",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-19",
       "year_list": [
         2017,
@@ -5375,6 +5648,7 @@
       "make": "Subaru",
       "model": "Impreza",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -5399,6 +5673,7 @@
       "make": "Subaru",
       "model": "Legacy",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -5423,6 +5698,7 @@
       "make": "Subaru",
       "model": "Outback",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -5447,6 +5723,7 @@
       "make": "Subaru",
       "model": "XV",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-19",
       "year_list": [
         2018,
@@ -5470,6 +5747,7 @@
       "make": "Subaru",
       "model": "XV",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-21",
       "year_list": [
         2020,
@@ -5493,6 +5771,7 @@
       "make": "Škoda",
       "model": "Fabia",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-23",
       "year_list": [
         2022,
@@ -5518,6 +5797,7 @@
       "make": "Škoda",
       "model": "Kamiq",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -5545,6 +5825,7 @@
       "make": "Škoda",
       "model": "Karoq",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-23",
       "year_list": [
         2019,
@@ -5573,6 +5854,7 @@
       "make": "Škoda",
       "model": "Kodiaq",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-23",
       "year_list": [
         2017,
@@ -5603,6 +5885,7 @@
       "make": "Škoda",
       "model": "Octavia",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-19",
       "year_list": [
         2015,
@@ -5631,6 +5914,7 @@
       "make": "Škoda",
       "model": "Octavia RS",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016",
       "year_list": [
         2016
@@ -5655,6 +5939,7 @@
       "make": "Škoda",
       "model": "Octavia Scout",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-19",
       "year_list": [
         2017,
@@ -5681,6 +5966,7 @@
       "make": "Škoda",
       "model": "Scala",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -5708,6 +5994,7 @@
       "make": "Škoda",
       "model": "Superb",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-22",
       "year_list": [
         2015,
@@ -5739,6 +6026,9 @@
       "make": "Tesla",
       "model": "Model 3",
       "model_variant": "(with HW3)",
+      "model_variant_list": [
+        "with HW3"
+      ],
       "years": "2019-23",
       "year_list": [
         2019,
@@ -5769,6 +6059,9 @@
       "make": "Tesla",
       "model": "Model 3",
       "model_variant": "(with HW4)",
+      "model_variant_list": [
+        "with HW4"
+      ],
       "years": "2024-25",
       "year_list": [
         2024,
@@ -5796,6 +6089,9 @@
       "make": "Tesla",
       "model": "Model Y",
       "model_variant": "(with HW3)",
+      "model_variant_list": [
+        "with HW3"
+      ],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -5825,6 +6121,9 @@
       "make": "Tesla",
       "model": "Model Y",
       "model_variant": "(with HW4)",
+      "model_variant_list": [
+        "with HW4"
+      ],
       "years": "2024-25",
       "year_list": [
         2024,
@@ -5852,6 +6151,7 @@
       "make": "Toyota",
       "model": "Alphard",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-20",
       "year_list": [
         2019,
@@ -5875,6 +6175,7 @@
       "make": "Toyota",
       "model": "Alphard Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -5897,6 +6198,7 @@
       "make": "Toyota",
       "model": "Avalon",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016",
       "year_list": [
         2016
@@ -5919,6 +6221,7 @@
       "make": "Toyota",
       "model": "Avalon",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -5942,6 +6245,7 @@
       "make": "Toyota",
       "model": "Avalon",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -5966,6 +6270,7 @@
       "make": "Toyota",
       "model": "Avalon",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -5988,6 +6293,7 @@
       "make": "Toyota",
       "model": "Avalon Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -6012,6 +6318,7 @@
       "make": "Toyota",
       "model": "Avalon Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -6034,6 +6341,7 @@
       "make": "Toyota",
       "model": "C-HR",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-20",
       "year_list": [
         2017,
@@ -6059,6 +6367,7 @@
       "make": "Toyota",
       "model": "C-HR",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -6081,6 +6390,7 @@
       "make": "Toyota",
       "model": "C-HR Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-20",
       "year_list": [
         2017,
@@ -6106,6 +6416,7 @@
       "make": "Toyota",
       "model": "C-HR Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-22",
       "year_list": [
         2021,
@@ -6129,6 +6440,7 @@
       "make": "Toyota",
       "model": "Camry",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-20",
       "year_list": [
         2018,
@@ -6153,6 +6465,7 @@
       "make": "Toyota",
       "model": "Camry",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-24",
       "year_list": [
         2021,
@@ -6178,6 +6491,7 @@
       "make": "Toyota",
       "model": "Camry Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-20",
       "year_list": [
         2018,
@@ -6202,6 +6516,7 @@
       "make": "Toyota",
       "model": "Camry Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-24",
       "year_list": [
         2021,
@@ -6227,6 +6542,7 @@
       "make": "Toyota",
       "model": "Corolla",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-19",
       "year_list": [
         2017,
@@ -6251,6 +6567,7 @@
       "make": "Toyota",
       "model": "Corolla",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -6275,6 +6592,9 @@
       "make": "Toyota",
       "model": "Corolla Cross",
       "model_variant": "(Non-US only)",
+      "model_variant_list": [
+        "Non-US only"
+      ],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -6300,6 +6620,9 @@
       "make": "Toyota",
       "model": "Corolla Cross Hybrid",
       "model_variant": "(Non-US only)",
+      "model_variant_list": [
+        "Non-US only"
+      ],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -6324,6 +6647,7 @@
       "make": "Toyota",
       "model": "Corolla Hatchback",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-22",
       "year_list": [
         2019,
@@ -6349,6 +6673,7 @@
       "make": "Toyota",
       "model": "Corolla Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -6373,6 +6698,9 @@
       "make": "Toyota",
       "model": "Corolla Hybrid",
       "model_variant": "(South America only)",
+      "model_variant_list": [
+        "South America only"
+      ],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -6398,6 +6726,7 @@
       "make": "Toyota",
       "model": "Highlander",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-19",
       "year_list": [
         2017,
@@ -6422,6 +6751,7 @@
       "make": "Toyota",
       "model": "Highlander",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -6447,6 +6777,7 @@
       "make": "Toyota",
       "model": "Highlander Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-19",
       "year_list": [
         2017,
@@ -6471,6 +6802,7 @@
       "make": "Toyota",
       "model": "Highlander Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -6496,6 +6828,7 @@
       "make": "Toyota",
       "model": "Mirai",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -6518,6 +6851,7 @@
       "make": "Toyota",
       "model": "Prius",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016",
       "year_list": [
         2016
@@ -6540,6 +6874,7 @@
       "make": "Toyota",
       "model": "Prius",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-20",
       "year_list": [
         2017,
@@ -6565,6 +6900,7 @@
       "make": "Toyota",
       "model": "Prius",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-22",
       "year_list": [
         2021,
@@ -6588,6 +6924,7 @@
       "make": "Toyota",
       "model": "Prius Prime",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-20",
       "year_list": [
         2017,
@@ -6613,6 +6950,7 @@
       "make": "Toyota",
       "model": "Prius Prime",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-22",
       "year_list": [
         2021,
@@ -6636,6 +6974,7 @@
       "make": "Toyota",
       "model": "Prius v",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017",
       "year_list": [
         2017
@@ -6658,6 +6997,7 @@
       "make": "Toyota",
       "model": "RAV4",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016",
       "year_list": [
         2016
@@ -6680,6 +7020,7 @@
       "make": "Toyota",
       "model": "RAV4",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -6703,6 +7044,7 @@
       "make": "Toyota",
       "model": "RAV4",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -6727,6 +7069,7 @@
       "make": "Toyota",
       "model": "RAV4",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -6749,6 +7092,7 @@
       "make": "Toyota",
       "model": "RAV4",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-25",
       "year_list": [
         2023,
@@ -6773,6 +7117,7 @@
       "make": "Toyota",
       "model": "RAV4 Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016",
       "year_list": [
         2016
@@ -6795,6 +7140,7 @@
       "make": "Toyota",
       "model": "RAV4 Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-18",
       "year_list": [
         2017,
@@ -6818,6 +7164,7 @@
       "make": "Toyota",
       "model": "RAV4 Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-21",
       "year_list": [
         2019,
@@ -6842,6 +7189,7 @@
       "make": "Toyota",
       "model": "RAV4 Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022",
       "year_list": [
         2022
@@ -6864,6 +7212,7 @@
       "make": "Toyota",
       "model": "RAV4 Hybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2023-25",
       "year_list": [
         2023,
@@ -6888,6 +7237,7 @@
       "make": "Toyota",
       "model": "Sienna",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-20",
       "year_list": [
         2018,
@@ -6912,6 +7262,7 @@
       "make": "Volkswagen",
       "model": "Arteon",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-23",
       "year_list": [
         2018,
@@ -6939,6 +7290,7 @@
       "make": "Volkswagen",
       "model": "Arteon eHybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -6964,6 +7316,7 @@
       "make": "Volkswagen",
       "model": "Arteon R",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -6989,6 +7342,7 @@
       "make": "Volkswagen",
       "model": "Arteon Shooting Brake",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-23",
       "year_list": [
         2020,
@@ -7014,6 +7368,7 @@
       "make": "Volkswagen",
       "model": "Atlas",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-23",
       "year_list": [
         2018,
@@ -7041,6 +7396,7 @@
       "make": "Volkswagen",
       "model": "Atlas Cross Sport",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020-22",
       "year_list": [
         2020,
@@ -7065,6 +7421,7 @@
       "make": "Volkswagen",
       "model": "California",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -7089,6 +7446,7 @@
       "make": "Volkswagen",
       "model": "Caravelle",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2020",
       "year_list": [
         2020
@@ -7111,6 +7469,7 @@
       "make": "Volkswagen",
       "model": "CC",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-22",
       "year_list": [
         2018,
@@ -7137,6 +7496,7 @@
       "make": "Volkswagen",
       "model": "Crafter",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2017-24",
       "year_list": [
         2017,
@@ -7166,6 +7526,7 @@
       "make": "Volkswagen",
       "model": "e-Crafter",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-24",
       "year_list": [
         2018,
@@ -7194,6 +7555,7 @@
       "make": "Volkswagen",
       "model": "e-Golf",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2014-20",
       "year_list": [
         2014,
@@ -7222,6 +7584,7 @@
       "make": "Volkswagen",
       "model": "Golf",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-20",
       "year_list": [
         2015,
@@ -7249,6 +7612,7 @@
       "make": "Volkswagen",
       "model": "Golf Alltrack",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-19",
       "year_list": [
         2015,
@@ -7275,6 +7639,7 @@
       "make": "Volkswagen",
       "model": "Golf GTD",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-20",
       "year_list": [
         2015,
@@ -7302,6 +7667,7 @@
       "make": "Volkswagen",
       "model": "Golf GTE",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-20",
       "year_list": [
         2015,
@@ -7329,6 +7695,7 @@
       "make": "Volkswagen",
       "model": "Golf GTI",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-21",
       "year_list": [
         2015,
@@ -7357,6 +7724,7 @@
       "make": "Volkswagen",
       "model": "Golf R",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-19",
       "year_list": [
         2015,
@@ -7383,6 +7751,7 @@
       "make": "Volkswagen",
       "model": "Golf SportsVan",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-20",
       "year_list": [
         2015,
@@ -7410,6 +7779,7 @@
       "make": "Volkswagen",
       "model": "Grand California",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2019-24",
       "year_list": [
         2019,
@@ -7437,6 +7807,7 @@
       "make": "Volkswagen",
       "model": "Jetta",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-23",
       "year_list": [
         2018,
@@ -7464,6 +7835,7 @@
       "make": "Volkswagen",
       "model": "Jetta GLI",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -7488,6 +7860,7 @@
       "make": "Volkswagen",
       "model": "Passat",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-22",
       "year_list": [
         2015,
@@ -7519,6 +7892,7 @@
       "make": "Volkswagen",
       "model": "Passat Alltrack",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-22",
       "year_list": [
         2015,
@@ -7548,6 +7922,7 @@
       "make": "Volkswagen",
       "model": "Passat GTE",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2015-22",
       "year_list": [
         2015,
@@ -7577,6 +7952,7 @@
       "make": "Volkswagen",
       "model": "Polo",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-23",
       "year_list": [
         2018,
@@ -7604,6 +7980,7 @@
       "make": "Volkswagen",
       "model": "Polo GTI",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-23",
       "year_list": [
         2018,
@@ -7631,6 +8008,7 @@
       "make": "Volkswagen",
       "model": "T-Cross",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021",
       "year_list": [
         2021
@@ -7653,6 +8031,7 @@
       "make": "Volkswagen",
       "model": "T-Roc",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-23",
       "year_list": [
         2018,
@@ -7680,6 +8059,7 @@
       "make": "Volkswagen",
       "model": "Taos",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2022-24",
       "year_list": [
         2022,
@@ -7704,6 +8084,7 @@
       "make": "Volkswagen",
       "model": "Teramont",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-22",
       "year_list": [
         2018,
@@ -7730,6 +8111,7 @@
       "make": "Volkswagen",
       "model": "Teramont Cross Sport",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-22",
       "year_list": [
         2021,
@@ -7753,6 +8135,7 @@
       "make": "Volkswagen",
       "model": "Teramont X",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-22",
       "year_list": [
         2021,
@@ -7776,6 +8159,7 @@
       "make": "Volkswagen",
       "model": "Tiguan",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2018-24",
       "year_list": [
         2018,
@@ -7804,6 +8188,7 @@
       "make": "Volkswagen",
       "model": "Tiguan eHybrid",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2021-23",
       "year_list": [
         2021,
@@ -7828,6 +8213,7 @@
       "make": "Volkswagen",
       "model": "Touran",
       "model_variant": null,
+      "model_variant_list": [],
       "years": "2016-23",
       "year_list": [
         2016,
