@@ -186,15 +186,47 @@ def format_years_abbreviated(year_list: list[int]) -> str | None:
   return ", ".join(formatted_ranges)
 
 
-def split_model_and_variant(model_original: str) -> tuple[str, str | None]:
-  model_without_years = re.sub(YEAR_SUFFIX_PATTERN, "", model_original).strip()
-  variant_parts = [
-    variant.strip()
-    for variant in re.findall(r"\([^)]*\)", model_without_years)
-    if variant.strip("() ").strip()
+def split_region_variant_item(variant_item: str) -> list[str]:
+  only_suffix = " only"
+  if not variant_item.lower().endswith(only_suffix):
+    return [variant_item]
+
+  region_text = variant_item[: -len(only_suffix)].strip()
+  region_names = [
+    MULTISPACE_PATTERN.sub(" ", split_region.strip())
+    for split_region in re.split(r"\s+(?:and|&)\s+", region_text)
+    if split_region.strip()
   ]
+  if len(region_names) <= 1:
+    return [variant_item]
+  return [f"{region_name}{only_suffix}" for region_name in region_names]
+
+
+def build_model_variant_list(variant_contents: list[str]) -> list[str]:
+  model_variant_list: list[str] = []
+  for variant_content in variant_contents:
+    variant_items = [
+      MULTISPACE_PATTERN.sub(" ", part.strip())
+      for part in variant_content.split(",")
+      if part.strip()
+    ]
+    for variant_item in variant_items:
+      normalized_item = MULTISPACE_PATTERN.sub(" ", variant_item).strip()
+      model_variant_list.extend(split_region_variant_item(normalized_item))
+  return list(dict.fromkeys(model_variant_list))
+
+
+def split_model_and_variant(model_original: str) -> tuple[str, str | None, list[str]]:
+  model_without_years = re.sub(YEAR_SUFFIX_PATTERN, "", model_original).strip()
+  variant_contents = [
+    MULTISPACE_PATTERN.sub(" ", variant.strip())
+    for variant in re.findall(PARENTHESES_CONTENT, model_without_years)
+    if variant.strip()
+  ]
+  variant_with_parentheses = [f"({variant})" for variant in variant_contents]
+  model_variant_list = build_model_variant_list(variant_contents)
   model = MULTISPACE_PATTERN.sub(" ", re.sub(PARENTHESES_CONTENT, "", model_without_years)).strip()
-  return model, (" ".join(variant_parts) or None)
+  return model, (" ".join(variant_with_parentheses) or None), model_variant_list
 
 
 def find_first_compatible_table_header(lines: list[str]) -> tuple[dict[str, int], int]:
@@ -238,7 +270,7 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
   raw_model = raw_fields["model"] or ""
   clean_make = clean_cell_text(raw_make)
   clean_model = clean_cell_text(raw_model)
-  model, model_variant = split_model_and_variant(clean_model)
+  model, model_variant, model_variant_list = split_model_and_variant(clean_model)
   year_list = extract_years(clean_model)
   years = format_years_abbreviated(year_list)
   model_name_for_display = " ".join(part for part in [model, model_variant, years] if part)
@@ -248,6 +280,7 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
     "make": clean_make,
     "model": model,
     "model_variant": model_variant,
+    "model_variant_list": model_variant_list,
     "years": years,
     "year_list": year_list,
     "hardware_needed": detect_hardware_needed(raw_fields["hardware_needed"]),
