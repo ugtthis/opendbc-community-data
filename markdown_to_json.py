@@ -216,6 +216,15 @@ def build_model_variant_list(variant_contents: list[str]) -> list[str]:
   return list(dict.fromkeys(model_variant_list))
 
 
+def build_supported_package_list(supported_package: str) -> list[str]:
+  package_values = [
+    clean_cell_text(package_value)
+    for package_value in re.split(r"\s+or\s+", supported_package)
+    if clean_cell_text(package_value)
+  ]
+  return list(dict.fromkeys(package_values))
+
+
 def split_model_and_variant(model_original: str) -> tuple[str, str | None, list[str]]:
   model_without_years = re.sub(YEAR_SUFFIX_PATTERN, "", model_original).strip()
   variant_contents = [
@@ -270,6 +279,7 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
   raw_model = raw_fields["model"] or ""
   clean_make = clean_cell_text(raw_make)
   clean_model = clean_cell_text(raw_model)
+  supported_package = clean_cell_text(raw_fields["supported_package"] or "")
   model, model_variant, model_variant_list = split_model_and_variant(clean_model)
   year_list = extract_years(clean_model)
   years = format_years_abbreviated(year_list)
@@ -284,7 +294,8 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
     "years": years,
     "year_list": year_list,
     "hardware_needed": detect_hardware_needed(raw_fields["hardware_needed"]),
-    "supported_package": clean_cell_text(raw_fields["supported_package"] or ""),
+    "supported_package": supported_package,
+    "supported_package_list": build_supported_package_list(supported_package),
     "acc": clean_cell_text(raw_fields["acc"] or ""),
     "no_acc_below": clean_cell_text(raw_fields["no_acc_below"] or ""),
     "no_alc_below": clean_cell_text(raw_fields["no_alc_below"] or ""),
