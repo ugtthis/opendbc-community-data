@@ -1,4 +1,4 @@
-name: 00 - Sync MD Sources
+name: Update data
 
 on:
   schedule:
@@ -18,18 +18,24 @@ jobs:
       - name: Fetch configured markdown sources
         run: python3 fetch_md_sources.py
 
+      - name: Convert markdown to JSON
+        run: python3 markdown_to_json.py
+
+      - name: Enrich upstream gaps
+        run: python3 enrich_upstream_gaps.py
+
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@5f6978faf089d4d20b00c7766989d076bb2fc7f1 # v8
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
-          commit-message: "[BOT] Update markdown source data"
+          commit-message: "[BOT] Update data"
           branch: sync-md-sources
           delete-branch: true
-          title: "[bot] Update markdown sources"
+          title: "[bot] Update data"
           body: ""
-          labels: automated
           add-paths: |
             md_sources.json
             data/ref/*.md
+            data/*.json
