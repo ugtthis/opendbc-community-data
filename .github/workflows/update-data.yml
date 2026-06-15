@@ -31,7 +31,7 @@ jobs:
           author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           committer: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
           commit-message: "[BOT] Update data"
-          branch: sync-md-sources
+          branch: update-data
           delete-branch: true
           title: "[bot] Update data"
           body: ""
