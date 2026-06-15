@@ -39,6 +39,10 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Technology Plus Package or AcuraWatch Plus",
+      "supported_package_list": [
+        "Technology Plus Package",
+        "AcuraWatch Plus"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "25 mph",
@@ -62,6 +66,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "25 mph",
@@ -87,6 +94,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "43 mph",
@@ -111,6 +121,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All except Type S",
+      "supported_package_list": [
+        "All except Type S"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -136,6 +149,10 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "AcuraWatch Plus or Advance Package",
+      "supported_package_list": [
+        "AcuraWatch Plus",
+        "Advance Package"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "12 mph",
@@ -161,6 +178,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "3 mph",
@@ -185,6 +205,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -208,6 +231,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -236,6 +262,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -262,6 +291,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -287,6 +319,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -317,6 +352,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -342,6 +380,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -369,6 +410,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -395,6 +439,10 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Premier or Premier Redline Trim, without Super Cruise Package",
+      "supported_package_list": [
+        "Premier",
+        "Premier Redline Trim, without Super Cruise Package"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "3 mph",
       "no_alc_below": "6 mph",
@@ -419,6 +467,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "2LT Trim with Adaptive Cruise Control Package",
+      "supported_package_list": [
+        "2LT Trim with Adaptive Cruise Control Package"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "3 mph",
       "no_alc_below": "6 mph",
@@ -445,6 +496,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "3 mph",
       "no_alc_below": "6 mph",
@@ -469,6 +523,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Safety Package II",
+      "supported_package_list": [
+        "Safety Package II"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "6 mph",
@@ -493,6 +550,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "3 mph",
       "no_alc_below": "6 mph",
@@ -517,6 +577,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "9 mph",
@@ -541,6 +604,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "39 mph",
@@ -566,6 +632,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "39 mph",
@@ -590,6 +659,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "9 mph",
@@ -619,6 +691,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "39 mph",
@@ -640,6 +715,9 @@
       "year_list": [],
       "hardware_needed": "N/A",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -668,6 +746,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -694,6 +775,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "39 mph",
@@ -720,6 +804,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -745,6 +832,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -769,6 +859,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -794,6 +887,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -818,6 +914,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -843,6 +942,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -867,6 +969,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -892,6 +997,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist 2.0",
+      "supported_package_list": [
+        "Co-Pilot360 Assist 2.0"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -919,6 +1027,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -946,6 +1057,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -971,6 +1085,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist 2.0",
+      "supported_package_list": [
+        "Co-Pilot360 Assist 2.0"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -996,6 +1113,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist 2.0",
+      "supported_package_list": [
+        "Co-Pilot360 Assist 2.0"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1023,6 +1143,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
+      "supported_package_list": [
+        "Adaptive Cruise Control with Lane Centering"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1052,6 +1175,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
+      "supported_package_list": [
+        "Adaptive Cruise Control with Lane Centering"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1080,6 +1206,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
+      "supported_package_list": [
+        "Adaptive Cruise Control with Lane Centering"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1106,6 +1235,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
+      "supported_package_list": [
+        "Adaptive Cruise Control with Lane Centering"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1129,6 +1261,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1155,6 +1290,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
+      "supported_package_list": [
+        "Adaptive Cruise Control with Lane Centering"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1178,6 +1316,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1201,6 +1342,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "LARIAT Luxury",
+      "supported_package_list": [
+        "LARIAT Luxury"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1225,6 +1369,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist",
+      "supported_package_list": [
+        "Co-Pilot360 Assist"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1248,6 +1395,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "LARIAT Luxury",
+      "supported_package_list": [
+        "LARIAT Luxury"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1272,6 +1422,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Assist",
+      "supported_package_list": [
+        "Co-Pilot360 Assist"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1298,6 +1451,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1321,6 +1477,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
+      "supported_package_list": [
+        "Adaptive Cruise Control with Lane Centering"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1344,6 +1503,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1369,6 +1531,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1393,6 +1558,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1416,6 +1584,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "37 mph",
@@ -1440,6 +1611,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1466,6 +1640,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1492,6 +1669,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1517,6 +1697,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1543,6 +1726,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1571,6 +1757,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1598,6 +1787,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1623,6 +1815,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1649,6 +1844,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1672,6 +1870,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1696,6 +1897,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Driver Alert Package II",
+      "supported_package_list": [
+        "Driver Alert Package II"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "6 mph",
@@ -1723,6 +1927,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "3 mph",
@@ -1748,6 +1955,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1775,6 +1985,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "3 mph",
@@ -1800,6 +2013,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1825,6 +2041,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "14 mph",
@@ -1850,6 +2069,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "12 mph",
@@ -1875,6 +2097,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "2 mph",
@@ -1900,6 +2125,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1924,6 +2152,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "12 mph",
@@ -1949,6 +2180,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "12 mph",
@@ -1974,6 +2208,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -1998,6 +2235,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2023,6 +2263,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2047,6 +2290,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2071,6 +2317,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Touring Trim",
+      "supported_package_list": [
+        "Touring Trim"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "12 mph",
@@ -2099,6 +2348,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "15 mph",
@@ -2125,6 +2377,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2153,6 +2408,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "12 mph",
@@ -2179,6 +2437,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2202,6 +2463,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "3 mph",
@@ -2227,6 +2491,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "12 mph",
@@ -2250,6 +2517,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "12 mph",
@@ -2276,6 +2546,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "12 mph",
@@ -2301,6 +2574,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2327,6 +2603,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "3 mph",
@@ -2350,6 +2629,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "3 mph",
@@ -2373,6 +2655,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "11 mph",
@@ -2398,6 +2683,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "0 mph",
@@ -2426,6 +2714,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "43 mph",
@@ -2451,6 +2742,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -2477,6 +2771,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -2506,6 +2803,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "12 mph",
@@ -2529,6 +2829,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2558,6 +2861,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "12 mph",
@@ -2583,6 +2889,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2614,6 +2923,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
       "acc": "openpilot",
       "no_acc_below": "26 mph",
       "no_alc_below": "12 mph",
@@ -2637,6 +2949,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2660,6 +2975,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2683,6 +3001,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2706,6 +3027,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2730,6 +3054,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "32 mph",
@@ -2753,6 +3080,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "32 mph",
@@ -2778,6 +3108,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2804,6 +3137,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "32 mph",
@@ -2829,6 +3165,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2853,6 +3192,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "37 mph",
@@ -2878,6 +3220,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "32 mph",
@@ -2906,6 +3251,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2933,6 +3281,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2960,6 +3311,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist",
+      "supported_package_list": [
+        "Highway Driving Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -2986,6 +3340,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3012,6 +3369,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist",
+      "supported_package_list": [
+        "Highway Driving Assist"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3035,6 +3395,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "32 mph",
@@ -3058,6 +3421,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3083,6 +3449,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "32 mph",
@@ -3108,6 +3477,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3131,6 +3503,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "32 mph",
@@ -3156,6 +3531,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3179,6 +3557,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "6 mph",
       "no_alc_below": "0 mph",
@@ -3205,6 +3586,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3229,6 +3613,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3255,6 +3642,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3278,6 +3668,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3301,6 +3694,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3326,6 +3722,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3351,6 +3750,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3375,6 +3777,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3400,6 +3805,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3424,6 +3832,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3448,6 +3859,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3472,6 +3886,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3498,6 +3915,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3524,6 +3944,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3547,6 +3970,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3570,6 +3996,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -3593,6 +4022,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3617,6 +4049,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3640,6 +4075,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3665,6 +4103,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3688,6 +4129,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3712,6 +4156,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "5 mph",
       "no_alc_below": "0 mph",
@@ -3737,6 +4184,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "9 mph",
@@ -3762,6 +4212,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "39 mph",
@@ -3787,6 +4240,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3812,6 +4268,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3837,6 +4296,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3864,6 +4326,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3891,6 +4356,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3918,6 +4386,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist",
+      "supported_package_list": [
+        "Highway Driving Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3943,6 +4414,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "6 mph",
       "no_alc_below": "0 mph",
@@ -3967,6 +4441,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -3993,6 +4470,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4018,6 +4498,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4041,6 +4524,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4066,6 +4552,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4089,6 +4578,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4112,6 +4604,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4135,6 +4630,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4158,6 +4656,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4184,6 +4685,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4211,6 +4715,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4234,6 +4741,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "10 mph",
       "no_alc_below": "32 mph",
@@ -4257,6 +4767,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4280,6 +4793,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4304,6 +4820,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4328,6 +4847,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "10 mph",
       "no_alc_below": "32 mph",
@@ -4351,6 +4873,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "32 mph",
@@ -4374,6 +4899,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4397,6 +4925,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4420,6 +4951,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Advanced Smart Cruise Control",
+      "supported_package_list": [
+        "Advanced Smart Cruise Control"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "32 mph",
@@ -4444,6 +4978,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4467,6 +5004,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4490,6 +5030,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4513,6 +5056,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Advanced Smart Cruise Control & LKAS",
+      "supported_package_list": [
+        "Advanced Smart Cruise Control & LKAS"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4536,6 +5082,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4561,6 +5110,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4586,6 +5138,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4610,6 +5165,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4634,6 +5192,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4657,6 +5218,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4682,6 +5246,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4706,6 +5273,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4731,6 +5301,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4755,6 +5328,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Lexus Safety System+",
+      "supported_package_list": [
+        "Lexus Safety System+"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4779,6 +5355,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -4808,6 +5387,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4832,6 +5414,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -4861,6 +5446,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4884,6 +5472,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -4909,6 +5500,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -4934,6 +5528,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4958,6 +5555,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -4981,6 +5581,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All except Lexus Safety System+ A",
+      "supported_package_list": [
+        "All except Lexus Safety System+ A"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5005,6 +5608,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5029,6 +5635,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5053,6 +5662,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5077,6 +5689,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5102,6 +5717,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -5125,6 +5743,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5148,6 +5769,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Lexus Safety System+",
+      "supported_package_list": [
+        "Lexus Safety System+"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5173,6 +5797,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5198,6 +5825,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5221,6 +5851,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Lexus Safety System+",
+      "supported_package_list": [
+        "Lexus Safety System+"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5246,6 +5879,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5271,6 +5907,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5299,6 +5938,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5326,6 +5968,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Plus",
+      "supported_package_list": [
+        "Co-Pilot360 Plus"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5353,6 +5998,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Co-Pilot360 Plus",
+      "supported_package_list": [
+        "Co-Pilot360 Plus"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5380,6 +6028,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "31 mph",
@@ -5412,6 +6063,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "31 mph",
@@ -5440,6 +6094,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5465,6 +6122,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "28 mph",
@@ -5493,6 +6153,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "ProPILOT Assist",
+      "supported_package_list": [
+        "ProPILOT Assist"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5523,6 +6186,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "ProPILOT Assist",
+      "supported_package_list": [
+        "ProPILOT Assist"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5550,6 +6216,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "ProPILOT Assist",
+      "supported_package_list": [
+        "ProPILOT Assist"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5575,6 +6244,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "ProPILOT Assist",
+      "supported_package_list": [
+        "ProPILOT Assist"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5605,6 +6277,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "32 mph",
@@ -5630,6 +6305,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5653,6 +6331,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5678,6 +6359,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5701,6 +6385,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5731,6 +6418,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5762,6 +6452,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5789,6 +6482,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5813,6 +6509,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "EyeSight Driver Assistance",
+      "supported_package_list": [
+        "EyeSight Driver Assistance"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5839,6 +6538,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "EyeSight Driver Assistance",
+      "supported_package_list": [
+        "EyeSight Driver Assistance"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5864,6 +6566,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5889,6 +6594,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "EyeSight Driver Assistance",
+      "supported_package_list": [
+        "EyeSight Driver Assistance"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5914,6 +6622,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "EyeSight Driver Assistance",
+      "supported_package_list": [
+        "EyeSight Driver Assistance"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5939,6 +6650,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5964,6 +6678,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -5988,6 +6705,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "EyeSight Driver Assistance",
+      "supported_package_list": [
+        "EyeSight Driver Assistance"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6012,6 +6732,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "EyeSight Driver Assistance",
+      "supported_package_list": [
+        "EyeSight Driver Assistance"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6036,6 +6759,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6063,6 +6789,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6093,6 +6822,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6126,6 +6858,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6157,6 +6892,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6184,6 +6922,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6213,6 +6954,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6243,6 +6987,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6275,6 +7022,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6308,6 +7058,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6338,6 +7091,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6370,6 +7126,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6400,6 +7159,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6428,6 +7190,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6451,6 +7216,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6474,6 +7242,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Toyota Safety Sense P",
+      "supported_package_list": [
+        "Toyota Safety Sense P"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -6498,6 +7269,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -6523,6 +7297,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6546,6 +7323,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6571,6 +7351,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6594,6 +7377,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6620,6 +7406,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6643,6 +7432,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6669,6 +7461,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6693,6 +7488,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6718,6 +7516,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6744,6 +7545,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6769,6 +7573,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6795,6 +7602,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6820,6 +7630,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -6845,6 +7658,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6873,6 +7689,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "17 mph",
       "no_alc_below": "0 mph",
@@ -6900,6 +7719,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "17 mph",
       "no_alc_below": "0 mph",
@@ -6926,6 +7748,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6951,6 +7776,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -6979,6 +7807,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "17 mph",
       "no_alc_below": "0 mph",
@@ -7004,6 +7835,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -7030,6 +7864,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7055,6 +7892,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -7081,6 +7921,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7104,6 +7947,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7127,6 +7973,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Toyota Safety Sense P",
+      "supported_package_list": [
+        "Toyota Safety Sense P"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7153,6 +8002,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7177,6 +8029,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7203,6 +8058,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7227,6 +8085,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7250,6 +8111,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Toyota Safety Sense P",
+      "supported_package_list": [
+        "Toyota Safety Sense P"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -7273,6 +8137,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Toyota Safety Sense P",
+      "supported_package_list": [
+        "Toyota Safety Sense P"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -7297,6 +8164,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -7322,6 +8192,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7345,6 +8218,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7370,6 +8246,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7393,6 +8272,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Toyota Safety Sense P",
+      "supported_package_list": [
+        "Toyota Safety Sense P"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -7417,6 +8299,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -7442,6 +8327,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7465,6 +8353,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7490,6 +8381,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7515,6 +8409,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
       "acc": "Stock",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
@@ -7543,6 +8440,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7571,6 +8471,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7599,6 +8502,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7627,6 +8533,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7657,6 +8566,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7684,6 +8596,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7711,6 +8626,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "31 mph",
@@ -7736,6 +8654,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "31 mph",
@@ -7765,6 +8686,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7797,6 +8721,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "31 mph",
@@ -7828,6 +8755,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "31 mph",
@@ -7859,6 +8789,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7889,6 +8822,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7918,6 +8854,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7948,6 +8887,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -7978,6 +8920,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8009,6 +8954,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8038,6 +8986,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8068,6 +9019,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8098,6 +9052,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "31 mph",
@@ -8127,6 +9084,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8154,6 +9114,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8186,6 +9149,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8218,6 +9184,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8250,6 +9219,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8280,6 +9252,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8308,6 +9283,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8331,6 +9309,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8359,6 +9340,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8386,6 +9370,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8415,6 +9402,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8441,6 +9431,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8467,6 +9460,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8498,6 +9494,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8525,6 +9524,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
@@ -8557,6 +9559,9 @@
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
