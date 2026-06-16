@@ -7,6 +7,40 @@ from toml_to_json import build_wip_json
 
 
 class TomlToJsonTest(unittest.TestCase):
+  def test_only_example_toml_is_ignored_and_emits_empty_output(self):
+    with tempfile.TemporaryDirectory() as temp_dir:
+      temp_path = Path(temp_dir)
+      wip_dir = temp_path / "wip"
+      wip_dir.mkdir()
+      output_path = temp_path / "wip.json"
+      (wip_dir / "example.toml").write_text(
+        """
+[[cars]]
+make = "Hyundai"
+model = "Ioniq 6 2023-24"
+hardware_needed = "comma four"
+supported_package = "Highway Driving Assist"
+acc = "Stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = true
+branch_name = "hyundai-ioniq6-wip"
+branch_url = "https://github.com/example/opendbc/tree/hyundai-ioniq6-wip"
+branch_desc = "Active branch"
+wiki_url = "https://github.com/commaai/openpilot/wiki/Hyundai"
+discord_url = "https://discord.com/channels/example"
+discord_name = "example-user"
+        """.strip(),
+        encoding="utf-8",
+      )
+
+      total = build_wip_json(wip_dir, output_path)
+      payload = json.loads(output_path.read_text(encoding="utf-8"))
+
+      self.assertEqual(total, 0)
+      self.assertEqual(payload["_metadata"]["total"], "0 cars")
+      self.assertEqual(payload["cars"], [])
+
   def test_build_wip_json_generates_expected_shape(self):
     with tempfile.TemporaryDirectory() as temp_dir:
       temp_path = Path(temp_dir)

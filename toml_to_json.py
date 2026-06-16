@@ -41,7 +41,11 @@ KEY_SANITIZE_PATTERN = re.compile(r"[^a-z0-9]+")
 
 
 def discover_toml_files(wip_dir: Path) -> list[Path]:
-  return sorted(path for path in wip_dir.glob("*.toml") if path.is_file())
+  return sorted(
+    path
+    for path in wip_dir.glob("*.toml")
+    if path.is_file() and path.name not in EXAMPLE_FILENAMES
+  )
 
 
 def slugify(value: str) -> str:
@@ -186,9 +190,6 @@ def parse_wip_toml(path: Path) -> list[dict]:
 
 def build_wip_json(wip_dir: Path, output_path: Path) -> int:
   toml_files = discover_toml_files(wip_dir)
-  if not toml_files:
-    raise ValueError(f"no toml files found in {wip_dir}")
-
   cars: list[dict] = []
   file_errors: list[str] = []
 
