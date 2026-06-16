@@ -21,6 +21,9 @@ jobs:
       - name: Convert markdown to JSON
         run: python3 markdown_to_json.py
 
+      - name: Convert TOML to JSON
+        run: python3 toml_to_json.py
+
       - name: Enrich upstream gaps
         run: python3 enrich_upstream_gaps.py
 
@@ -37,5 +40,7 @@ jobs:
           body: ""
           add-paths: |
             md_sources.json
+            data/wip/*.toml
             data/ref/*.md
+            data/wip.json
             data/*.json
