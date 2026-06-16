@@ -3,66 +3,45 @@ import json
 from pathlib import Path
 
 from markdown_to_json import (
-  build_model_variant_list,
-  build_supported_package_list,
-  split_model_and_variant,
+  find_first_compatible_table_header,
+  parse_car_row,
 )
 
 
 class MarkdownToJsonTest(unittest.TestCase):
-  def test_comma_variant_becomes_list_items(self):
-    self.assertEqual(
-      split_model_and_variant("GV70 (2.5T Trim, without HDA II) 2022-24"),
-      (
-        "GV70",
-        "(2.5T Trim, without HDA II)",
-        ["2.5T Trim", "without HDA II"],
-      ),
-    )
+  def test_rows_with_extra_unmapped_columns_still_parse(self):
+    headers = [
+      "Make",
+      "Model",
+      "Supported Package",
+      "ACC",
+      "No ACC accel below",
+      "No ALC below",
+      "Hardware Needed",
+      "Resume from stop",
+      "Extra",
+    ]
+    row = [
+      "Honda",
+      "Civic 2022",
+      "All",
+      "Stock",
+      "0 mph",
+      "0 mph",
+      "comma four",
+      "[![star](assets/icon-star-full.svg)](##)",
+      "ignored",
+    ]
 
-  def test_multi_region_variant_becomes_separate_region_items(self):
-    self.assertEqual(
-      build_model_variant_list(["Southeast Asia and Europe only"]),
-      ["Southeast Asia only", "Europe only"],
-    )
+    col_map, _ = find_first_compatible_table_header([
+      "|" + "|".join(headers) + "|",
+      "|" + "|".join(["---"] * len(headers)) + "|",
+    ])
+    car, missing_required_fields = parse_car_row(row, col_map)
 
-  def test_single_region_variant_stays_as_one_item(self):
-    self.assertEqual(
-      build_model_variant_list(["Korea only"]),
-      ["Korea only"],
-    )
-
-  def test_feature_and_region_variant_become_separate_items(self):
-    self.assertEqual(
-      build_model_variant_list(["with HDA II, Korea only"]),
-      ["with HDA II", "Korea only"],
-    )
-
-  def test_supported_package_or_values_become_list_items(self):
-    self.assertEqual(
-      build_supported_package_list("AcuraWatch Plus or Advance Package"),
-      ["AcuraWatch Plus", "Advance Package"],
-    )
-
-  def test_supported_package_keeps_ampersand_as_one_requirement(self):
-    self.assertEqual(
-      build_supported_package_list("Adaptive Cruise Control (ACC) & Lane Assist"),
-      ["Adaptive Cruise Control (ACC) & Lane Assist"],
-    )
-
-  def test_supported_package_keeps_comma_without_clause_with_option(self):
-    self.assertEqual(
-      build_supported_package_list(
-        "Premier or Premier Redline Trim, without Super Cruise Package"
-      ),
-      ["Premier", "Premier Redline Trim, without Super Cruise Package"],
-    )
-
-  def test_supported_package_keeps_except_clause_as_one_requirement(self):
-    self.assertEqual(
-      build_supported_package_list("All except Type S"),
-      ["All except Type S"],
-    )
+    self.assertEqual(missing_required_fields, ())
+    self.assertEqual(car["make"], "Honda")
+    self.assertEqual(car["model"], "Civic")
 
   def test_generated_cars_have_consistent_variant_list(self):
     for json_path in sorted(Path("data").glob("*.json")):
