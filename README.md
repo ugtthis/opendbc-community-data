@@ -61,8 +61,8 @@ Scripts used above:
 
 This creates:
 
-- [`data/ref/examplepilot.md`](data/ref/examplepilot.md): fetched source markdown.
-- [`data/examplepilot.json`](data/examplepilot.json): normalized fork data.
+- `data/ref/examplepilot.md`: fetched source markdown.
+- `data/examplepilot.json`: normalized fork data.
 
 Fork JSON keeps source footnotes:
 
