@@ -1,0 +1,51 @@
+# Example WIP source file.
+# Real entries would live in per-make files like data/wip/tesla.toml.
+
+[[cars]]
+# required
+make = "Tesla"
+model = "Cybertruck 2077 (with hw10)"
+hardware_needed = "comma X"
+supported_package = "All"
+acc = "openpilot"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = true
+branch_name = "the-cybertruck"
+branch_url = "https://github.com/elon/opendbc/tree/the-cybertruck"
+branch_desc = "Highly experimental branch with limited validation."
+wiki_url = "https://github.com/commaai/openpilot/wiki/Tesla"
+discord_url = "https://discord.com/channels/469524606043160576/524328474081755137"
+discord_name = "elon"
+
+# optional
+extra_resource_url = ""
+video = ""
+setup_video = ""
+important_notes = [
+  "Current support is confirmed only for models manufactured after March 2077",
+  "Further tuning is still needed for rough-road steering behavior.",
+]
+
+[[cars]]
+# required
+make = "Tesla"
+model = "Roadster 2030"
+hardware_needed = "comma V"
+supported_package = "Autopilot"
+acc = "Stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = true
+branch_name = "tesla-roadster-wip"
+branch_url = "https://github.com/example/opendbc/tree/tesla-roadster-wip"
+branch_desc = "Basic route testing complete and wider validation in progress."
+wiki_url = "https://github.com/commaai/openpilot/wiki/Tesla"
+discord_url = "https://discord.com/channels/469524606043160576/524328474081755137"
+discord_name = "geohot"
+
+# optional
+extra_resource_url = ""
+video = "https://www.youtube.com/watch?v=example-roadster"
+setup_video = ""
+important_notes = []
