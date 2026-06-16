@@ -28,7 +28,6 @@ important_notes = [
 ]
 
 [[cars]]
-# required
 make = "Tesla"
 model = "Roadster 2030"
 hardware_needed = "comma V"
@@ -44,7 +43,6 @@ wiki_url = "https://github.com/commaai/openpilot/wiki/Tesla"
 discord_url = "https://discord.com/channels/469524606043160576/524328474081755137"
 discord_name = "geohot"
 
-# optional
 extra_resource_url = ""
 video = "https://www.youtube.com/watch?v=example-roadster"
 setup_video = ""
