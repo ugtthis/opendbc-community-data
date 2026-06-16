@@ -130,8 +130,8 @@ def build_output(
       "source": source_name,
       "total": f"{len(cars)} cars",
     },
-    "cars": cars,
   }
   if include_footnote_definitions:
     output["footnote_definitions"] = footnotes
+  output["cars"] = cars
   return output
