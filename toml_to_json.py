@@ -129,6 +129,11 @@ def parse_car_entry(path: Path, car_data: dict) -> dict:
 
   model, model_variant, model_variant_list = split_model_and_variant(clean_model)
   year_list = extract_years(clean_model)
+  if not year_list:
+    raise ValueError(
+      "model must include years at the end (example: 'Model (variant) 2023-24'). "
+      "If using parentheses/variant text, place years after the closing parenthesis."
+    )
   years = format_years_abbreviated(year_list)
   model_name_for_display = " ".join(part for part in [model, model_variant, years] if part)
   name = f"{clean_make} {model_name_for_display}".strip()
@@ -181,7 +186,15 @@ def parse_wip_toml(path: Path) -> list[dict]:
     try:
       cars.append(parse_car_entry(path, car_payload))
     except ValueError as error:
-      errors.append(f"car {index}: {error}")
+      car_label = " ".join(
+        value
+        for value in (
+          normalize_text_or_none(car_payload, "make"),
+          normalize_text_or_none(car_payload, "model"),
+        )
+        if value
+      ) or f"car {index}"
+      errors.append(f"{car_label}: {error}")
 
   if errors:
     raise ValueError("\n".join(errors))

@@ -151,6 +151,39 @@ branch_desc = "Missing required hardware"
       ):
         build_wip_json(wip_dir, output_path)
 
+  def test_model_years_must_be_after_variant(self):
+    with tempfile.TemporaryDirectory() as temp_dir:
+      temp_path = Path(temp_dir)
+      wip_dir = temp_path / "wip"
+      wip_dir.mkdir()
+      output_path = temp_path / "wip.json"
+      (wip_dir / "tesla.toml").write_text(
+        """
+[[cars]]
+make = "Tesla"
+model = "Cybertruck 2077 (with hw10)"
+hardware_needed = "comma X"
+supported_package = "All"
+acc = "openpilot"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = true
+branch_name = "the-cybertruck"
+branch_url = "https://github.com/elon/openpilot/tree/the-cybertruck"
+branch_desc = "Active branch"
+wiki_url = "https://github.com/commaai/openpilot/wiki/Tesla"
+discord_url = "https://discord.com/channels/example"
+discord_name = "example-user"
+        """.strip(),
+        encoding="utf-8",
+      )
+
+      with self.assertRaisesRegex(
+        ValueError,
+        "Tesla Cybertruck 2077 \\(with hw10\\): model must include years at the end.*place years after the closing parenthesis",
+      ):
+        build_wip_json(wip_dir, output_path)
+
 
 if __name__ == "__main__":
   unittest.main()
