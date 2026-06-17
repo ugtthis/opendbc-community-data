@@ -19,7 +19,7 @@ Do you have a full fork with docs/CARS.md?
 
 Use this when a fork publishes a full `docs/CARS.md` table.
 
-Add one object to [`md_sources.json`](md_sources.json):
+Add one object to `[md_sources.json](md_sources.json)`:
 
 ```json
 {
@@ -55,9 +55,9 @@ python3 enrich_upstream_gaps.py
 
 Scripts used above:
 
-- [`fetch_md_sources.py`](fetch_md_sources.py)
-- [`markdown_to_json.py`](markdown_to_json.py)
-- [`enrich_upstream_gaps.py`](enrich_upstream_gaps.py)
+- `[fetch_md_sources.py](fetch_md_sources.py)`
+- `[markdown_to_json.py](markdown_to_json.py)`
+- `[enrich_upstream_gaps.py](enrich_upstream_gaps.py)`
 
 This creates:
 
@@ -85,7 +85,7 @@ data/wip/hyundai.toml
 data/wip/toyota.toml
 ```
 
-Directory: [`data/wip/`](data/wip/)
+Directory: `[data/wip/](data/wip/)`
 
 Each car is a `[[cars]]` entry:
 
@@ -93,7 +93,7 @@ Each car is a `[[cars]]` entry:
 [[cars]]
 # required
 make = "Tesla"
-model = "Cybertruck 2077 (with hw10)"
+model = "Cybertruck (with hw10) 2077"
 hardware_needed = "comma X"
 supported_package = "All"
 acc = "openpilot"
@@ -126,14 +126,14 @@ python3 enrich_upstream_gaps.py
 
 Scripts used above:
 
-- [`toml_to_json.py`](toml_to_json.py)
-- [`enrich_upstream_gaps.py`](enrich_upstream_gaps.py)
+- `[toml_to_json.py](toml_to_json.py)`
+- `[enrich_upstream_gaps.py](enrich_upstream_gaps.py)`
 
-This creates or updates [`data/wip.json`](data/wip.json).
+This creates or updates `[data/wip.json](data/wip.json)`.
 
 ## Upstream Gap Fields
 
-[`enrich_upstream_gaps.py`](enrich_upstream_gaps.py) compares every non-openpilot JSON file against [`data/openpilot.json`](data/openpilot.json).
+`[enrich_upstream_gaps.py](enrich_upstream_gaps.py)` compares every non-openpilot JSON file against `[data/openpilot.json](data/openpilot.json)`.
 
 Each car gets:
 
@@ -153,9 +153,9 @@ python3 -m unittest tests/test_car_normalize.py tests/test_markdown_to_json.py t
 
 Test files:
 
-- [`tests/test_car_normalize.py`](tests/test_car_normalize.py)
-- [`tests/test_markdown_to_json.py`](tests/test_markdown_to_json.py)
-- [`tests/test_toml_to_json.py`](tests/test_toml_to_json.py)
+- `[tests/test_car_normalize.py](tests/test_car_normalize.py)`
+- `[tests/test_markdown_to_json.py](tests/test_markdown_to_json.py)`
+- `[tests/test_toml_to_json.py](tests/test_toml_to_json.py)`
 
 Run the full data update locally:
 
@@ -192,7 +192,7 @@ python3 fetch_md_sources.py && python3 markdown_to_json.py && python3 toml_to_js
   data/wip.json
 ```
 
-The scheduled workflow in [`update-data.yml`](.github/workflows/update-data.yml) runs the same sequence:
+The scheduled workflow in `[update-data.yml](.github/workflows/update-data.yml)` runs the same sequence:
 
 ```bash
 python3 fetch_md_sources.py && python3 markdown_to_json.py && python3 toml_to_json.py && python3 enrich_upstream_gaps.py
