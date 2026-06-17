@@ -4,7 +4,7 @@
 [[cars]]
 # required
 make = "Tesla"
-model = "Cybertruck 2077 (with hw10)"
+model = "Cybertruck (with hw10) 2077"
 hardware_needed = "comma X"
 supported_package = "All"
 acc = "openpilot"
