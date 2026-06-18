@@ -77,6 +77,35 @@ class MarkdownToJsonTest(unittest.TestCase):
           self.assertIsInstance(car["supported_package_list"], list)
           self.assertTrue(car["supported_package_list"])
 
+  def test_comma_body_uses_na_year_when_missing(self):
+    field_order = (
+      "make",
+      "model",
+      "hardware_needed",
+      "supported_package",
+      "acc",
+      "no_acc_below",
+      "no_alc_below",
+      "auto_resume_available",
+    )
+    car, missing_required_fields = parse_car_row(
+      [
+        "comma",
+        "body",
+        "N/A",
+        "All",
+        "openpilot",
+        "0 mph",
+        "0 mph",
+        "[![star](assets/icon-star-full.svg)](##)",
+      ],
+      {field: index for index, field in enumerate(field_order)},
+    )
+
+    self.assertEqual(missing_required_fields, ())
+    self.assertEqual(car["name"], "comma body")
+    self.assertEqual((car["years"], car["year_list"]), ("N/A", []))
+
 
 if __name__ == "__main__":
   unittest.main()

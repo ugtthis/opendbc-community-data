@@ -185,7 +185,11 @@ def parse_car_row(row: list[str], col_map: dict[str, int]) -> tuple[dict | None,
   model, model_variant, model_variant_list = split_model_and_variant(clean_model)
   year_list = extract_years(clean_model)
   years = format_years_abbreviated(year_list)
-  model_name_for_display = " ".join(part for part in [model, model_variant, years] if part)
+  if years is None and clean_make.lower() == "comma" and model.lower() == "body":
+    years = "N/A"
+  # Keep display names clean since comma body does not have years.
+  display_years = years if years and years != "N/A" else None
+  model_name_for_display = " ".join(part for part in [model, model_variant, display_years] if part)
 
   return {
     "name": f"{clean_make} {model_name_for_display}",
