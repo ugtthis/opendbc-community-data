@@ -1,0 +1,140 @@
+[[cars]]
+make = "Subaru"
+model = "Crosstrek 2024-25"
+hardware_needed = "comma four"
+supported_package = "All"
+acc = "stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = false
+branch_name = "master"
+branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
+branch_desc = "A forced fingerprint branch that supports angle based steering."
+wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
+discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
+discord_name = "jacobwaller"
+
+extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
+video = ""
+setup_video = ""
+important_notes = [
+  "Works in stop and go traffic. Refer to link below for longitudinal notes",
+]
+
+[[cars]]
+make = "Subaru"
+model = "Outback (see note) 2023-25"
+hardware_needed = "comma four"
+supported_package = "All"
+acc = "stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = false
+branch_name = "master"
+branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
+branch_desc = "A forced fingerprint branch that supports angle based steering."
+wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
+discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
+discord_name = "jacobwaller"
+
+extra_resource_url = ""
+video = ""
+setup_video = ""
+important_notes = [
+  "3 camera modules confirmed; 2 camera module validated on 2024 Outback",
+  "Works in stop and go traffic. Refer to link below for longitudinal notes"
+]
+
+[[cars]]
+make = "Subaru"
+model = "Outback (Australia only) 2022"
+hardware_needed = "comma four"
+supported_package = "All"
+acc = "stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = false
+branch_name = "master"
+branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
+branch_desc = "A forced fingerprint branch that supports angle based steering."
+wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
+discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
+discord_name = "jacobwaller"
+
+extra_resource_url = ""
+video = ""
+setup_video = ""
+important_notes = [
+  "Needs a slightly modified harness, different to USDM Outback 2022. Refer to wiki link for details",
+  "Works in stop and go traffic. Refer to link below for longitudinal notes"
+]
+
+[[cars]]
+make = "Subaru"
+model = "Impreza 2025"
+hardware_needed = "comma four"
+supported_package = "All"
+acc = "stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = false
+branch_name = "master"
+branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
+branch_desc = "A forced fingerprint branch that supports angle based steering."
+wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
+discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
+discord_name = "jacobwaller"
+
+extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
+video = ""
+setup_video = ""
+important_notes = [
+  "Works in stop and go traffic. Refer to link below for longitudinal notes",
+]
+
+[[cars]]
+make = "Subaru"
+model = "Ascent 2023, 2025"
+hardware_needed = "comma four"
+supported_package = "All"
+acc = "stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = false
+branch_name = "master"
+branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
+branch_desc = "A forced fingerprint branch that supports angle based steering."
+wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
+discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
+discord_name = "jacobwaller"
+
+extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
+video = ""
+setup_video = ""
+important_notes = [
+  "Works in stop and go traffic. Refer to link below for longitudinal notes",
+]
+
+[[cars]]
+make = "Subaru"
+model = "Legacy (see note) 2022, 2025"
+hardware_needed = "comma four"
+supported_package = "All"
+acc = "stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = false
+branch_name = "master"
+branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
+branch_desc = "A forced fingerprint branch that supports angle based steering."
+wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
+discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
+discord_name = "jacobwaller"
+
+extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
+video = ""
+setup_video = ""
+important_notes = [
+  "2 camera modules confirmed.",
+  "Works in stop and go traffic. Refer to link below for longitudinal notes",
+]

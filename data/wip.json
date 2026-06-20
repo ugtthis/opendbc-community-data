@@ -3,7 +3,243 @@
     "url": "data/wip",
     "generator": "toml_to_json.py",
     "source": "wip",
-    "total": "0 cars"
+    "total": "6 cars"
   },
-  "cars": []
+  "cars": [
+    {
+      "key": "subaru-ascent-2023-2025-jacobwaller-master",
+      "name": "Subaru Ascent 2023, 2025",
+      "make": "Subaru",
+      "model": "Ascent",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023, 2025",
+      "year_list": [
+        2023,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "branch_name": "master",
+      "branch_url": "https://github.com/jacobwaller/openpilot/tree/master",
+      "branch_desc": "A forced fingerprint branch that supports angle based steering.",
+      "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
+      "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
+      "discord_name": "jacobwaller",
+      "extra_resource_url": "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control",
+      "video": null,
+      "setup_video": null,
+      "important_notes": [
+        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+      ],
+      "years_not_in_upstream": [
+        2023,
+        2025
+      ]
+    },
+    {
+      "key": "subaru-crosstrek-2024-25-jacobwaller-master",
+      "name": "Subaru Crosstrek 2024-25",
+      "make": "Subaru",
+      "model": "Crosstrek",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "branch_name": "master",
+      "branch_url": "https://github.com/jacobwaller/openpilot/tree/master",
+      "branch_desc": "A forced fingerprint branch that supports angle based steering.",
+      "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
+      "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
+      "discord_name": "jacobwaller",
+      "extra_resource_url": "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control",
+      "video": null,
+      "setup_video": null,
+      "important_notes": [
+        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+      ],
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
+      "key": "subaru-impreza-2025-jacobwaller-master",
+      "name": "Subaru Impreza 2025",
+      "make": "Subaru",
+      "model": "Impreza",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "branch_name": "master",
+      "branch_url": "https://github.com/jacobwaller/openpilot/tree/master",
+      "branch_desc": "A forced fingerprint branch that supports angle based steering.",
+      "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
+      "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
+      "discord_name": "jacobwaller",
+      "extra_resource_url": "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control",
+      "video": null,
+      "setup_video": null,
+      "important_notes": [
+        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+      ],
+      "years_not_in_upstream": [
+        2025
+      ]
+    },
+    {
+      "key": "subaru-legacy-see-note-2022-2025-jacobwaller-master",
+      "name": "Subaru Legacy (see note) 2022, 2025",
+      "make": "Subaru",
+      "model": "Legacy",
+      "model_variant": "(see note)",
+      "model_variant_list": [
+        "see note"
+      ],
+      "years": "2022, 2025",
+      "year_list": [
+        2022,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "branch_name": "master",
+      "branch_url": "https://github.com/jacobwaller/openpilot/tree/master",
+      "branch_desc": "A forced fingerprint branch that supports angle based steering.",
+      "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
+      "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
+      "discord_name": "jacobwaller",
+      "extra_resource_url": "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control",
+      "video": null,
+      "setup_video": null,
+      "important_notes": [
+        "2 camera modules confirmed.",
+        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+      ],
+      "years_not_in_upstream": [
+        2022,
+        2025
+      ]
+    },
+    {
+      "key": "subaru-outback-see-note-2023-25-jacobwaller-master",
+      "name": "Subaru Outback (see note) 2023-25",
+      "make": "Subaru",
+      "model": "Outback",
+      "model_variant": "(see note)",
+      "model_variant_list": [
+        "see note"
+      ],
+      "years": "2023-25",
+      "year_list": [
+        2023,
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "branch_name": "master",
+      "branch_url": "https://github.com/jacobwaller/openpilot/tree/master",
+      "branch_desc": "A forced fingerprint branch that supports angle based steering.",
+      "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
+      "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
+      "discord_name": "jacobwaller",
+      "extra_resource_url": null,
+      "video": null,
+      "setup_video": null,
+      "important_notes": [
+        "3 camera modules confirmed; 2 camera module validated on 2024 Outback",
+        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+      ],
+      "years_not_in_upstream": [
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "key": "subaru-outback-australia-only-2022-jacobwaller-master",
+      "name": "Subaru Outback (Australia only) 2022",
+      "make": "Subaru",
+      "model": "Outback",
+      "model_variant": "(Australia only)",
+      "model_variant_list": [
+        "Australia only"
+      ],
+      "years": "2022",
+      "year_list": [
+        2022
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "branch_name": "master",
+      "branch_url": "https://github.com/jacobwaller/openpilot/tree/master",
+      "branch_desc": "A forced fingerprint branch that supports angle based steering.",
+      "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
+      "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
+      "discord_name": "jacobwaller",
+      "extra_resource_url": null,
+      "video": null,
+      "setup_video": null,
+      "important_notes": [
+        "Needs a slightly modified harness, different to USDM Outback 2022. Refer to wiki link for details",
+        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+      ],
+      "years_not_in_upstream": [
+        2022
+      ]
+    }
+  ]
 }
