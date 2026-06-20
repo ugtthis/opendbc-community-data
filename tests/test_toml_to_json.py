@@ -184,6 +184,110 @@ discord_name = "example-user"
       ):
         build_wip_json(wip_dir, output_path)
 
+  def test_branch_url_na_uses_discord_name_for_key(self):
+    with tempfile.TemporaryDirectory() as temp_dir:
+      temp_path = Path(temp_dir)
+      wip_dir = temp_path / "wip"
+      wip_dir.mkdir()
+      output_path = temp_path / "wip.json"
+      (wip_dir / "hyundai.toml").write_text(
+        """
+[[cars]]
+make = "Hyundai"
+model = "Ioniq 6 2023-24"
+hardware_needed = "comma four"
+supported_package = "Highway Driving Assist"
+acc = "Stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = true
+branch_name = "N/A"
+branch_url = "N/A"
+branch_desc = "No public branch"
+wiki_url = "https://github.com/commaai/openpilot/wiki/Hyundai"
+discord_url = "https://discord.com/channels/example"
+discord_name = "example-user"
+        """.strip(),
+        encoding="utf-8",
+      )
+
+      build_wip_json(wip_dir, output_path)
+      payload = json.loads(output_path.read_text(encoding="utf-8"))
+      car = payload["cars"][0]
+
+      self.assertEqual(car["branch_name"], "N/A")
+      self.assertEqual(car["branch_url"], "N/A")
+      self.assertEqual(
+        car["key"],
+        "hyundai-ioniq-6-2023-24-example-user",
+      )
+
+  def test_branch_url_non_github_and_non_na_is_rejected(self):
+    with tempfile.TemporaryDirectory() as temp_dir:
+      temp_path = Path(temp_dir)
+      wip_dir = temp_path / "wip"
+      wip_dir.mkdir()
+      output_path = temp_path / "wip.json"
+      (wip_dir / "hyundai.toml").write_text(
+        """
+[[cars]]
+make = "Hyundai"
+model = "Ioniq 6 2023-24"
+hardware_needed = "comma four"
+supported_package = "Highway Driving Assist"
+acc = "Stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = true
+branch_name = "hyundai-ioniq6-wip"
+branch_url = "https://gitlab.com/example/opendbc/-/tree/hyundai-ioniq6-wip"
+branch_desc = "Active branch"
+wiki_url = "https://github.com/commaai/openpilot/wiki/Hyundai"
+discord_url = "https://discord.com/channels/example"
+discord_name = "example-user"
+        """.strip(),
+        encoding="utf-8",
+      )
+
+      with self.assertRaisesRegex(
+        ValueError,
+        "branch_url must be an http\\(s\\) github.com URL",
+      ):
+        build_wip_json(wip_dir, output_path)
+
+  def test_branch_url_na_requires_branch_name_na(self):
+    with tempfile.TemporaryDirectory() as temp_dir:
+      temp_path = Path(temp_dir)
+      wip_dir = temp_path / "wip"
+      wip_dir.mkdir()
+      output_path = temp_path / "wip.json"
+      (wip_dir / "hyundai.toml").write_text(
+        """
+[[cars]]
+make = "Hyundai"
+model = "Ioniq 6 2023-24"
+hardware_needed = "comma four"
+supported_package = "Highway Driving Assist"
+acc = "Stock"
+no_acc_below = "0 mph"
+no_alc_below = "0 mph"
+auto_resume_available = true
+branch_name = "hyundai-ioniq6-wip"
+branch_url = "N/A"
+branch_desc = "No public branch"
+wiki_url = "https://github.com/commaai/openpilot/wiki/Hyundai"
+discord_url = "https://discord.com/channels/example"
+discord_name = "example-user"
+        """.strip(),
+        encoding="utf-8",
+      )
+
+      with self.assertRaisesRegex(
+        ValueError,
+        "branch_name and branch_url must both be N/A or both be non-N/A",
+      ):
+        build_wip_json(wip_dir, output_path)
+
 
 if __name__ == "__main__":
   unittest.main()

@@ -39,6 +39,7 @@ REQUIRED_TEXT_FIELDS = (
 REQUIRED_BOOL_FIELDS = ("auto_resume_available",)
 EXAMPLE_FILENAMES = {"example.toml"}
 KEY_SANITIZE_PATTERN = re.compile(r"[^a-z0-9]+")
+NA_SENTINEL = "N/A"
 
 
 def discover_toml_files(wip_dir: Path) -> list[Path]:
@@ -55,6 +56,10 @@ def slugify(value: str) -> str:
   return slug or "unknown"
 
 
+def is_na(value: str) -> bool:
+  return value.strip().upper() == NA_SENTINEL
+
+
 def parse_github_user(url: str) -> str:
   parsed = urlparse(url.strip())
   if parsed.scheme not in {"http", "https"} or parsed.netloc.lower() != "github.com":
@@ -63,6 +68,19 @@ def parse_github_user(url: str) -> str:
   if len(path_parts) < 2 or not path_parts[0]:
     raise ValueError("branch_url must include github user/org and repository path")
   return path_parts[0]
+
+
+def build_car_key_parts(name: str, branch_name: str, branch_url: str, discord_name: str) -> list[str]:
+  branch_metadata_unavailable = is_na(branch_url) and is_na(branch_name)
+  if branch_metadata_unavailable:
+    return [slugify(name), slugify(discord_name)]
+  github_user = parse_github_user(branch_url)
+  return [slugify(name), slugify(github_user), slugify(branch_name)]
+
+
+def validate_branch_fields(branch_name: str, branch_url: str) -> None:
+  if is_na(branch_url) != is_na(branch_name):
+    raise ValueError(f"branch_name and branch_url must both be {NA_SENTINEL} or both be non-{NA_SENTINEL}")
 
 
 def normalize_text_or_none(car_data: dict, field: str) -> str | None:
@@ -137,6 +155,7 @@ def parse_car_entry(path: Path, car_data: dict) -> dict:
   wiki_url = normalize_whitespace(car_data["wiki_url"])
   discord_url = normalize_whitespace(car_data["discord_url"])
   discord_name = normalize_whitespace(car_data["discord_name"])
+  validate_branch_fields(branch_name, branch_url)
 
   model, model_variant, model_variant_list = split_model_and_variant(clean_model)
   year_list = extract_years(clean_model)
@@ -151,8 +170,7 @@ def parse_car_entry(path: Path, car_data: dict) -> dict:
 
   important_notes = normalize_notes_or_none(car_data.get("important_notes"))
 
-  github_user = parse_github_user(branch_url)
-  key = "-".join([slugify(name), slugify(github_user), slugify(branch_name)])
+  key = "-".join(build_car_key_parts(name, branch_name, branch_url, discord_name))
 
   return {
     "key": key,
