@@ -92,7 +92,7 @@ discord_name = "example-user"
       self.assertEqual(car["important_notes"], ["Needs more logs"])
       self.assertEqual(car["discord_name"], "example-user")
       self.assertEqual(car["discord_url"], "https://discord.com/channels/example")
-      self.assertTrue(car["key"])
+      self.assertTrue(car["key"].startswith("hyundai-ioniq-6-2023-24-example-hyundai-ioniq6-wip"))
 
   def test_make_mismatch_filename_is_rejected(self):
     with tempfile.TemporaryDirectory() as temp_dir:

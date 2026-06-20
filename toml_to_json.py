@@ -5,6 +5,7 @@ import re
 import sys
 import tomllib
 from pathlib import Path
+from urllib.parse import urlparse
 
 from car_normalize import (
   build_output,
@@ -52,6 +53,16 @@ def slugify(value: str) -> str:
   lowered = value.lower()
   slug = KEY_SANITIZE_PATTERN.sub("-", lowered).strip("-")
   return slug or "unknown"
+
+
+def parse_github_user(url: str) -> str:
+  parsed = urlparse(url.strip())
+  if parsed.scheme not in {"http", "https"} or parsed.netloc.lower() != "github.com":
+    raise ValueError("branch_url must be an http(s) github.com URL")
+  path_parts = parsed.path.strip("/").split("/")
+  if len(path_parts) < 2 or not path_parts[0]:
+    raise ValueError("branch_url must include github user/org and repository path")
+  return path_parts[0]
 
 
 def normalize_text_or_none(car_data: dict, field: str) -> str | None:
@@ -140,7 +151,8 @@ def parse_car_entry(path: Path, car_data: dict) -> dict:
 
   important_notes = normalize_notes_or_none(car_data.get("important_notes"))
 
-  key = "-".join([slugify(name), slugify(branch_name)])
+  github_user = parse_github_user(branch_url)
+  key = "-".join([slugify(name), slugify(github_user), slugify(branch_name)])
 
   return {
     "key": key,
