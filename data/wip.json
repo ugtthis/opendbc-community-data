@@ -61,7 +61,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "stock",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -98,7 +98,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "stock",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -137,7 +137,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "stock",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -220,7 +220,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "stock",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
