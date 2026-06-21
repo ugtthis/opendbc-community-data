@@ -1,0 +1,24 @@
+[[cars]]
+make = "Volvo"
+model = "940 Estate 1993"
+hardware_needed = "N/A"
+supported_package = "N/A"
+acc = "N/A"
+no_acc_below = "N/A"
+no_alc_below = "N/A"
+auto_resume_available = false
+branch_name = "N/A"
+branch_url = "N/A"
+branch_desc = "N/A"
+wiki_url = "https://practicapp.com/carbagepilot-part1/"
+discord_url = "https://discord.com/channels/469524606043160576/532180808262221824"
+discord_name = "debbor"
+
+extra_resource_url = "https://www.youtube.com/watch?v=L1u6AkSpR98"
+video = ""
+setup_video = ""
+important_notes = [
+  "Refer to wiki link for blog post to see how it works.",
+  "Experimental and requires extensive modifications to the car.",
+  "Link below is a video of another old car setup with openpilot.",
+]
