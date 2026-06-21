@@ -3,9 +3,46 @@
     "url": "data/wip",
     "generator": "toml_to_json.py",
     "source": "wip",
-    "total": "6 cars"
+    "total": "10 cars"
   },
   "cars": [
+    {
+      "key": "ford-e350-1994-lukilink-071-oc-water",
+      "name": "Ford E350 1994",
+      "make": "Ford",
+      "model": "E350",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "1994",
+      "year_list": [
+        1994
+      ],
+      "hardware_needed": "N/A",
+      "supported_package": "N/A",
+      "supported_package_list": [
+        "N/A"
+      ],
+      "acc": "N/A",
+      "no_acc_below": "N/A",
+      "no_alc_below": "N/A",
+      "auto_resume_available": false,
+      "branch_name": "071_OC_WATER",
+      "branch_url": "https://github.com/Lukilink/openpilot/tree/071_OC_WATER",
+      "branch_desc": "Expands ADAS support to older vehicles through heavy phyical modifications.",
+      "wiki_url": "https://github.com/Lukilink/openpilot/blob/071_OC_WATER/README.md",
+      "discord_url": "https://discord.com/channels/469524606043160576/532180808262221824",
+      "discord_name": "Lukilink, wocsor",
+      "extra_resource_url": null,
+      "video": "https://www.youtube.com/watch?v=emKcwWaTjyg",
+      "setup_video": "https://www.youtube.com/watch?v=L1u6AkSpR98",
+      "important_notes": [
+        "Experimental and requires extensive modifications to the car.",
+        "Refer to setup video to see how it works."
+      ],
+      "years_not_in_upstream": [
+        1994
+      ]
+    },
     {
       "key": "subaru-ascent-2023-2025-jacobwaller-master",
       "name": "Subaru Ascent 2023, 2025",
@@ -23,7 +60,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "stock",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -179,7 +216,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "stock",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -239,6 +276,118 @@
       ],
       "years_not_in_upstream": [
         2022
+      ]
+    },
+    {
+      "key": "toyota-celica-2003-lukilink-071-oc-water",
+      "name": "Toyota Celica 2003",
+      "make": "Toyota",
+      "model": "Celica",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2003",
+      "year_list": [
+        2003
+      ],
+      "hardware_needed": "N/A",
+      "supported_package": "N/A",
+      "supported_package_list": [
+        "N/A"
+      ],
+      "acc": "N/A",
+      "no_acc_below": "N/A",
+      "no_alc_below": "N/A",
+      "auto_resume_available": false,
+      "branch_name": "071_OC_WATER",
+      "branch_url": "https://github.com/Lukilink/openpilot/tree/071_OC_WATER",
+      "branch_desc": "Expands ADAS support to older vehicles through heavy phyical modifications.",
+      "wiki_url": "https://github.com/Lukilink/openpilot/blob/071_OC_WATER/README.md",
+      "discord_url": "https://discord.com/channels/469524606043160576/532180808262221824",
+      "discord_name": "Lukilink, wocsor",
+      "extra_resource_url": null,
+      "video": "https://www.youtube.com/watch?v=emKcwWaTjyg",
+      "setup_video": "https://www.youtube.com/watch?v=L1u6AkSpR98",
+      "important_notes": [
+        "Experimental and requires extensive modifications to the car.",
+        "Refer to setup video to see how it works."
+      ],
+      "years_not_in_upstream": [
+        2003
+      ]
+    },
+    {
+      "key": "volkswagen-vanagon-t3-syncro-1988-lukilink-071-oc-water",
+      "name": "Volkswagen Vanagon T3 Syncro 1988",
+      "make": "Volkswagen",
+      "model": "Vanagon T3 Syncro",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "1988",
+      "year_list": [
+        1988
+      ],
+      "hardware_needed": "N/A",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "N/A",
+      "no_acc_below": "N/A",
+      "no_alc_below": "N/A",
+      "auto_resume_available": false,
+      "branch_name": "071_OC_WATER",
+      "branch_url": "https://github.com/Lukilink/openpilot/tree/071_OC_WATER",
+      "branch_desc": "Expands ADAS support to older vehicles through heavy phyical modifications.",
+      "wiki_url": "https://github.com/Lukilink/openpilot/blob/071_OC_WATER/README.md",
+      "discord_url": "https://discord.com/channels/469524606043160576/532180808262221824",
+      "discord_name": "Lukilink, wocsor",
+      "extra_resource_url": null,
+      "video": "https://www.youtube.com/watch?v=emKcwWaTjyg",
+      "setup_video": "https://www.youtube.com/watch?v=L1u6AkSpR98",
+      "important_notes": [
+        "Experimental and requires extensive modifications to the car.",
+        "Refer to setup video to see how it works."
+      ],
+      "years_not_in_upstream": [
+        1988
+      ]
+    },
+    {
+      "key": "volvo-940-estate-1993-debbor",
+      "name": "Volvo 940 Estate 1993",
+      "make": "Volvo",
+      "model": "940 Estate",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "1993",
+      "year_list": [
+        1993
+      ],
+      "hardware_needed": "N/A",
+      "supported_package": "N/A",
+      "supported_package_list": [
+        "N/A"
+      ],
+      "acc": "N/A",
+      "no_acc_below": "N/A",
+      "no_alc_below": "N/A",
+      "auto_resume_available": false,
+      "branch_name": "N/A",
+      "branch_url": "N/A",
+      "branch_desc": "N/A",
+      "wiki_url": "https://practicapp.com/carbagepilot-part1/",
+      "discord_url": "https://discord.com/channels/469524606043160576/532180808262221824",
+      "discord_name": "debbor",
+      "extra_resource_url": "https://www.youtube.com/watch?v=L1u6AkSpR98",
+      "video": null,
+      "setup_video": null,
+      "important_notes": [
+        "Refer to wiki link for blog post to see how it works.",
+        "Experimental and requires extensive modifications to the car.",
+        "Link below is a video of another old car setup with openpilot."
+      ],
+      "years_not_in_upstream": [
+        1993
       ]
     }
   ]
