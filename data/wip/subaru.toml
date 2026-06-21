@@ -18,7 +18,8 @@ extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudi
 video = ""
 setup_video = ""
 important_notes = [
-  "Works in stop and go traffic. Refer to link below for longitudinal notes",
+  "Works in stop and go traffic.",
+  "Refer to link below for longitudinal notes.",
 ]
 
 [[cars]]
@@ -42,7 +43,8 @@ video = ""
 setup_video = ""
 important_notes = [
   "3 camera modules confirmed; 2 camera module validated on 2024 Outback",
-  "Works in stop and go traffic. Refer to link below for longitudinal notes"
+  "Works in stop and go traffic.",
+  "Refer to link below for longitudinal notes.",
 ]
 
 [[cars]]
@@ -66,7 +68,8 @@ video = ""
 setup_video = ""
 important_notes = [
   "Needs a slightly modified harness, different to USDM Outback 2022. Refer to wiki link for details",
-  "Works in stop and go traffic. Refer to link below for longitudinal notes"
+  "Works in stop and go traffic.",
+  "Refer to link below for longitudinal notes.",
 ]
 
 [[cars]]
@@ -89,7 +92,8 @@ extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudi
 video = ""
 setup_video = ""
 important_notes = [
-  "Works in stop and go traffic. Refer to link below for longitudinal notes",
+  "Works in stop and go traffic.",
+  "Refer to link below for longitudinal notes.",
 ]
 
 [[cars]]
@@ -112,7 +116,8 @@ extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudi
 video = ""
 setup_video = ""
 important_notes = [
-  "Works in stop and go traffic. Refer to link below for longitudinal notes",
+  "Works in stop and go traffic.",
+  "Refer to link below for longitudinal notes.",
 ]
 
 [[cars]]
@@ -136,5 +141,6 @@ video = ""
 setup_video = ""
 important_notes = [
   "2 camera modules confirmed.",
-  "Works in stop and go traffic. Refer to link below for longitudinal notes",
+  "Works in stop and go traffic.",
+  "Refer to link below for longitudinal notes.",
 ]

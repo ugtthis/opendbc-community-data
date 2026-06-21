@@ -74,7 +74,8 @@
       "video": null,
       "setup_video": null,
       "important_notes": [
-        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+        "Works in stop and go traffic.",
+        "Refer to link below for longitudinal notes."
       ],
       "years_not_in_upstream": [
         2023,
@@ -112,7 +113,8 @@
       "video": null,
       "setup_video": null,
       "important_notes": [
-        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+        "Works in stop and go traffic.",
+        "Refer to link below for longitudinal notes."
       ],
       "years_not_in_upstream": [
         2024,
@@ -149,7 +151,8 @@
       "video": null,
       "setup_video": null,
       "important_notes": [
-        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+        "Works in stop and go traffic.",
+        "Refer to link below for longitudinal notes."
       ],
       "years_not_in_upstream": [
         2025
@@ -189,7 +192,8 @@
       "setup_video": null,
       "important_notes": [
         "2 camera modules confirmed.",
-        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+        "Works in stop and go traffic.",
+        "Refer to link below for longitudinal notes."
       ],
       "years_not_in_upstream": [
         2022,
@@ -231,7 +235,8 @@
       "setup_video": null,
       "important_notes": [
         "3 camera modules confirmed; 2 camera module validated on 2024 Outback",
-        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+        "Works in stop and go traffic.",
+        "Refer to link below for longitudinal notes."
       ],
       "years_not_in_upstream": [
         2023,
@@ -272,7 +277,8 @@
       "setup_video": null,
       "important_notes": [
         "Needs a slightly modified harness, different to USDM Outback 2022. Refer to wiki link for details",
-        "Works in stop and go traffic. Refer to link below for longitudinal notes"
+        "Works in stop and go traffic.",
+        "Refer to link below for longitudinal notes."
       ],
       "years_not_in_upstream": [
         2022
