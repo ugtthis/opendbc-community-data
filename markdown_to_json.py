@@ -107,7 +107,7 @@ def parse_footnote_definitions(lines: list[str]) -> dict[int, str]:
 
     match = FOOTNOTE_DEFINITION_PATTERN.search(line)
     if match:
-      footnotes[int(match.group(1))] = clean_cell_text(match.group(2))
+      footnotes[int(match.group(1))] = match.group(2)
 
   return footnotes
 

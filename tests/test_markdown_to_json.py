@@ -4,11 +4,23 @@ from pathlib import Path
 
 from markdown_to_json import (
   find_first_compatible_table_header,
+  parse_footnote_definitions,
   parse_car_row,
 )
 
 
 class MarkdownToJsonTest(unittest.TestCase):
+  def test_parse_footnotes_preserves_html_links(self):
+    self.assertEqual(
+      parse_footnote_definitions([
+        "### Footnotes",
+        '<sup>10</sup>See more setup details for <a href="https://github.com/commaai/openpilot/wiki/tesla" target="_blank">Tesla</a>. <br />',
+      ]),
+      {
+        10: 'See more setup details for <a href="https://github.com/commaai/openpilot/wiki/tesla" target="_blank">Tesla</a>.',
+      },
+    )
+
   def test_rows_with_extra_unmapped_columns_still_parse(self):
     headers = [
       "Make",
