@@ -38,7 +38,7 @@ wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
 discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
 discord_name = "jacobwaller"
 
-extra_resource_url = ""
+extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
 video = ""
 setup_video = ""
 important_notes = [
@@ -63,7 +63,7 @@ wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
 discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
 discord_name = "jacobwaller"
 
-extra_resource_url = ""
+extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
 video = ""
 setup_video = ""
 important_notes = [
