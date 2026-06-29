@@ -6672,7 +6672,9 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "Rivian R1T 2022-24",
@@ -6728,7 +6730,9 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "SEAT Ateca 2016-23",
