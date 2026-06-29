@@ -31,7 +31,11 @@
       "branch_desc": "Expands ADAS support to older vehicles through heavy phyical modifications.",
       "wiki_url": "https://github.com/Lukilink/openpilot/blob/071_OC_WATER/README.md",
       "discord_url": "https://discord.com/channels/469524606043160576/532180808262221824",
-      "discord_name": "Lukilink, wocsor",
+      "discord_names": [
+        "Lukilink",
+        "wocsor"
+      ],
+      "x_names": [],
       "extra_resource_url": null,
       "video": "https://www.youtube.com/watch?v=emKcwWaTjyg",
       "setup_video": "https://www.youtube.com/watch?v=L1u6AkSpR98",
@@ -69,7 +73,10 @@
       "branch_desc": "A forced fingerprint branch that supports angle based steering.",
       "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
       "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
-      "discord_name": "jacobwaller",
+      "discord_names": [
+        "jacobwaller"
+      ],
+      "x_names": [],
       "extra_resource_url": "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control",
       "video": null,
       "setup_video": null,
@@ -108,7 +115,10 @@
       "branch_desc": "A forced fingerprint branch that supports angle based steering.",
       "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
       "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
-      "discord_name": "jacobwaller",
+      "discord_names": [
+        "jacobwaller"
+      ],
+      "x_names": [],
       "extra_resource_url": "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control",
       "video": null,
       "setup_video": null,
@@ -146,7 +156,10 @@
       "branch_desc": "A forced fingerprint branch that supports angle based steering.",
       "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
       "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
-      "discord_name": "jacobwaller",
+      "discord_names": [
+        "jacobwaller"
+      ],
+      "x_names": [],
       "extra_resource_url": "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control",
       "video": null,
       "setup_video": null,
@@ -186,7 +199,10 @@
       "branch_desc": "A forced fingerprint branch that supports angle based steering.",
       "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
       "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
-      "discord_name": "jacobwaller",
+      "discord_names": [
+        "jacobwaller"
+      ],
+      "x_names": [],
       "extra_resource_url": "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control",
       "video": null,
       "setup_video": null,
@@ -229,7 +245,10 @@
       "branch_desc": "A forced fingerprint branch that supports angle based steering.",
       "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
       "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
-      "discord_name": "jacobwaller",
+      "discord_names": [
+        "jacobwaller"
+      ],
+      "x_names": [],
       "extra_resource_url": "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control",
       "video": null,
       "setup_video": null,
@@ -271,7 +290,10 @@
       "branch_desc": "A forced fingerprint branch that supports angle based steering.",
       "wiki_url": "https://github.com/commaai/openpilot/wiki/Subaru",
       "discord_url": "https://discord.com/channels/469524606043160576/525718620517564446",
-      "discord_name": "jacobwaller",
+      "discord_names": [
+        "jacobwaller"
+      ],
+      "x_names": [],
       "extra_resource_url": "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control",
       "video": null,
       "setup_video": null,
@@ -309,7 +331,11 @@
       "branch_desc": "Expands ADAS support to older vehicles through heavy phyical modifications.",
       "wiki_url": "https://github.com/Lukilink/openpilot/blob/071_OC_WATER/README.md",
       "discord_url": "https://discord.com/channels/469524606043160576/532180808262221824",
-      "discord_name": "Lukilink, wocsor",
+      "discord_names": [
+        "Lukilink",
+        "wocsor"
+      ],
+      "x_names": [],
       "extra_resource_url": null,
       "video": "https://www.youtube.com/watch?v=emKcwWaTjyg",
       "setup_video": "https://www.youtube.com/watch?v=L1u6AkSpR98",
@@ -346,7 +372,11 @@
       "branch_desc": "Expands ADAS support to older vehicles through heavy phyical modifications.",
       "wiki_url": "https://github.com/Lukilink/openpilot/blob/071_OC_WATER/README.md",
       "discord_url": "https://discord.com/channels/469524606043160576/532180808262221824",
-      "discord_name": "Lukilink, wocsor",
+      "discord_names": [
+        "Lukilink",
+        "wocsor"
+      ],
+      "x_names": [],
       "extra_resource_url": null,
       "video": "https://www.youtube.com/watch?v=emKcwWaTjyg",
       "setup_video": "https://www.youtube.com/watch?v=L1u6AkSpR98",
@@ -383,7 +413,10 @@
       "branch_desc": "N/A",
       "wiki_url": "https://practicapp.com/carbagepilot-part1/",
       "discord_url": "https://discord.com/channels/469524606043160576/532180808262221824",
-      "discord_name": "debbor",
+      "discord_names": [
+        "debbor"
+      ],
+      "x_names": [],
       "extra_resource_url": "https://www.youtube.com/watch?v=L1u6AkSpR98",
       "video": null,
       "setup_video": null,
