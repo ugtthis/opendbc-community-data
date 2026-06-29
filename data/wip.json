@@ -3,9 +3,53 @@
     "url": "data/wip",
     "generator": "toml_to_json.py",
     "source": "wip",
-    "total": "10 cars"
+    "total": "11 cars"
   },
   "cars": [
+    {
+      "key": "arrma-typhon-1-8-3s-2018-19-vapor-autos-master",
+      "name": "ARRMA Typhon (1/8 3S) 2018-19",
+      "make": "ARRMA",
+      "model": "Typhon",
+      "model_variant": "(1/8 3S)",
+      "model_variant_list": [
+        "1/8 3S"
+      ],
+      "years": "2018-19",
+      "year_list": [
+        2018,
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "N/A",
+      "no_alc_below": "N/A",
+      "auto_resume_available": false,
+      "branch_name": "master",
+      "branch_url": "https://github.com/vapor-autos/vaporware/tree/master",
+      "branch_desc": "Turn your RC car into a real car",
+      "wiki_url": "https://github.com/vapor-autos/turbodbc/blob/master/docs/turbo/typhon_1_8_3s_reference.md",
+      "discord_url": "https://discord.com/channels/469524606043160576/954493346250887168",
+      "discord_names": [],
+      "x_names": [
+        "simcity99"
+      ],
+      "extra_resource_url": "https://github.com/vapor-autos/turbodbc/blob/master/README.md",
+      "video": "https://x.com/simcity99/status/1973902693165879596",
+      "setup_video": "https://x.com/simcity99/status/2050032209650745607",
+      "important_notes": [
+        "Wiki link under Resources dropdown goes to raw manufacturer reference used by the Turbo port",
+        "Link below goes to turbodbc README.md for more info about RC car support"
+      ],
+      "years_not_in_upstream": [
+        2018,
+        2019
+      ]
+    },
     {
       "key": "ford-e350-1994-lukilink-071-oc-water",
       "name": "Ford E350 1994",
