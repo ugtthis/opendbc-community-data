@@ -12,7 +12,8 @@ branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
 branch_desc = "A forced fingerprint branch that supports angle based steering."
 wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
 discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
-discord_name = "jacobwaller"
+discord_names = ["jacobwaller"]
+x_names = []
 
 extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
 video = ""
@@ -36,7 +37,8 @@ branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
 branch_desc = "A forced fingerprint branch that supports angle based steering."
 wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
 discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
-discord_name = "jacobwaller"
+discord_names = ["jacobwaller"]
+x_names = []
 
 extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
 video = ""
@@ -61,7 +63,8 @@ branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
 branch_desc = "A forced fingerprint branch that supports angle based steering."
 wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
 discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
-discord_name = "jacobwaller"
+discord_names = ["jacobwaller"]
+x_names = []
 
 extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
 video = ""
@@ -86,7 +89,8 @@ branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
 branch_desc = "A forced fingerprint branch that supports angle based steering."
 wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
 discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
-discord_name = "jacobwaller"
+discord_names = ["jacobwaller"]
+x_names = []
 
 extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
 video = ""
@@ -110,7 +114,8 @@ branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
 branch_desc = "A forced fingerprint branch that supports angle based steering."
 wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
 discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
-discord_name = "jacobwaller"
+discord_names = ["jacobwaller"]
+x_names = []
 
 extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
 video = ""
@@ -134,7 +139,8 @@ branch_url = "https://github.com/jacobwaller/openpilot/tree/master"
 branch_desc = "A forced fingerprint branch that supports angle based steering."
 wiki_url = "https://github.com/commaai/openpilot/wiki/Subaru"
 discord_url = "https://discord.com/channels/469524606043160576/525718620517564446"
-discord_name = "jacobwaller"
+discord_names = ["jacobwaller"]
+x_names = []
 
 extra_resource_url = "https://github.com/commaai/openpilot/wiki/Subaru#longitudinal-control"
 video = ""

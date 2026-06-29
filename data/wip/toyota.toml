@@ -12,7 +12,8 @@ branch_url = "https://github.com/Lukilink/openpilot/tree/071_OC_WATER"
 branch_desc = "Expands ADAS support to older vehicles through heavy phyical modifications."
 wiki_url = "https://github.com/Lukilink/openpilot/blob/071_OC_WATER/README.md"
 discord_url = "https://discord.com/channels/469524606043160576/532180808262221824"
-discord_name = "Lukilink, wocsor"
+discord_names = ["Lukilink", "wocsor"]
+x_names = []
 
 extra_resource_url = ""
 video = "https://www.youtube.com/watch?v=emKcwWaTjyg"

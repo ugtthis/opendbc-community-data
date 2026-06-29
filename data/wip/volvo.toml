@@ -12,7 +12,8 @@ branch_url = "N/A"
 branch_desc = "N/A"
 wiki_url = "https://practicapp.com/carbagepilot-part1/"
 discord_url = "https://discord.com/channels/469524606043160576/532180808262221824"
-discord_name = "debbor"
+discord_names = ["debbor"]
+x_names = []
 
 extra_resource_url = "https://www.youtube.com/watch?v=L1u6AkSpR98"
 video = ""

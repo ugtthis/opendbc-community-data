@@ -105,7 +105,9 @@ branch_url = "https://github.com/elon/openpilot/tree/the-cybertruck"
 branch_desc = "Highly experimental branch with limited validation."
 wiki_url = "https://github.com/commaai/openpilot/wiki/Tesla"
 discord_url = "https://discord.com/channels/469524606043160576/524328474081755137"
-discord_name = "elon"
+# at least one contributor list must have a name
+discord_names = ["elon"]
+x_names = ["elonmusk"]
 
 # optional
 extra_resource_url = ""

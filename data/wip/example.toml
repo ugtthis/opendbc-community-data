@@ -16,7 +16,8 @@ branch_url = "https://github.com/elon/openpilot/tree/the-cybertruck"
 branch_desc = "Highly experimental branch with limited validation."
 wiki_url = "https://github.com/commaai/openpilot/wiki/Tesla"
 discord_url = "https://discord.com/channels/469524606043160576/524328474081755137"
-discord_name = "elon"
+discord_names = ["elon"]
+x_names = ["elonmusk"]
 
 # optional
 extra_resource_url = ""
@@ -41,7 +42,8 @@ branch_url = "https://github.com/example/openpilot/tree/tesla-roadster-wip"
 branch_desc = "Basic route testing complete and wider validation in progress."
 wiki_url = "https://github.com/commaai/openpilot/wiki/Tesla"
 discord_url = "https://discord.com/channels/469524606043160576/524328474081755137"
-discord_name = "geohot"
+discord_names = ["geohot"]
+x_names = ["geohot"]
 
 extra_resource_url = ""
 video = "https://www.youtube.com/watch?v=example-roadster"
