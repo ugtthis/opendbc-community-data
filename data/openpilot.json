@@ -3,7 +3,7 @@
     "url": "https://github.com/commaai/openpilot/blob/master/docs/CARS.md",
     "generator": "markdown_to_json.py",
     "source": "openpilot",
-    "total": "334 cars"
+    "total": "332 cars"
   },
   "footnote_definitions": {
     "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `nightly-dev`.",
@@ -2000,16 +2000,17 @@
       }
     },
     {
-      "name": "Honda Accord Hybrid 2023-25",
+      "name": "Honda Accord Hybrid 2023-26",
       "make": "Honda",
       "model": "Accord Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2023-25",
+      "years": "2023-26",
       "year_list": [
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
@@ -6320,32 +6321,6 @@
       }
     },
     {
-      "name": "Rivian R1S 2025",
-      "make": "Rivian",
-      "model": "R1S",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2025",
-      "year_list": [
-        2025
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      }
-    },
-    {
       "name": "Rivian R1T 2022-24",
       "make": "Rivian",
       "model": "R1T",
@@ -6368,32 +6343,6 @@
       "auto_resume_available": true,
       "video": null,
       "setup_video": "https://youtu.be/uaISd1j7Z4U",
-      "footnotes": {
-        "make": [],
-        "model": []
-      }
-    },
-    {
-      "name": "Rivian R1T 2025",
-      "make": "Rivian",
-      "model": "R1T",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2025",
-      "year_list": [
-        2025
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
       "footnotes": {
         "make": [],
         "model": []
