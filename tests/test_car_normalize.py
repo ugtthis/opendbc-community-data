@@ -78,8 +78,8 @@ class CarNormalizeTest(unittest.TestCase):
   def test_build_output_can_omit_footnote_definitions(self):
     output = build_output(
       [{"name": "foo"}],
-      "wip",
-      "data/wip",
+      "WIP",
+      "data/WIP",
       {},
       generator="toml_to_json.py",
       include_footnote_definitions=False,

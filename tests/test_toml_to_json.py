@@ -10,9 +10,9 @@ class TomlToJsonTest(unittest.TestCase):
   def test_only_example_toml_is_ignored_and_emits_empty_output(self):
     with tempfile.TemporaryDirectory() as temp_dir:
       temp_path = Path(temp_dir)
-      wip_dir = temp_path / "wip"
+      wip_dir = temp_path / "WIP"
       wip_dir.mkdir()
-      output_path = temp_path / "wip.json"
+      output_path = temp_path / "WIP.json"
       (wip_dir / "example.toml").write_text(
         """
 [[cars]]
@@ -45,9 +45,9 @@ x_names = []
   def test_build_wip_json_smoke_test(self):
     with tempfile.TemporaryDirectory() as temp_dir:
       temp_path = Path(temp_dir)
-      wip_dir = temp_path / "wip"
+      wip_dir = temp_path / "WIP"
       wip_dir.mkdir()
-      output_path = temp_path / "wip.json"
+      output_path = temp_path / "WIP.json"
       (wip_dir / "hyundai.toml").write_text(
         """
 [[cars]]
@@ -90,9 +90,9 @@ x_names = []
   def test_make_mismatch_filename_is_rejected(self):
     with tempfile.TemporaryDirectory() as temp_dir:
       temp_path = Path(temp_dir)
-      wip_dir = temp_path / "wip"
+      wip_dir = temp_path / "WIP"
       wip_dir.mkdir()
-      output_path = temp_path / "wip.json"
+      output_path = temp_path / "WIP.json"
       (wip_dir / "toyota.toml").write_text(
         """
 [[cars]]
@@ -121,9 +121,9 @@ x_names = []
   def test_missing_required_fields_are_rejected(self):
     with tempfile.TemporaryDirectory() as temp_dir:
       temp_path = Path(temp_dir)
-      wip_dir = temp_path / "wip"
+      wip_dir = temp_path / "WIP"
       wip_dir.mkdir()
-      output_path = temp_path / "wip.json"
+      output_path = temp_path / "WIP.json"
       (wip_dir / "hyundai.toml").write_text(
         """
 [[cars]]
@@ -148,9 +148,9 @@ branch_desc = "Missing required hardware"
   def test_model_years_must_be_after_variant(self):
     with tempfile.TemporaryDirectory() as temp_dir:
       temp_path = Path(temp_dir)
-      wip_dir = temp_path / "wip"
+      wip_dir = temp_path / "WIP"
       wip_dir.mkdir()
-      output_path = temp_path / "wip.json"
+      output_path = temp_path / "WIP.json"
       (wip_dir / "tesla.toml").write_text(
         """
 [[cars]]
@@ -182,9 +182,9 @@ x_names = []
   def test_branch_url_na_uses_contributor_names_for_key(self):
     with tempfile.TemporaryDirectory() as temp_dir:
       temp_path = Path(temp_dir)
-      wip_dir = temp_path / "wip"
+      wip_dir = temp_path / "WIP"
       wip_dir.mkdir()
-      output_path = temp_path / "wip.json"
+      output_path = temp_path / "WIP.json"
       (wip_dir / "hyundai.toml").write_text(
         """
 [[cars]]
@@ -221,9 +221,9 @@ x_names = []
   def test_branch_url_non_github_and_non_na_is_rejected(self):
     with tempfile.TemporaryDirectory() as temp_dir:
       temp_path = Path(temp_dir)
-      wip_dir = temp_path / "wip"
+      wip_dir = temp_path / "WIP"
       wip_dir.mkdir()
-      output_path = temp_path / "wip.json"
+      output_path = temp_path / "WIP.json"
       (wip_dir / "hyundai.toml").write_text(
         """
 [[cars]]
@@ -255,9 +255,9 @@ x_names = []
   def test_branch_url_na_requires_branch_name_na(self):
     with tempfile.TemporaryDirectory() as temp_dir:
       temp_path = Path(temp_dir)
-      wip_dir = temp_path / "wip"
+      wip_dir = temp_path / "WIP"
       wip_dir.mkdir()
-      output_path = temp_path / "wip.json"
+      output_path = temp_path / "WIP.json"
       (wip_dir / "hyundai.toml").write_text(
         """
 [[cars]]
@@ -289,9 +289,9 @@ x_names = []
   def test_at_least_one_contributor_platform_is_required(self):
     with tempfile.TemporaryDirectory() as temp_dir:
       temp_path = Path(temp_dir)
-      wip_dir = temp_path / "wip"
+      wip_dir = temp_path / "WIP"
       wip_dir.mkdir()
-      output_path = temp_path / "wip.json"
+      output_path = temp_path / "WIP.json"
       (wip_dir / "hyundai.toml").write_text(
         """
 [[cars]]

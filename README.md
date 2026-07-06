@@ -12,7 +12,7 @@ Use it for two different kinds of data:
 ```text
 Do you have a full fork with docs/CARS.md?
   yes -> add it to [md_sources.json](md_sources.json)
-   no -> add a car entry under [data/wip/<make>.toml](data/wip/)
+   no -> add a car entry under [data/WIP/<make>.toml](data/WIP/)
 ```
 
 ## Add A Fork Source
@@ -80,12 +80,12 @@ Use this when support exists on a branch but is not represented by a full fork `
 Create or edit a make-specific TOML file:
 
 ```text
-data/wip/tesla.toml
-data/wip/hyundai.toml
-data/wip/toyota.toml
+data/WIP/tesla.toml
+data/WIP/hyundai.toml
+data/WIP/toyota.toml
 ```
 
-Directory: [data/wip/](data/wip/)
+Directory: [data/WIP/](data/WIP/)
 
 Each car is a `[[cars]]` entry:
 
@@ -131,7 +131,7 @@ Scripts used above:
 - [toml_to_json.py](toml_to_json.py)
 - [enrich_upstream_gaps.py](enrich_upstream_gaps.py)
 
-This creates or updates [data/wip.json](data/wip.json).
+This creates or updates [data/WIP.json](data/WIP.json).
 
 ## Upstream Gap Fields
 
@@ -170,7 +170,7 @@ python3 fetch_md_sources.py && python3 markdown_to_json.py && python3 toml_to_js
 ```text
 [Inputs]
   md_sources.json
-  data/wip/*.toml
+  data/WIP/*.toml
 
 [Pipeline]
   md_sources.json
@@ -179,9 +179,9 @@ python3 fetch_md_sources.py && python3 markdown_to_json.py && python3 toml_to_js
     -> markdown_to_json.py
     -> data/<fork>.json (openpilot.json, sunnypilot.json, ...)
 
-  data/wip/*.toml
+  data/WIP/*.toml
     -> toml_to_json.py
-    -> data/wip.json
+    -> data/WIP.json
 
 [Enrichment]
   data/openpilot.json + every other data/*.json
@@ -191,7 +191,7 @@ python3 fetch_md_sources.py && python3 markdown_to_json.py && python3 toml_to_js
 [Final Outputs]
   data/openpilot.json
   data/<fork>.json
-  data/wip.json
+  data/WIP.json
 ```
 
 The scheduled workflow in [update-data.yml](.github/workflows/update-data.yml) runs the same sequence:
