@@ -3,7 +3,7 @@
     "url": "https://github.com/firestar5683/StarPilot/blob/StarPilot/docs/CARS.md",
     "generator": "markdown_to_json.py",
     "source": "StarPilot",
-    "total": "325 cars"
+    "total": "326 cars"
   },
   "footnote_definitions": {
     "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `devel` or `nightly-dev`.",
@@ -2978,6 +2978,37 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Azera Hybrid (with HDA II & LFA2) 2025",
+      "make": "Hyundai",
+      "model": "Azera Hybrid",
+      "model_variant": "(with HDA II & LFA2)",
+      "model_variant_list": [
+        "with HDA II & LFA2"
+      ],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II & Lane Follow Assist 2",
+      "supported_package_list": [
+        "Highway Driving Assist II & Lane Follow Assist 2"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "Hyundai Custin 2023",
