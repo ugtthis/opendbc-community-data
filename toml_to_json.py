@@ -17,10 +17,10 @@ from car_normalize import (
 )
 
 BASE_DIR = Path(__file__).parent
-WIP_DIR = BASE_DIR / "data" / "wip"
-OUTPUT_PATH = BASE_DIR / "data" / "wip.json"
-SOURCE_NAME = "wip"
-SOURCE_URL = "data/wip"
+WIP_DIR = BASE_DIR / "data" / "WIP"
+OUTPUT_PATH = BASE_DIR / "data" / "WIP.json"
+SOURCE_NAME = "WIP"
+SOURCE_URL = "data/WIP"
 REQUIRED_TEXT_FIELDS = (
   "make",
   "model",
