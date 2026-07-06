@@ -1,48 +1,46 @@
 {
   "_metadata": {
-    "url": "https://github.com/firestar5683/StarPilot/blob/StarPilot/docs/CARS.md",
+    "url": "https://github.com/FrogAi/FrogPilot/blob/FrogPilot/docs/CARS.md",
     "generator": "markdown_to_json.py",
-    "source": "starpilot",
-    "total": "325 cars"
+    "source": "FrogPilot",
+    "total": "288 cars"
   },
   "footnote_definitions": {
-    "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `devel` or `nightly-dev`.",
-    "2": "Refers only to the Focus Mk4 (C519) available in Europe/China/Taiwan/Australasia, not the Focus Mk3 (C346) in North and South America/Southeast Asia.",
-    "3": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/gm\" target=\"_blank\">GM</a>.",
+    "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `devel` or `master-ci`.",
+    "2": "By default, this car will use the stock Adaptive Cruise Control (ACC) for longitudinal control. If the Driver Support Unit (DSU) is disconnected, openpilot ACC will replace stock ACC. <b><i>NOTE: disconnecting the DSU disables Automatic Emergency Braking (AEB).</i></b>",
+    "3": "Refers only to the Focus Mk4 (C519) available in Europe/China/Taiwan/Australasia, not the Focus Mk3 (C346) in North and South America/Southeast Asia.",
     "4": "2019 Honda Civic 1.6L Diesel Sedan does not have ALC below 12mph.",
-    "5": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/nissan\" target=\"_blank\">Nissan</a>.",
+    "5": "Requires a <a href=\"https://comma.ai/shop/can-fd-panda-kit\" target=\"_blank\">CAN FD panda kit</a> if not using comma 3X for this <a href=\"https://en.wikipedia.org/wiki/CAN_FD\" target=\"_blank\">CAN FD car</a>.",
     "6": "In the non-US market, openpilot requires the car to come equipped with EyeSight with Lane Keep Assistance.",
     "7": "Enabling longitudinal control (alpha) will disable all EyeSight functionality, including AEB, LDW, and RAB.",
-    "8": "Some 2023 model years have HW4. To check which hardware type your vehicle has, look for <b>Autopilot computer</b> under <b>Software -> Additional Vehicle Information</b> on your vehicle's touchscreen. See <a href=\"https://www.notateslaapp.com/news/2173/how-to-check-if-your-tesla-has-hardware-4-ai4-or-hardware-3\">this page</a> for more information.",
-    "9": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/tesla\" target=\"_blank\">Tesla</a>.",
-    "10": "openpilot operates above 28mph for Camry 4CYL L, 4CYL LE and 4CYL SE which don't have Full-Speed Range Dynamic Radar Cruise Control.",
-    "11": "Not including the China market Kamiq, which is based on the (currently) unsupported PQ34 platform.",
-    "12": "Refers only to the MQB-based European B8 Passat, not the NMS Passat in the USA/China/Mideast markets.",
-    "13": "Some Škoda vehicles are equipped with heated windshields, which are known to block GPS signal needed for some comma four functionality.",
-    "14": "Only available for vehicles using a gateway (J533) harness. At this time, vehicles using a camera harness are limited to using stock ACC.",
-    "15": "Model-years 2022 and beyond may have a combined CAN gateway and BCM, which is supported by openpilot in software, but doesn't yet have a harness available from the comma store."
+    "8": "openpilot operates above 28mph for Camry 4CYL L, 4CYL LE and 4CYL SE which don't have Full-Speed Range Dynamic Radar Cruise Control.",
+    "9": "Not including the China market Kamiq, which is based on the (currently) unsupported PQ34 platform.",
+    "10": "Refers only to the MQB-based European B8 Passat, not the NMS Passat in the USA/China/Mideast markets.",
+    "11": "Some Škoda vehicles are equipped with heated windshields, which are known to block GPS signal needed for some comma 3X functionality.",
+    "12": "Only available for vehicles using a gateway (J533) harness. At this time, vehicles using a camera harness are limited to using stock ACC.",
+    "13": "Model-years 2022 and beyond may have a combined CAN gateway and BCM, which is supported by openpilot in software, but doesn't yet have a harness available from the comma store."
   },
   "cars": [
     {
-      "name": "Acura ILX 2016-18",
+      "name": "Acura ILX 2016-19",
       "make": "Acura",
       "model": "ILX",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2016-18",
+      "years": "2016-19",
       "year_list": [
         2016,
         2017,
-        2018
+        2018,
+        2019
       ],
-      "hardware_needed": "comma four",
-      "supported_package": "Technology Plus Package or AcuraWatch Plus",
+      "hardware_needed": "comma 3X",
+      "supported_package": "AcuraWatch Plus",
       "supported_package_list": [
-        "Technology Plus Package",
         "AcuraWatch Plus"
       ],
       "acc": "openpilot",
-      "no_acc_below": "26 mph",
+      "no_acc_below": "25 mph",
       "no_alc_below": "25 mph",
       "auto_resume_available": false,
       "video": null,
@@ -51,61 +49,9 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Acura ILX 2019",
-      "make": "Acura",
-      "model": "ILX",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2019",
-      "year_list": [
+      "years_not_in_upstream": [
         2019
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot",
-      "no_acc_below": "26 mph",
-      "no_alc_below": "25 mph",
-      "auto_resume_available": false,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Acura MDX 2025",
-      "make": "Acura",
-      "model": "MDX",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2025",
-      "year_list": [
-        2025
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All except Type S",
-      "supported_package_list": [
-        "All except Type S"
-      ],
-      "acc": "Stock",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
+      ]
     },
     {
       "name": "Acura RDX 2016-18",
@@ -119,14 +65,13 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
-      "supported_package": "AcuraWatch Plus or Advance Package",
+      "hardware_needed": "comma 3X",
+      "supported_package": "AcuraWatch Plus",
       "supported_package_list": [
-        "AcuraWatch Plus",
-        "Advance Package"
+        "AcuraWatch Plus"
       ],
       "acc": "openpilot",
-      "no_acc_below": "26 mph",
+      "no_acc_below": "25 mph",
       "no_alc_below": "12 mph",
       "auto_resume_available": false,
       "video": null,
@@ -138,18 +83,19 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Acura RDX 2019-21",
+      "name": "Acura RDX 2019-22",
       "make": "Acura",
       "model": "RDX",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-21",
+      "years": "2019-22",
       "year_list": [
         2019,
         2020,
-        2021
+        2021,
+        2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -164,34 +110,9 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Acura TLX 2021",
-      "make": "Acura",
-      "model": "TLX",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2021",
-      "year_list": [
-        2021
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2022
+      ]
     },
     {
       "name": "Audi A3 2014-19",
@@ -208,7 +129,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -236,7 +157,7 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -263,7 +184,7 @@
       "year_list": [
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -281,21 +202,20 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Audi Q3 2019-24",
+      "name": "Audi Q3 2019-23",
       "make": "Audi",
       "model": "Q3",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-24",
+      "years": "2019-23",
       "year_list": [
         2019,
         2020,
         2021,
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -322,7 +242,7 @@
       "year_list": [
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -351,7 +271,7 @@
         2016,
         2017
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -379,11 +299,11 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
-      "supported_package": "Premier or Premier Redline Trim, without Super Cruise Package",
+      "hardware_needed": "comma 3X",
+      "supported_package": "Premier or Premier Redline Trim without Super Cruise Package",
       "supported_package_list": [
         "Premier",
-        "Premier Redline Trim, without Super Cruise Package"
+        "Premier Redline Trim without Super Cruise Package"
       ],
       "acc": "openpilot available",
       "no_acc_below": "3 mph",
@@ -395,7 +315,10 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2022,
+        2023
+      ]
     },
     {
       "name": "Chevrolet Bolt EV 2022-23",
@@ -408,7 +331,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "2LT Trim with Adaptive Cruise Control Package",
       "supported_package_list": [
         "2LT Trim with Adaptive Cruise Control Package"
@@ -438,7 +361,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC)"
@@ -466,7 +389,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Safety Package II",
       "supported_package_list": [
         "Safety Package II"
@@ -494,7 +417,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC)"
@@ -522,7 +445,7 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC)"
@@ -550,7 +473,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC)"
@@ -579,7 +502,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -597,17 +520,16 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Chrysler Pacifica Hybrid 2017-18",
+      "name": "Chrysler Pacifica Hybrid 2017",
       "make": "Chrysler",
       "model": "Pacifica Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2017-18",
+      "years": "2017",
       "year_list": [
-        2017,
-        2018
+        2017
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC)"
@@ -625,22 +547,47 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Chrysler Pacifica Hybrid 2019-25",
+      "name": "Chrysler Pacifica Hybrid 2018",
       "make": "Chrysler",
       "model": "Pacifica Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-25",
+      "years": "2018",
+      "year_list": [
+        2018
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "9 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
+      "name": "Chrysler Pacifica Hybrid 2019-23",
+      "make": "Chrysler",
+      "model": "Pacifica Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019-23",
       "year_list": [
         2019,
         2020,
         2021,
         2022,
-        2023,
-        2024,
-        2025
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC)"
@@ -674,7 +621,7 @@
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
-      "video": "https://youtu.be/VT-i3yRsX2s?t=2736",
+      "video": null,
       "setup_video": null,
       "footnotes": {
         "make": [],
@@ -697,7 +644,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -725,7 +672,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC)"
@@ -743,24 +690,23 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Ford Bronco Sport 2021-24",
+      "name": "Ford Bronco Sport 2021-23",
       "make": "Ford",
       "model": "Bronco Sport",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2021-24",
+      "years": "2021-23",
       "year_list": [
         2021,
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -784,35 +730,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
-      "supported_package": "Co-Pilot360 Assist+",
-      "supported_package_list": [
-        "Co-Pilot360 Assist+"
-      ],
-      "acc": "openpilot",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Ford Escape 2023-24",
-      "make": "Ford",
-      "model": "Escape",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2023-24",
-      "year_list": [
-        2023,
-        2024
-      ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "supported_package_list": [
         "Co-Pilot360 Assist+"
@@ -822,7 +740,7 @@
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
       "video": null,
-      "setup_video": "https://www.youtube.com/watch?v=uUGkH6C_EQU",
+      "setup_video": null,
       "footnotes": {
         "make": [],
         "model": []
@@ -841,35 +759,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
-      "supported_package": "Co-Pilot360 Assist+",
-      "supported_package_list": [
-        "Co-Pilot360 Assist+"
-      ],
-      "acc": "openpilot",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Ford Escape Hybrid 2023-24",
-      "make": "Ford",
-      "model": "Escape Hybrid",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2023-24",
-      "year_list": [
-        2023,
-        2024
-      ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "supported_package_list": [
         "Co-Pilot360 Assist+"
@@ -879,7 +769,7 @@
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
       "video": null,
-      "setup_video": "https://www.youtube.com/watch?v=uUGkH6C_EQU",
+      "setup_video": null,
       "footnotes": {
         "make": [],
         "model": []
@@ -898,12 +788,12 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -916,82 +806,24 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Ford Escape Plug-in Hybrid 2023-24",
-      "make": "Ford",
-      "model": "Escape Plug-in Hybrid",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2023-24",
-      "year_list": [
-        2023,
-        2024
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "Co-Pilot360 Assist+",
-      "supported_package_list": [
-        "Co-Pilot360 Assist+"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": "https://www.youtube.com/watch?v=uUGkH6C_EQU",
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Ford Expedition 2022-24",
-      "make": "Ford",
-      "model": "Expedition",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2022-24",
-      "year_list": [
-        2022,
-        2023,
-        2024
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "Co-Pilot360 Assist 2.0",
-      "supported_package_list": [
-        "Co-Pilot360 Assist 2.0"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": "https://www.youtube.com/watch?v=MewJc9LYp9M",
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Ford Explorer 2020-24",
+      "name": "Ford Explorer 2020-23",
       "make": "Ford",
       "model": "Explorer",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2020-24",
+      "years": "2020-23",
       "year_list": [
         2020,
         2021,
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1004,88 +836,29 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Ford Explorer Hybrid 2020-24",
+      "name": "Ford Explorer Hybrid 2020-23",
       "make": "Ford",
       "model": "Explorer Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2020-24",
+      "years": "2020-23",
       "year_list": [
         2020,
         2021,
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist+",
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
       "video": null,
       "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Ford F-150 2021-23",
-      "make": "Ford",
-      "model": "F-150",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2021-23",
-      "year_list": [
-        2021,
-        2022,
-        2023
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "Co-Pilot360 Assist 2.0",
-      "supported_package_list": [
-        "Co-Pilot360 Assist 2.0"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": "https://www.youtube.com/watch?v=MewJc9LYp9M",
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Ford F-150 Hybrid 2021-23",
-      "make": "Ford",
-      "model": "F-150 Hybrid",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2021-23",
-      "year_list": [
-        2021,
-        2022,
-        2023
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "Co-Pilot360 Assist 2.0",
-      "supported_package_list": [
-        "Co-Pilot360 Assist 2.0"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": "https://www.youtube.com/watch?v=MewJc9LYp9M",
       "footnotes": {
         "make": [],
         "model": []
@@ -1102,12 +875,12 @@
       "year_list": [
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1116,7 +889,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          2
+          3
         ]
       },
       "years_not_in_upstream": []
@@ -1131,12 +904,12 @@
       "year_list": [
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1145,92 +918,34 @@
       "footnotes": {
         "make": [],
         "model": [
-          2
+          3
         ]
       },
       "years_not_in_upstream": []
     },
     {
-      "name": "Ford Kuga 2020-23",
+      "name": "Ford Kuga 2020-22",
       "make": "Ford",
       "model": "Kuga",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2020-23",
+      "years": "2020-22",
       "year_list": [
         2020,
         2021,
-        2022,
-        2023
+        2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
-      ],
-      "acc": "openpilot",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Ford Kuga Hybrid 2020-23",
-      "make": "Ford",
-      "model": "Kuga Hybrid",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2020-23",
-      "year_list": [
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "Adaptive Cruise Control with Lane Centering",
-      "supported_package_list": [
-        "Adaptive Cruise Control with Lane Centering"
-      ],
-      "acc": "openpilot",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Ford Kuga Hybrid 2024",
-      "make": "Ford",
-      "model": "Kuga Hybrid",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2024",
-      "year_list": [
-        2024
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
       ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
       "video": null,
-      "setup_video": "https://www.youtube.com/watch?v=uUGkH6C_EQU",
+      "setup_video": null,
       "footnotes": {
         "make": [],
         "model": []
@@ -1238,24 +953,23 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Ford Kuga Plug-in Hybrid 2020-23",
+      "name": "Ford Kuga Hybrid 2020-22",
       "make": "Ford",
-      "model": "Kuga Plug-in Hybrid",
+      "model": "Kuga Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2020-23",
+      "years": "2020-22",
       "year_list": [
         2020,
         2021,
-        2022,
-        2023
+        2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1268,26 +982,28 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Ford Kuga Plug-in Hybrid 2024",
+      "name": "Ford Kuga Plug-in Hybrid 2020-22",
       "make": "Ford",
       "model": "Kuga Plug-in Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2024",
+      "years": "2020-22",
       "year_list": [
-        2024
+        2020,
+        2021,
+        2022
       ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
+      "hardware_needed": "comma 3X",
+      "supported_package": "Adaptive Cruise Control with Lane Centering",
       "supported_package_list": [
-        "All"
+        "Adaptive Cruise Control with Lane Centering"
       ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
       "video": null,
-      "setup_video": "https://www.youtube.com/watch?v=uUGkH6C_EQU",
+      "setup_video": null,
       "footnotes": {
         "make": [],
         "model": []
@@ -1304,12 +1020,12 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "LARIAT Luxury",
       "supported_package_list": [
         "LARIAT Luxury"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1332,12 +1048,12 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist",
       "supported_package_list": [
         "Co-Pilot360 Assist"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1359,12 +1075,12 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "LARIAT Luxury",
       "supported_package_list": [
         "LARIAT Luxury"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1387,74 +1103,17 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Assist",
       "supported_package_list": [
         "Co-Pilot360 Assist"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
       "video": null,
       "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Ford Mustang Mach-E 2021-24",
-      "make": "Ford",
-      "model": "Mustang Mach-E",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2021-24",
-      "year_list": [
-        2021,
-        2022,
-        2023,
-        2024
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": "https://www.youtube.com/watch?v=uUGkH6C_EQU",
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Ford Ranger 2024",
-      "make": "Ford",
-      "model": "Ranger",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2024",
-      "year_list": [
-        2024
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "Adaptive Cruise Control with Lane Centering",
-      "supported_package_list": [
-        "Adaptive Cruise Control with Lane Centering"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": "https://www.youtube.com/watch?v=uUGkH6C_EQU",
       "footnotes": {
         "make": [],
         "model": []
@@ -1471,7 +1130,7 @@
       "year_list": [
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -1500,7 +1159,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -1528,7 +1187,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -1555,7 +1214,7 @@
       "year_list": [
         2017
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -1583,42 +1242,12 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
       "acc": "Stock",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Genesis G80 (2.5T Advanced Trim, with HDA II) 2024",
-      "make": "Genesis",
-      "model": "G80",
-      "model_variant": "(2.5T Advanced Trim, with HDA II)",
-      "model_variant_list": [
-        "2.5T Advanced Trim",
-        "with HDA II"
-      ],
-      "years": "2024",
-      "year_list": [
-        2024
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "Highway Driving Assist II",
-      "supported_package_list": [
-        "Highway Driving Assist II"
-      ],
-      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1643,7 +1272,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -1672,7 +1301,7 @@
       "year_list": [
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -1685,24 +1314,25 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
     {
-      "name": "Genesis GV60 (Performance Trim) 2022-23",
+      "name": "Genesis GV60 (Performance Trim) 2023",
       "make": "Genesis",
       "model": "GV60",
       "model_variant": "(Performance Trim)",
       "model_variant_list": [
         "Performance Trim"
       ],
-      "years": "2022-23",
+      "years": "2023",
       "year_list": [
-        2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -1715,62 +1345,31 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
     {
-      "name": "Genesis GV70 (2.5T Trim, without HDA II) 2022-24",
+      "name": "Genesis GV70 (2.5T Trim) 2022-23",
       "make": "Genesis",
       "model": "GV70",
-      "model_variant": "(2.5T Trim, without HDA II)",
+      "model_variant": "(2.5T Trim)",
       "model_variant_list": [
-        "2.5T Trim",
-        "without HDA II"
-      ],
-      "years": "2022-24",
-      "year_list": [
-        2022,
-        2023,
-        2024
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Genesis GV70 (3.5T Trim, without HDA II) 2022-23",
-      "make": "Genesis",
-      "model": "GV70",
-      "model_variant": "(3.5T Trim, without HDA II)",
-      "model_variant_list": [
-        "3.5T Trim",
-        "without HDA II"
+        "2.5T Trim"
       ],
       "years": "2022-23",
       "year_list": [
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1778,28 +1377,34 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2022,
+        2023
+      ]
     },
     {
-      "name": "Genesis GV70 Electrified (Australia Only) 2022",
+      "name": "Genesis GV70 (3.5T Trim) 2022-23",
       "make": "Genesis",
-      "model": "GV70 Electrified",
-      "model_variant": "(Australia Only)",
+      "model": "GV70",
+      "model_variant": "(3.5T Trim)",
       "model_variant_list": [
-        "Australia Only"
+        "3.5T Trim"
       ],
-      "years": "2022",
+      "years": "2022-23",
       "year_list": [
-        2022
+        2022,
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1807,39 +1412,14 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Genesis GV70 Electrified (with HDA II) 2023-24",
-      "make": "Genesis",
-      "model": "GV70 Electrified",
-      "model_variant": "(with HDA II)",
-      "model_variant_list": [
-        "with HDA II"
-      ],
-      "years": "2023-24",
-      "year_list": [
-        2023,
-        2024
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "Highway Driving Assist II",
-      "supported_package_list": [
-        "Highway Driving Assist II"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2022,
+        2023
+      ]
     },
     {
       "name": "Genesis GV80 2023",
@@ -1851,12 +1431,12 @@
       "year_list": [
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1864,7 +1444,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -1879,7 +1461,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Driver Alert Package II",
       "supported_package_list": [
         "Driver Alert Package II"
@@ -1910,7 +1492,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -1920,35 +1502,6 @@
       "no_alc_below": "3 mph",
       "auto_resume_available": true,
       "video": "https://www.youtube.com/watch?v=mrUwlj3Mi58",
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda Accord 2023-25",
-      "make": "Honda",
-      "model": "Accord",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2023-25",
-      "year_list": [
-        2023,
-        2024,
-        2025
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "Stock",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
       "setup_video": null,
       "footnotes": {
         "make": [],
@@ -1970,7 +1523,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -1978,64 +1531,6 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "3 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda Accord Hybrid 2023-25",
-      "make": "Honda",
-      "model": "Accord Hybrid",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2023-25",
-      "year_list": [
-        2023,
-        2024,
-        2025
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "Stock",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda City (Brazil only) 2023",
-      "make": "Honda",
-      "model": "City",
-      "model_variant": "(Brazil only)",
-      "model_variant_list": [
-        "Brazil only"
-      ],
-      "years": "2023",
-      "year_list": [
-        2023
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "14 mph",
       "auto_resume_available": true,
       "video": null,
       "setup_video": null,
@@ -2057,7 +1552,7 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "supported_package_list": [
         "Honda Sensing"
@@ -2086,7 +1581,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -2104,18 +1599,17 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda Civic 2022-24",
+      "name": "Honda Civic 2022-23",
       "make": "Honda",
       "model": "Civic",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2022-24",
+      "years": "2022-23",
       "year_list": [
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -2133,17 +1627,20 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda Civic Hatchback 2017-18",
+      "name": "Honda Civic Hatchback 2017-21",
       "make": "Honda",
       "model": "Civic Hatchback",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2017-18",
+      "years": "2017-21",
       "year_list": [
         2017,
-        2018
+        2018,
+        2019,
+        2020,
+        2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "supported_package_list": [
         "Honda Sensing"
@@ -2158,50 +1655,24 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda Civic Hatchback 2019-21",
-      "make": "Honda",
-      "model": "Civic Hatchback",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2019-21",
-      "year_list": [
+      "years_not_in_upstream": [
         2019,
         2020,
         2021
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "12 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
+      ]
     },
     {
-      "name": "Honda Civic Hatchback 2022-24",
+      "name": "Honda Civic Hatchback 2022-23",
       "make": "Honda",
       "model": "Civic Hatchback",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2022-24",
+      "years": "2022-23",
       "year_list": [
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -2211,91 +1682,6 @@
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
       "video": "https://youtu.be/ytiOT5lcp6Q",
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda Civic Hatchback Hybrid 2025-26",
-      "make": "Honda",
-      "model": "Civic Hatchback Hybrid",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2025-26",
-      "year_list": [
-        2025,
-        2026
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda Civic Hatchback Hybrid (Europe only) 2023",
-      "make": "Honda",
-      "model": "Civic Hatchback Hybrid",
-      "model_variant": "(Europe only)",
-      "model_variant_list": [
-        "Europe only"
-      ],
-      "years": "2023",
-      "year_list": [
-        2023
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda Civic Hybrid 2025-26",
-      "make": "Honda",
-      "model": "Civic Hybrid",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2025-26",
-      "year_list": [
-        2025,
-        2026
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
       "setup_video": null,
       "footnotes": {
         "make": [],
@@ -2314,13 +1700,13 @@
         2015,
         2016
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Touring Trim",
       "supported_package_list": [
         "Touring Trim"
       ],
       "acc": "openpilot",
-      "no_acc_below": "26 mph",
+      "no_acc_below": "25 mph",
       "no_alc_below": "12 mph",
       "auto_resume_available": false,
       "video": null,
@@ -2346,69 +1732,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
-      "supported_package": "Honda Sensing",
-      "supported_package_list": [
-        "Honda Sensing"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "15 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda CR-V 2023-26",
-      "make": "Honda",
-      "model": "CR-V",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2023-26",
-      "year_list": [
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "Stock",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda CR-V Hybrid 2017-22",
-      "make": "Honda",
-      "model": "CR-V Hybrid",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2017-22",
-      "year_list": [
-        2017,
-        2018,
-        2019,
-        2020,
-        2021,
-        2022
-      ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "supported_package_list": [
         "Honda Sensing"
@@ -2426,25 +1750,27 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda CR-V Hybrid 2023-25",
+      "name": "Honda CR-V Hybrid 2017-21",
       "make": "Honda",
       "model": "CR-V Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2023-25",
+      "years": "2017-21",
       "year_list": [
-        2023,
-        2024,
-        2025
+        2017,
+        2018,
+        2019,
+        2020,
+        2021
       ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
+      "hardware_needed": "comma 3X",
+      "supported_package": "Honda Sensing",
       "supported_package_list": [
-        "All"
+        "Honda Sensing"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
+      "no_alc_below": "12 mph",
       "auto_resume_available": true,
       "video": null,
       "setup_video": null,
@@ -2464,7 +1790,7 @@
       "year_list": [
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -2493,13 +1819,13 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "supported_package_list": [
         "Honda Sensing"
       ],
       "acc": "openpilot",
-      "no_acc_below": "26 mph",
+      "no_acc_below": "25 mph",
       "no_alc_below": "12 mph",
       "auto_resume_available": false,
       "video": null,
@@ -2520,13 +1846,13 @@
       "year_list": [
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "supported_package_list": [
         "Honda Sensing"
       ],
       "acc": "openpilot",
-      "no_acc_below": "26 mph",
+      "no_acc_below": "25 mph",
       "no_alc_below": "12 mph",
       "auto_resume_available": false,
       "video": null,
@@ -2550,13 +1876,13 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "supported_package_list": [
         "Honda Sensing"
       ],
       "acc": "openpilot",
-      "no_acc_below": "26 mph",
+      "no_acc_below": "25 mph",
       "no_alc_below": "12 mph",
       "auto_resume_available": false,
       "video": null,
@@ -2568,18 +1894,16 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda HR-V 2023-25",
+      "name": "Honda HR-V 2023",
       "make": "Honda",
       "model": "HR-V",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2023-25",
+      "years": "2023",
       "year_list": [
-        2023,
-        2024,
-        2025
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -2609,7 +1933,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -2636,7 +1960,7 @@
       "year_list": [
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -2644,33 +1968,6 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "3 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda N-Box 2018",
-      "make": "Honda",
-      "model": "N-Box",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2018",
-      "year_list": [
-        2018
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "11 mph",
       "auto_resume_available": true,
       "video": null,
       "setup_video": null,
@@ -2692,13 +1989,13 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "supported_package_list": [
         "Honda Sensing"
       ],
       "acc": "openpilot",
-      "no_acc_below": "26 mph",
+      "no_acc_below": "25 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
       "video": null,
@@ -2710,89 +2007,28 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda Odyssey 2021-26",
-      "make": "Honda",
-      "model": "Odyssey",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2021-26",
-      "year_list": [
-        2021,
-        2022,
-        2023,
-        2024,
-        2025,
-        2026
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "43 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda Passport 2019-25",
+      "name": "Honda Passport 2019-23",
       "make": "Honda",
       "model": "Passport",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-25",
+      "years": "2019-23",
       "year_list": [
         2019,
         2020,
         2021,
         2022,
-        2023,
-        2024,
-        2025
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
       "acc": "openpilot",
-      "no_acc_below": "26 mph",
+      "no_acc_below": "25 mph",
       "no_alc_below": "12 mph",
       "auto_resume_available": false,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda Passport 2026",
-      "make": "Honda",
-      "model": "Passport",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2026",
-      "year_list": [
-        2026
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "Stock",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -2817,13 +2053,13 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "supported_package_list": [
         "Honda Sensing"
       ],
       "acc": "openpilot",
-      "no_acc_below": "26 mph",
+      "no_acc_below": "25 mph",
       "no_alc_below": "12 mph",
       "auto_resume_available": false,
       "video": null,
@@ -2835,41 +2071,12 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda Pilot 2023-25",
-      "make": "Honda",
-      "model": "Pilot",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2023-25",
-      "year_list": [
-        2023,
-        2024,
-        2025
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "Stock",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Honda Ridgeline 2017-25",
+      "name": "Honda Ridgeline 2017-24",
       "make": "Honda",
       "model": "Ridgeline",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2017-25",
+      "years": "2017-24",
       "year_list": [
         2017,
         2018,
@@ -2878,16 +2085,15 @@
         2021,
         2022,
         2023,
-        2024,
-        2025
+        2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Honda Sensing",
       "supported_package_list": [
         "Honda Sensing"
       ],
       "acc": "openpilot",
-      "no_acc_below": "26 mph",
+      "no_acc_below": "25 mph",
       "no_alc_below": "12 mph",
       "auto_resume_available": false,
       "video": null,
@@ -2908,7 +2114,7 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -2935,7 +2141,7 @@
       "year_list": [
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -2962,7 +2168,7 @@
       "year_list": [
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -2989,7 +2195,7 @@
       "year_list": [
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3017,7 +2223,7 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3044,7 +2250,7 @@
       "year_list": [
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3073,7 +2279,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3091,19 +2297,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Hyundai Elantra GT 2017-20",
+      "name": "Hyundai Elantra GT 2017-19",
       "make": "Hyundai",
       "model": "Elantra GT",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2017-20",
+      "years": "2017-19",
       "year_list": [
         2017,
         2018,
-        2019,
-        2020
+        2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3132,7 +2337,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3160,7 +2365,7 @@
         2015,
         2016
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3189,7 +2394,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3207,21 +2412,19 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Hyundai Ioniq 5 (Southeast Asia and Europe only) 2022-24",
+      "name": "Hyundai Ioniq 5 (Southeast Asia only) 2022-23",
       "make": "Hyundai",
       "model": "Ioniq 5",
-      "model_variant": "(Southeast Asia and Europe only)",
+      "model_variant": "(Southeast Asia only)",
       "model_variant_list": [
-        "Southeast Asia only",
-        "Europe only"
+        "Southeast Asia only"
       ],
-      "years": "2022-24",
+      "years": "2022-23",
       "year_list": [
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3234,25 +2437,26 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
     {
-      "name": "Hyundai Ioniq 5 (with HDA II) 2022-24",
+      "name": "Hyundai Ioniq 5 (with HDA II) 2022-23",
       "make": "Hyundai",
       "model": "Ioniq 5",
       "model_variant": "(with HDA II)",
       "model_variant_list": [
         "with HDA II"
       ],
-      "years": "2022-24",
+      "years": "2022-23",
       "year_list": [
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist II",
       "supported_package_list": [
         "Highway Driving Assist II"
@@ -3265,25 +2469,26 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
     {
-      "name": "Hyundai Ioniq 5 (without HDA II) 2022-24",
+      "name": "Hyundai Ioniq 5 (without HDA II) 2022-23",
       "make": "Hyundai",
       "model": "Ioniq 5",
       "model_variant": "(without HDA II)",
       "model_variant_list": [
         "without HDA II"
       ],
-      "years": "2022-24",
+      "years": "2022-23",
       "year_list": [
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist",
       "supported_package_list": [
         "Highway Driving Assist"
@@ -3296,7 +2501,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -3313,7 +2520,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist II",
       "supported_package_list": [
         "Highway Driving Assist II"
@@ -3326,7 +2533,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -3340,7 +2549,7 @@
       "year_list": [
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3367,7 +2576,7 @@
       "year_list": [
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3396,7 +2605,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3425,7 +2634,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3452,7 +2661,7 @@
       "year_list": [
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3481,7 +2690,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3508,7 +2717,7 @@
       "year_list": [
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3538,7 +2747,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3566,12 +2775,12 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3596,7 +2805,7 @@
       "year_list": [
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3609,7 +2818,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -3623,37 +2834,10 @@
       "year_list": [
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Hyundai Nexo 2021",
-      "make": "Hyundai",
-      "model": "Nexo",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2021",
-      "year_list": [
-        2021
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
       ],
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
@@ -3679,7 +2863,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3708,7 +2892,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3721,7 +2905,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -3736,7 +2922,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3765,7 +2951,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3793,7 +2979,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3821,7 +3007,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3849,7 +3035,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3879,7 +3065,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3909,7 +3095,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3936,7 +3122,7 @@
       "year_list": [
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -3949,7 +3135,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -3963,7 +3151,7 @@
       "year_list": [
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -3990,7 +3178,7 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4003,7 +3191,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -4018,7 +3208,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -4031,7 +3221,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -4045,7 +3237,7 @@
       "year_list": [
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4074,7 +3266,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -4087,7 +3279,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -4101,7 +3295,7 @@
       "year_list": [
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -4114,7 +3308,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -4129,7 +3325,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4158,7 +3354,7 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC)"
@@ -4187,7 +3383,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC)"
@@ -4216,12 +3412,12 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -4229,7 +3425,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -4245,12 +3443,12 @@
       "year_list": [
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -4258,23 +3456,23 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
     {
-      "name": "Kia Ceed 2019-21",
+      "name": "Kia Ceed 2019",
       "make": "Kia",
       "model": "Ceed",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-21",
+      "years": "2019",
       "year_list": [
-        2019,
-        2020,
-        2021
+        2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4305,7 +3503,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -4318,7 +3516,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -4336,7 +3536,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist II",
       "supported_package_list": [
         "Highway Driving Assist II"
@@ -4349,7 +3549,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -4367,7 +3569,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist",
       "supported_package_list": [
         "Highway Driving Assist"
@@ -4380,7 +3582,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -4396,7 +3600,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4424,7 +3628,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4454,7 +3658,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4483,7 +3687,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4512,7 +3716,7 @@
       "year_list": [
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist II",
       "supported_package_list": [
         "Highway Driving Assist II"
@@ -4525,7 +3729,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -4539,7 +3745,7 @@
       "year_list": [
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -4566,7 +3772,7 @@
       "year_list": [
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -4593,7 +3799,7 @@
       "year_list": [
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -4620,7 +3826,7 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -4638,49 +3844,16 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Kia Niro EV (with HDA II) 2025",
+      "name": "Kia Niro EV 2023",
       "make": "Kia",
       "model": "Niro EV",
-      "model_variant": "(with HDA II)",
-      "model_variant_list": [
-        "with HDA II"
-      ],
-      "years": "2025",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023",
       "year_list": [
-        2025
+        2023
       ],
-      "hardware_needed": "comma four",
-      "supported_package": "Highway Driving Assist II",
-      "supported_package_list": [
-        "Highway Driving Assist II"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Kia Niro EV (without HDA II) 2023-25",
-      "make": "Kia",
-      "model": "Niro EV",
-      "model_variant": "(without HDA II)",
-      "model_variant_list": [
-        "without HDA II"
-      ],
-      "years": "2023-25",
-      "year_list": [
-        2023,
-        2024,
-        2025
-      ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -4693,9 +3866,13 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2023
+      ]
     },
     {
       "name": "Kia Niro Hybrid 2018",
@@ -4707,10 +3884,10 @@
       "year_list": [
         2018
       ],
-      "hardware_needed": "comma four",
-      "supported_package": "Smart Cruise Control (SCC)",
+      "hardware_needed": "comma 3X",
+      "supported_package": "All",
       "supported_package_list": [
-        "Smart Cruise Control (SCC)"
+        "All"
       ],
       "acc": "Stock",
       "no_acc_below": "10 mph",
@@ -4722,7 +3899,9 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2018
+      ]
     },
     {
       "name": "Kia Niro Hybrid 2021",
@@ -4734,7 +3913,7 @@
       "year_list": [
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4761,7 +3940,7 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4788,7 +3967,7 @@
       "year_list": [
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4801,7 +3980,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -4816,7 +3997,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -4843,7 +4024,7 @@
       "year_list": [
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4870,7 +4051,7 @@
       "year_list": [
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4897,7 +4078,7 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4924,7 +4105,7 @@
       "year_list": [
         2017
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Advanced Smart Cruise Control",
       "supported_package_list": [
         "Advanced Smart Cruise Control"
@@ -4952,7 +4133,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -4979,7 +4160,7 @@
       "year_list": [
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -5006,7 +4187,7 @@
       "year_list": [
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -5033,7 +4214,7 @@
       "year_list": [
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Advanced Smart Cruise Control & LKAS",
       "supported_package_list": [
         "Advanced Smart Cruise Control & LKAS"
@@ -5060,7 +4241,7 @@
       "year_list": [
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -5089,12 +4270,12 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -5102,7 +4283,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -5118,12 +4301,12 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -5131,7 +4314,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -5146,12 +4331,12 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -5159,7 +4344,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -5174,7 +4361,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -5187,7 +4374,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -5201,7 +4390,7 @@
       "year_list": [
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -5214,7 +4403,9 @@
       "setup_video": null,
       "footnotes": {
         "make": [],
-        "model": []
+        "model": [
+          5
+        ]
       },
       "years_not_in_upstream": []
     },
@@ -5230,7 +4421,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Smart Cruise Control (SCC)",
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
@@ -5258,7 +4449,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5287,7 +4478,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5315,12 +4506,12 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Lexus Safety System+",
       "supported_package_list": [
         "Lexus Safety System+"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -5343,12 +4534,12 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -5361,22 +4552,21 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Lexus ES 2019-25",
+      "name": "Lexus ES 2019-24",
       "make": "Lexus",
       "model": "ES",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-25",
+      "years": "2019-24",
       "year_list": [
         2019,
         2020,
         2021,
         2022,
         2023,
-        2024,
-        2025
+        2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5404,12 +4594,12 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -5422,22 +4612,21 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Lexus ES Hybrid 2019-25",
+      "name": "Lexus ES Hybrid 2019-24",
       "make": "Lexus",
       "model": "ES Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-25",
+      "years": "2019-24",
       "year_list": [
         2019,
         2020,
         2021,
         2022,
         2023,
-        2024,
-        2025
+        2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5464,7 +4653,7 @@
       "year_list": [
         2016
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5493,7 +4682,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5511,18 +4700,17 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Lexus IS 2022-24",
+      "name": "Lexus IS 2022-23",
       "make": "Lexus",
       "model": "IS",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2022-24",
+      "years": "2022-23",
       "year_list": [
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5540,17 +4728,16 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Lexus LC 2024-25",
+      "name": "Lexus LC 2024",
       "make": "Lexus",
       "model": "LC",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2024-25",
+      "years": "2024",
       "year_list": [
-        2024,
-        2025
+        2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5578,12 +4765,12 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -5606,7 +4793,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5634,12 +4821,12 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -5662,7 +4849,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5691,7 +4878,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5700,33 +4887,6 @@
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Lexus RC 2023",
-      "make": "Lexus",
-      "model": "RC",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2023",
-      "year_list": [
-        2023
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -5745,12 +4905,12 @@
       "year_list": [
         2016
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Lexus Safety System+",
       "supported_package_list": [
         "Lexus Safety System+"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -5774,12 +4934,12 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -5803,7 +4963,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5830,12 +4990,12 @@
       "year_list": [
         2016
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Lexus Safety System+",
       "supported_package_list": [
         "Lexus Safety System+"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -5859,12 +5019,12 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -5888,7 +5048,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5906,21 +5066,20 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Lexus UX Hybrid 2019-24",
+      "name": "Lexus UX Hybrid 2019-23",
       "make": "Lexus",
       "model": "UX Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-24",
+      "years": "2019-23",
       "year_list": [
         2019,
         2020,
         2021,
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -5938,25 +5097,24 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Lincoln Aviator 2020-24",
+      "name": "Lincoln Aviator 2020-23",
       "make": "Lincoln",
       "model": "Aviator",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2020-24",
+      "years": "2020-23",
       "year_list": [
         2020,
         2021,
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Plus",
       "supported_package_list": [
         "Co-Pilot360 Plus"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -5969,25 +5127,24 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Lincoln Aviator Plug-in Hybrid 2020-24",
+      "name": "Lincoln Aviator Plug-in Hybrid 2020-23",
       "make": "Lincoln",
       "model": "Aviator Plug-in Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2020-24",
+      "years": "2020-23",
       "year_list": [
         2020,
         2021,
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Co-Pilot360 Plus",
       "supported_package_list": [
         "Co-Pilot360 Plus"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -6013,7 +5170,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6047,7 +5204,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6065,19 +5222,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Mazda CX-5 2022-25",
+      "name": "Mazda CX-5 2022-24",
       "make": "Mazda",
       "model": "CX-5",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2022-25",
+      "years": "2022-24",
       "year_list": [
         2022,
         2023,
-        2024,
-        2025
+        2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -6106,7 +5262,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -6124,18 +5280,17 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Nissan Altima 2019-20, 2024",
+      "name": "Nissan Altima 2019-20",
       "make": "Nissan",
       "model": "Altima",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-20, 2024",
+      "years": "2019-20",
       "year_list": [
         2019,
-        2020,
-        2024
+        2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "ProPILOT Assist",
       "supported_package_list": [
         "ProPILOT Assist"
@@ -6147,9 +5302,7 @@
       "video": null,
       "setup_video": null,
       "footnotes": {
-        "make": [
-          5
-        ],
+        "make": [],
         "model": []
       },
       "years_not_in_upstream": []
@@ -6169,7 +5322,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "ProPILOT Assist",
       "supported_package_list": [
         "ProPILOT Assist"
@@ -6181,9 +5334,7 @@
       "video": "https://youtu.be/vaMbtAh_0cY",
       "setup_video": null,
       "footnotes": {
-        "make": [
-          5
-        ],
+        "make": [],
         "model": []
       },
       "years_not_in_upstream": []
@@ -6200,7 +5351,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "ProPILOT Assist",
       "supported_package_list": [
         "ProPILOT Assist"
@@ -6212,9 +5363,7 @@
       "video": null,
       "setup_video": null,
       "footnotes": {
-        "make": [
-          5
-        ],
+        "make": [],
         "model": []
       },
       "years_not_in_upstream": []
@@ -6229,7 +5378,7 @@
       "year_list": [
         2017
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "ProPILOT Assist",
       "supported_package_list": [
         "ProPILOT Assist"
@@ -6241,9 +5390,7 @@
       "video": null,
       "setup_video": null,
       "footnotes": {
-        "make": [
-          5
-        ],
+        "make": [],
         "model": []
       },
       "years_not_in_upstream": []
@@ -6263,7 +5410,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC)"
@@ -6274,64 +5421,6 @@
       "auto_resume_available": true,
       "video": null,
       "setup_video": null,
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Rivian R1S 2022-24",
-      "make": "Rivian",
-      "model": "R1S",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2022-24",
-      "year_list": [
-        2022,
-        2023,
-        2024
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": "https://youtu.be/uaISd1j7Z4U",
-      "footnotes": {
-        "make": [],
-        "model": []
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Rivian R1T 2022-24",
-      "make": "Rivian",
-      "model": "R1T",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2022-24",
-      "year_list": [
-        2022,
-        2023,
-        2024
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": "https://youtu.be/uaISd1j7Z4U",
       "footnotes": {
         "make": [],
         "model": []
@@ -6355,7 +5444,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6388,7 +5477,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6417,7 +5506,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -6445,7 +5534,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "supported_package_list": [
         "EyeSight Driver Assistance"
@@ -6475,7 +5564,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "supported_package_list": [
         "EyeSight Driver Assistance"
@@ -6504,7 +5593,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -6533,7 +5622,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "supported_package_list": [
         "EyeSight Driver Assistance"
@@ -6562,7 +5651,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "supported_package_list": [
         "EyeSight Driver Assistance"
@@ -6591,7 +5680,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -6620,7 +5709,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -6648,7 +5737,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "supported_package_list": [
         "EyeSight Driver Assistance"
@@ -6676,7 +5765,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "EyeSight Driver Assistance",
       "supported_package_list": [
         "EyeSight Driver Assistance"
@@ -6704,7 +5793,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6718,7 +5807,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          11
         ]
       },
       "years_not_in_upstream": []
@@ -6735,7 +5824,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6749,8 +5838,8 @@
       "footnotes": {
         "make": [],
         "model": [
-          11,
-          13
+          9,
+          11
         ]
       },
       "years_not_in_upstream": []
@@ -6769,7 +5858,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6783,7 +5872,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          11
         ]
       },
       "years_not_in_upstream": []
@@ -6804,7 +5893,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6818,7 +5907,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          11
         ]
       },
       "years_not_in_upstream": []
@@ -6837,7 +5926,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6851,7 +5940,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          11
         ]
       },
       "years_not_in_upstream": []
@@ -6866,7 +5955,7 @@
       "year_list": [
         2016
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6880,7 +5969,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          11
         ]
       },
       "years_not_in_upstream": []
@@ -6897,7 +5986,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6911,7 +6000,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          11
         ]
       },
       "years_not_in_upstream": []
@@ -6929,7 +6018,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6943,7 +6032,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          11
         ]
       },
       "years_not_in_upstream": []
@@ -6965,7 +6054,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -6979,148 +6068,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
-        ]
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Tesla Model 3 (with HW3) 2019-23",
-      "make": "Tesla",
-      "model": "Model 3",
-      "model_variant": "(with HW3)",
-      "model_variant_list": [
-        "with HW3"
-      ],
-      "years": "2019-23",
-      "year_list": [
-        2019,
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [
-          9
-        ],
-        "model": [
-          8
-        ]
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Tesla Model 3 (with HW4) 2024-25",
-      "make": "Tesla",
-      "model": "Model 3",
-      "model_variant": "(with HW4)",
-      "model_variant_list": [
-        "with HW4"
-      ],
-      "years": "2024-25",
-      "year_list": [
-        2024,
-        2025
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [
-          9
-        ],
-        "model": [
-          8
-        ]
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Tesla Model Y (with HW3) 2020-23",
-      "make": "Tesla",
-      "model": "Model Y",
-      "model_variant": "(with HW3)",
-      "model_variant_list": [
-        "with HW3"
-      ],
-      "years": "2020-23",
-      "year_list": [
-        2020,
-        2021,
-        2022,
-        2023
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [
-          9
-        ],
-        "model": [
-          8
-        ]
-      },
-      "years_not_in_upstream": []
-    },
-    {
-      "name": "Tesla Model Y (with HW4) 2024-25",
-      "make": "Tesla",
-      "model": "Model Y",
-      "model_variant": "(with HW4)",
-      "model_variant_list": [
-        "with HW4"
-      ],
-      "years": "2024-25",
-      "year_list": [
-        2024,
-        2025
-      ],
-      "hardware_needed": "comma four",
-      "supported_package": "All",
-      "supported_package_list": [
-        "All"
-      ],
-      "acc": "openpilot available",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "0 mph",
-      "auto_resume_available": true,
-      "video": null,
-      "setup_video": null,
-      "footnotes": {
-        "make": [
-          9
-        ],
-        "model": [
-          8
+          11
         ]
       },
       "years_not_in_upstream": []
@@ -7136,7 +6084,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7163,7 +6111,7 @@
       "year_list": [
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7190,12 +6138,12 @@
       "year_list": [
         2016
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Toyota Safety Sense P",
       "supported_package_list": [
         "Toyota Safety Sense P"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -7218,12 +6166,12 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -7247,12 +6195,12 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -7274,7 +6222,7 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7303,12 +6251,12 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -7330,7 +6278,7 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7360,7 +6308,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7387,7 +6335,7 @@
       "year_list": [
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7417,7 +6365,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7445,7 +6393,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7474,7 +6422,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7504,7 +6452,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7533,7 +6481,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7563,7 +6511,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7592,12 +6540,12 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -7621,7 +6569,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7653,7 +6601,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7684,7 +6632,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7714,7 +6662,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7743,7 +6691,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7775,7 +6723,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7804,12 +6752,12 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -7834,7 +6782,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7863,12 +6811,12 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -7893,7 +6841,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7920,7 +6868,7 @@
       "year_list": [
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -7947,12 +6895,12 @@
       "year_list": [
         2016
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Toyota Safety Sense P",
       "supported_package_list": [
         "Toyota Safety Sense P"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -7977,12 +6925,12 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -8005,7 +6953,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -8035,12 +6983,12 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -8063,7 +7011,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -8090,12 +7038,12 @@
       "year_list": [
         2017
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Toyota Safety Sense P",
       "supported_package_list": [
         "Toyota Safety Sense P"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -8117,12 +7065,12 @@
       "year_list": [
         2016
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Toyota Safety Sense P",
       "supported_package_list": [
         "Toyota Safety Sense P"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -8145,12 +7093,12 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -8174,7 +7122,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -8201,7 +7149,7 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -8219,18 +7167,17 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Toyota RAV4 2023-25",
+      "name": "Toyota RAV4 2023-24",
       "make": "Toyota",
       "model": "RAV4",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2023-25",
+      "years": "2023-24",
       "year_list": [
         2023,
-        2024,
-        2025
+        2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -8257,12 +7204,12 @@
       "year_list": [
         2016
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Toyota Safety Sense P",
       "supported_package_list": [
         "Toyota Safety Sense P"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -8285,12 +7232,12 @@
         2017,
         2018
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -8314,7 +7261,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -8341,7 +7288,7 @@
       "year_list": [
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -8359,18 +7306,17 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Toyota RAV4 Hybrid 2023-25",
+      "name": "Toyota RAV4 Hybrid 2023-24",
       "make": "Toyota",
       "model": "RAV4 Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2023-25",
+      "years": "2023-24",
       "year_list": [
         2023,
-        2024,
-        2025
+        2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
@@ -8379,7 +7325,7 @@
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
-      "video": "https://youtu.be/4eIsEq4L4Ng",
+      "video": null,
       "setup_video": null,
       "footnotes": {
         "make": [],
@@ -8399,12 +7345,12 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "All",
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "19 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -8431,7 +7377,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8461,7 +7407,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8491,7 +7437,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8521,7 +7467,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8553,7 +7499,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8582,7 +7528,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8611,7 +7557,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8638,7 +7584,7 @@
       "year_list": [
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8669,7 +7615,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8703,7 +7649,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8736,7 +7682,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8769,7 +7715,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8801,7 +7747,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8832,7 +7778,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8864,7 +7810,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8896,7 +7842,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8929,7 +7875,7 @@
         2020,
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8960,7 +7906,7 @@
         2018,
         2019
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -8992,7 +7938,7 @@
         2019,
         2020
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9024,7 +7970,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9042,21 +7988,22 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Volkswagen Jetta 2018-23",
+      "name": "Volkswagen Jetta 2018-24",
       "make": "Volkswagen",
       "model": "Jetta",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2018-23",
+      "years": "2018-24",
       "year_list": [
         2018,
         2019,
         2020,
         2021,
         2022,
-        2023
+        2023,
+        2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9072,22 +8019,24 @@
         "model": []
       },
       "years_not_in_upstream": [
-        2018
+        2018,
+        2024
       ]
     },
     {
-      "name": "Volkswagen Jetta GLI 2021-23",
+      "name": "Volkswagen Jetta GLI 2021-24",
       "make": "Volkswagen",
       "model": "Jetta GLI",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2021-23",
+      "years": "2021-24",
       "year_list": [
         2021,
         2022,
-        2023
+        2023,
+        2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9102,7 +8051,9 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2024
+      ]
     },
     {
       "name": "Volkswagen Passat 2015-22",
@@ -9121,7 +8072,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9135,7 +8086,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          12
+          10
         ]
       },
       "years_not_in_upstream": []
@@ -9157,7 +8108,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9191,7 +8142,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9223,7 +8174,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9255,7 +8206,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9282,7 +8233,7 @@
       "year_list": [
         2021
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9314,7 +8265,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9332,18 +8283,17 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Volkswagen Taos 2022-24",
+      "name": "Volkswagen Taos 2022-23",
       "make": "Volkswagen",
       "model": "Taos",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2022-24",
+      "years": "2022-23",
       "year_list": [
         2022,
-        2023,
-        2024
+        2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9374,7 +8324,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9402,7 +8352,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9430,7 +8380,7 @@
         2021,
         2022
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9463,7 +8413,7 @@
         2023,
         2024
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9492,7 +8442,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
@@ -9526,7 +8476,7 @@
         2022,
         2023
       ],
-      "hardware_needed": "comma four",
+      "hardware_needed": "comma 3X",
       "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
       "supported_package_list": [
         "Adaptive Cruise Control (ACC) & Lane Assist"
