@@ -265,14 +265,14 @@ def find_input_markdown_files() -> list[Path]:
 
 
 def output_path_for_input(input_path: Path) -> Path:
-  source_name = input_path.stem.lower()
+  source_name = input_path.stem
   return OUTPUT_DIR / f"{source_name}.json"
 
 
 def process_markdown_file(input_path: Path, output_path: Path, source_urls: dict[str, str]) -> int:
   cars, footnotes = parse_cars_from_markdown(input_path)
-  source_name = input_path.stem.lower()
-  source_url = source_urls.get(source_name)
+  source_name = input_path.stem
+  source_url = source_urls.get(source_name.lower())
   if not source_url:
     raise ValueError(
       f"Missing URL for '{source_name}' in {SOURCES_FILE.name}"
