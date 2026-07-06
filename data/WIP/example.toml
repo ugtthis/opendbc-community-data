@@ -1,5 +1,5 @@
 # Example WIP source file.
-# Real entries would live in per-make files like data/wip/tesla.toml.
+# Real entries would live in per-make files like data/WIP/tesla.toml.
 
 [[cars]]
 # required
