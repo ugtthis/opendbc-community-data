@@ -3,7 +3,7 @@
     "url": "https://github.com/commaai/openpilot/blob/master/docs/CARS.md",
     "generator": "markdown_to_json.py",
     "source": "openpilot",
-    "total": "332 cars"
+    "total": "335 cars"
   },
   "footnote_definitions": {
     "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `nightly-dev`.",
@@ -750,6 +750,36 @@
         "Adaptive Cruise Control (ACC) & Lane Assist"
       ],
       "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          12
+        ],
+        "model": []
+      }
+    },
+    {
+      "name": "CUPRA Born 2021-23",
+      "make": "CUPRA",
+      "model": "Born",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021-23",
+      "year_list": [
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2113,16 +2143,18 @@
       }
     },
     {
-      "name": "Honda Civic 2022-24",
+      "name": "Honda Civic 2022-26",
       "make": "Honda",
       "model": "Civic",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2022-24",
+      "years": "2022-26",
       "year_list": [
         2022,
         2023,
-        2024
+        2024,
+        2025,
+        2026
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
@@ -4220,7 +4252,7 @@
       "no_acc_below": "0 mph",
       "no_alc_below": "39 mph",
       "auto_resume_available": true,
-      "video": "https://www.youtube.com/watch?v=jBe4lWnRSu4",
+      "video": null,
       "setup_video": null,
       "footnotes": {
         "make": [],
@@ -6434,7 +6466,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -6461,7 +6493,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -6490,7 +6522,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -6518,7 +6550,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -6546,7 +6578,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -6574,7 +6606,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -6657,7 +6689,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -6684,7 +6716,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": false,
@@ -9009,6 +9041,65 @@
       "no_alc_below": "31 mph",
       "auto_resume_available": true,
       "video": "https://youtu.be/4100gLeabmo",
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          12
+        ],
+        "model": []
+      }
+    },
+    {
+      "name": "Volkswagen ID.4 2021-23",
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021-23",
+      "year_list": [
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          12
+        ],
+        "model": []
+      }
+    },
+    {
+      "name": "Volkswagen ID.4 2024-25",
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
       "setup_video": null,
       "footnotes": {
         "make": [
