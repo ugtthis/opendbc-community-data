@@ -3,7 +3,7 @@
     "url": "https://github.com/firestar5683/StarPilot/blob/StarPilot/docs/CARS.md",
     "generator": "markdown_to_json.py",
     "source": "StarPilot",
-    "total": "326 cars"
+    "total": "451 cars"
   },
   "footnote_definitions": {
     "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `devel` or `nightly-dev`.",
@@ -23,6 +23,37 @@
     "15": "Model-years 2022 and beyond may have a combined CAN gateway and BCM, which is supported by openpilot in software, but doesn't yet have a harness available from the comma store."
   },
   "cars": [
+    {
+      "name": "Acura ADX 2025-26",
+      "make": "Acura",
+      "model": "ADX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
+    },
     {
       "name": "Acura ILX 2016-18",
       "make": "Acura",
@@ -81,6 +112,165 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Acura Integra 2023-26",
+      "make": "Acura",
+      "model": "Integra",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023-26",
+      "year_list": [
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "name": "Acura MDX 2014-16",
+      "make": "Acura",
+      "model": "MDX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2014-16",
+      "year_list": [
+        2014,
+        2015,
+        2016
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Advance Package",
+      "supported_package_list": [
+        "Advance Package"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "26 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2014,
+        2015,
+        2016
+      ]
+    },
+    {
+      "name": "Acura MDX 2017-19",
+      "make": "Acura",
+      "model": "MDX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-19",
+      "year_list": [
+        2017,
+        2018,
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "26 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "name": "Acura MDX 2020",
+      "make": "Acura",
+      "model": "MDX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2020",
+      "year_list": [
+        2020
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "26 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2020
+      ]
+    },
+    {
+      "name": "Acura MDX 2022-24",
+      "make": "Acura",
+      "model": "MDX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022-24",
+      "year_list": [
+        2022,
+        2023,
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "43 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
       "name": "Acura MDX 2025",
       "make": "Acura",
       "model": "MDX",
@@ -95,7 +285,7 @@
       "supported_package_list": [
         "All except Type S"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -106,6 +296,68 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Acura MDX Hybrid 2017-19",
+      "make": "Acura",
+      "model": "MDX Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-19",
+      "year_list": [
+        2017,
+        2018,
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "26 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "name": "Acura MDX Hybrid 2020",
+      "make": "Acura",
+      "model": "MDX Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2020",
+      "year_list": [
+        2020
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "26 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2020
+      ]
     },
     {
       "name": "Acura RDX 2016-18",
@@ -167,6 +419,109 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Acura RDX 2022-26",
+      "make": "Acura",
+      "model": "RDX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022-26",
+      "year_list": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "43 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2022,
+        2023,
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
+      "name": "Acura TLX 2015-17",
+      "make": "Acura",
+      "model": "TLX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2015-17",
+      "year_list": [
+        2015,
+        2016,
+        2017
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Advance Package",
+      "supported_package_list": [
+        "Advance Package"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "26 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2015,
+        2016,
+        2017
+      ]
+    },
+    {
+      "name": "Acura TLX 2018-20",
+      "make": "Acura",
+      "model": "TLX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018-20",
+      "year_list": [
+        2018,
+        2019,
+        2020
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "26 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
       "name": "Acura TLX 2021",
       "make": "Acura",
       "model": "TLX",
@@ -192,6 +547,36 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Acura TLX 2024-25",
+      "make": "Acura",
+      "model": "TLX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024
+      ]
     },
     {
       "name": "Audi A3 2014-19",
@@ -313,6 +698,70 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Audi Q4 e-tron 2021-23",
+      "make": "Audi",
+      "model": "Q4 e-tron",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021-23",
+      "year_list": [
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "name": "Audi Q4 e-tron 2024-25",
+      "make": "Audi",
+      "model": "Q4 e-tron",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
       "name": "Audi RS3 2018",
       "make": "Audi",
       "model": "RS3",
@@ -369,9 +818,583 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Chevrolet Bolt EUV 2022-23",
+      "name": "Buick Baby Enclave 2020-23",
+      "make": "Buick",
+      "model": "Baby Enclave",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2020-23",
+      "year_list": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Driver Assist Package",
+      "supported_package_list": [
+        "Driver Assist Package"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "name": "Buick LaCrosse 2017-19",
+      "make": "Buick",
+      "model": "LaCrosse",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-19",
+      "year_list": [
+        2017,
+        2018,
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Driver Confidence Package 2",
+      "supported_package_list": [
+        "Driver Confidence Package 2"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "18 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "name": "Buick LaCrosse ASCM Harness 2017-19",
+      "make": "Buick",
+      "model": "LaCrosse ASCM Harness",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-19",
+      "year_list": [
+        2017,
+        2018,
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "3 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "name": "Buick LaCrosse US ASCM Harness 2019",
+      "make": "Buick",
+      "model": "LaCrosse US ASCM Harness",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019",
+      "year_list": [
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "3 mph",
+      "no_alc_below": "27 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2019
+      ]
+    },
+    {
+      "name": "Buick Regal Essence 2018",
+      "make": "Buick",
+      "model": "Regal Essence",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018",
+      "year_list": [
+        2018
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "18 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018
+      ]
+    },
+    {
+      "name": "Cadillac ATS Premium Performance 2018",
+      "make": "Cadillac",
+      "model": "ATS Premium Performance",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018",
+      "year_list": [
+        2018
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "18 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018
+      ]
+    },
+    {
+      "name": "Cadillac CT6 No-ACC 2016-20",
+      "make": "Cadillac",
+      "model": "CT6 No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2016-20",
+      "year_list": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "name": "Cadillac Escalade 2017",
+      "make": "Cadillac",
+      "model": "Escalade",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017",
+      "year_list": [
+        2017
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Driver Assist Package",
+      "supported_package_list": [
+        "Driver Assist Package"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017
+      ]
+    },
+    {
+      "name": "Cadillac Escalade ASCM Harness 2018",
+      "make": "Cadillac",
+      "model": "Escalade ASCM Harness",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018",
+      "year_list": [
+        2018
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Driver Assist Package",
+      "supported_package_list": [
+        "Driver Assist Package"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "3 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018
+      ]
+    },
+    {
+      "name": "Cadillac Escalade ESV 2016",
+      "make": "Cadillac",
+      "model": "Escalade ESV",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2016",
+      "year_list": [
+        2016
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & LKAS",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & LKAS"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2016
+      ]
+    },
+    {
+      "name": "Cadillac Escalade ESV 2019",
+      "make": "Cadillac",
+      "model": "Escalade ESV",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019",
+      "year_list": [
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & LKAS",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & LKAS"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2019
+      ]
+    },
+    {
+      "name": "Cadillac Escalade ESV Platinum ASCM Harness 2019",
+      "make": "Cadillac",
+      "model": "Escalade ESV Platinum ASCM Harness",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019",
+      "year_list": [
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & LKAS",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & LKAS"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2019
+      ]
+    },
+    {
+      "name": "Cadillac XT4 2023",
+      "make": "Cadillac",
+      "model": "XT4",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023",
+      "year_list": [
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Driver Assist Package",
+      "supported_package_list": [
+        "Driver Assist Package"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "30 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023
+      ]
+    },
+    {
+      "name": "Cadillac XT4 No-ACC 2023",
+      "make": "Cadillac",
+      "model": "XT4 No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023",
+      "year_list": [
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "30 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023
+      ]
+    },
+    {
+      "name": "Cadillac XT5 2022",
+      "make": "Cadillac",
+      "model": "XT5",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022",
+      "year_list": [
+        2022
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Driver Assist Package",
+      "supported_package_list": [
+        "Driver Assist Package"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2022
+      ]
+    },
+    {
+      "name": "Cadillac XT5 No-ACC 2022",
+      "make": "Cadillac",
+      "model": "XT5 No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022",
+      "year_list": [
+        2022
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2022
+      ]
+    },
+    {
+      "name": "Cadillac XT6 2020",
+      "make": "Cadillac",
+      "model": "XT6",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2020",
+      "year_list": [
+        2020
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Driver Assist Package",
+      "supported_package_list": [
+        "Driver Assist Package"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2020
+      ]
+    },
+    {
+      "name": "Chevrolet Blazer 2019-25",
       "make": "Chevrolet",
-      "model": "Bolt EUV",
+      "model": "Blazer",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019-25",
+      "year_list": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Driver Assist Package",
+      "supported_package_list": [
+        "Driver Assist Package"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "3 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Chevrolet Bolt EV & EUV ACC 2022-23",
+      "make": "Chevrolet",
+      "model": "Bolt EV & EUV ACC",
       "model_variant": null,
       "model_variant_list": [],
       "years": "2022-23",
@@ -380,10 +1403,10 @@
         2023
       ],
       "hardware_needed": "comma four",
-      "supported_package": "Premier or Premier Redline Trim, without Super Cruise Package",
+      "supported_package": "Premier or Premier Redline Trim without Super Cruise Package",
       "supported_package_list": [
         "Premier",
-        "Premier Redline Trim, without Super Cruise Package"
+        "Premier Redline Trim without Super Cruise Package"
       ],
       "acc": "openpilot available",
       "no_acc_below": "3 mph",
@@ -395,12 +1418,15 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2022,
+        2023
+      ]
     },
     {
-      "name": "Chevrolet Bolt EV 2022-23",
+      "name": "Chevrolet Bolt EV & EUV ACC w Pedal 2022-23",
       "make": "Chevrolet",
-      "model": "Bolt EV",
+      "model": "Bolt EV & EUV ACC w Pedal",
       "model_variant": null,
       "model_variant_list": [],
       "years": "2022-23",
@@ -409,12 +1435,12 @@
         2023
       ],
       "hardware_needed": "comma four",
-      "supported_package": "2LT Trim with Adaptive Cruise Control Package",
+      "supported_package": "Adaptive Cruise Control (ACC)",
       "supported_package_list": [
-        "2LT Trim with Adaptive Cruise Control Package"
+        "Adaptive Cruise Control (ACC)"
       ],
-      "acc": "openpilot available",
-      "no_acc_below": "3 mph",
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
       "no_alc_below": "6 mph",
       "auto_resume_available": false,
       "video": null,
@@ -423,7 +1449,105 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2022,
+        2023
+      ]
+    },
+    {
+      "name": "Chevrolet Bolt EV & EUV No-ACC 2022-23",
+      "make": "Chevrolet",
+      "model": "Bolt EV & EUV No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022-23",
+      "year_list": [
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2022,
+        2023
+      ]
+    },
+    {
+      "name": "Chevrolet Bolt EV No-ACC 2017",
+      "make": "Chevrolet",
+      "model": "Bolt EV No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017",
+      "year_list": [
+        2017
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017
+      ]
+    },
+    {
+      "name": "Chevrolet Bolt EV No-ACC 2018-21",
+      "make": "Chevrolet",
+      "model": "Bolt EV No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018-21",
+      "year_list": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018,
+        2019,
+        2020,
+        2021
+      ]
     },
     {
       "name": "Chevrolet Equinox 2019-22",
@@ -456,6 +1580,196 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Chevrolet Equinox No-ACC 2019-22",
+      "make": "Chevrolet",
+      "model": "Equinox No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019-22",
+      "year_list": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "name": "Chevrolet Malibu 2019",
+      "make": "Chevrolet",
+      "model": "Malibu",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019",
+      "year_list": [
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "SDGM Harness (Optional SASCM)",
+      "supported_package_list": [
+        "SDGM Harness (Optional SASCM)"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2019
+      ]
+    },
+    {
+      "name": "Chevrolet Malibu ASCM Harness 2017-19",
+      "make": "Chevrolet",
+      "model": "Malibu ASCM Harness",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-19",
+      "year_list": [
+        2017,
+        2018,
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "3 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018,
+        2019
+      ]
+    },
+    {
+      "name": "Chevrolet Malibu Hybrid No-ACC 2017",
+      "make": "Chevrolet",
+      "model": "Malibu Hybrid No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017",
+      "year_list": [
+        2017
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017
+      ]
+    },
+    {
+      "name": "Chevrolet Malibu No-ACC 2023",
+      "make": "Chevrolet",
+      "model": "Malibu No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023",
+      "year_list": [
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023
+      ]
+    },
+    {
+      "name": "Chevrolet Malibu Premier 2017",
+      "make": "Chevrolet",
+      "model": "Malibu Premier",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017",
+      "year_list": [
+        2017
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "18 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017
+      ]
+    },
+    {
       "name": "Chevrolet Silverado 1500 2020-21",
       "make": "Chevrolet",
       "model": "Silverado 1500",
@@ -472,7 +1786,7 @@
         "Safety Package II"
       ],
       "acc": "openpilot available",
-      "no_acc_below": "0 mph",
+      "no_acc_below": "3 mph",
       "no_alc_below": "6 mph",
       "auto_resume_available": false,
       "video": null,
@@ -482,6 +1796,117 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Chevrolet Silverado 1500 No-ACC 2020-21",
+      "make": "Chevrolet",
+      "model": "Silverado 1500 No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2020-21",
+      "year_list": [
+        2020,
+        2021
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "18 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2020,
+        2021
+      ]
+    },
+    {
+      "name": "Chevrolet Suburban Premier 2016-20",
+      "make": "Chevrolet",
+      "model": "Suburban Premier",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2016-20",
+      "year_list": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "18 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "name": "Chevrolet Suburban Premier No-ACC 2016-20",
+      "make": "Chevrolet",
+      "model": "Suburban Premier No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2016-20",
+      "year_list": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
     },
     {
       "name": "Chevrolet Trailblazer 2021-22",
@@ -510,6 +1935,257 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Chevrolet Trailblazer No-ACC 2021-22",
+      "make": "Chevrolet",
+      "model": "Trailblazer No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021-22",
+      "year_list": [
+        2021,
+        2022
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2021,
+        2022
+      ]
+    },
+    {
+      "name": "Chevrolet Traverse 2022-23",
+      "make": "Chevrolet",
+      "model": "Traverse",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022-23",
+      "year_list": [
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "RS, Premier, or High Country Trim",
+      "supported_package_list": [
+        "RS, Premier,",
+        "High Country Trim"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2022,
+        2023
+      ]
+    },
+    {
+      "name": "Chevrolet TRAX 2024-25",
+      "make": "Chevrolet",
+      "model": "TRAX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "3 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Chevrolet Volt 2017-18",
+      "make": "Chevrolet",
+      "model": "Volt",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-18",
+      "year_list": [
+        2017,
+        2018
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": "https://youtu.be/QeMCN_4TFfQ",
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018
+      ]
+    },
+    {
+      "name": "Chevrolet Volt 2019",
+      "make": "Chevrolet",
+      "model": "Volt",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019",
+      "year_list": [
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & LKAS",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & LKAS"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2019
+      ]
+    },
+    {
+      "name": "Chevrolet Volt ASCM Harness 2017-18",
+      "make": "Chevrolet",
+      "model": "Volt ASCM Harness",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-18",
+      "year_list": [
+        2017,
+        2018
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": "https://youtu.be/QeMCN_4TFfQ",
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018
+      ]
+    },
+    {
+      "name": "Chevrolet Volt Camera Harness 2017-18",
+      "make": "Chevrolet",
+      "model": "Volt Camera Harness",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-18",
+      "year_list": [
+        2017,
+        2018
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Flashed camera-forward integration with ACC",
+      "supported_package_list": [
+        "Flashed camera-forward integration with ACC"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018
+      ]
+    },
+    {
+      "name": "Chevrolet Volt No-ACC 2017-18",
+      "make": "Chevrolet",
+      "model": "Volt No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-18",
+      "year_list": [
+        2017,
+        2018
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018
+      ]
     },
     {
       "name": "Chrysler Pacifica 2017-18",
@@ -715,6 +2391,35 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "CUPRA Born 2021-23",
+      "make": "CUPRA",
+      "model": "Born",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021-23",
+      "year_list": [
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
       "name": "Dodge Durango 2020-21",
       "make": "Dodge",
       "model": "Durango",
@@ -773,6 +2478,35 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Ford Edge 2022",
+      "make": "Ford",
+      "model": "Edge",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022",
+      "year_list": [
+        2022
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2022
+      ]
+    },
+    {
       "name": "Ford Escape 2020-22",
       "make": "Ford",
       "model": "Escape",
@@ -817,7 +2551,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot available",
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -874,7 +2608,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot available",
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -931,7 +2665,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot available",
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -960,7 +2694,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist 2.0"
       ],
-      "acc": "openpilot available",
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1051,7 +2785,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist 2.0"
       ],
-      "acc": "openpilot available",
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1080,7 +2814,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist 2.0"
       ],
-      "acc": "openpilot available",
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1093,14 +2827,53 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Ford Focus 2018",
+      "name": "Ford F-150 Lightning 2022-25",
+      "make": "Ford",
+      "model": "F-150 Lightning",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022-25",
+      "year_list": [
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Co-Pilot360 Assist 2.0",
+      "supported_package_list": [
+        "Co-Pilot360 Assist 2.0"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": "https://www.youtube.com/watch?v=MewJc9LYp9M",
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2022,
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Ford Focus 2018-22",
       "make": "Ford",
       "model": "Focus",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2018",
+      "years": "2018-22",
       "year_list": [
-        2018
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
@@ -1122,14 +2895,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Ford Focus Hybrid 2018",
+      "name": "Ford Focus Hybrid 2018-22",
       "make": "Ford",
       "model": "Focus Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2018",
+      "years": "2018-22",
       "year_list": [
-        2018
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control with Lane Centering",
@@ -1225,7 +3002,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1282,7 +3059,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1405,6 +3182,51 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Ford Mondeo 2014-22",
+      "make": "Ford",
+      "model": "Mondeo",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2014-22",
+      "year_list": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control with Lane Centering",
+      "supported_package_list": [
+        "Adaptive Cruise Control with Lane Centering"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": "https://www.youtube.com/watch?v=uUGkH6C_EQU",
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
       "name": "Ford Mustang Mach-E 2021-24",
       "make": "Ford",
       "model": "Mustang Mach-E",
@@ -1422,7 +3244,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1449,7 +3271,7 @@
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot available",
+      "acc": "openpilot",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1460,6 +3282,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Ford Transit 2025",
+      "make": "Ford",
+      "model": "Transit",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "Genesis G70 2018",
@@ -1783,6 +3634,35 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Genesis GV70 Electrified 2026",
+      "make": "Genesis",
+      "model": "GV70 Electrified",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2026",
+      "year_list": [
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2026
+      ]
+    },
+    {
       "name": "Genesis GV70 Electrified (Australia Only) 2022",
       "make": "Genesis",
       "model": "GV70 Electrified",
@@ -1869,6 +3749,129 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Genesis GV80 (3.5T Prestige Trim, with HDA II & LFA2) 2025",
+      "make": "Genesis",
+      "model": "GV80",
+      "model_variant": "(3.5T Prestige Trim, with HDA II & LFA2)",
+      "model_variant_list": [
+        "3.5T Prestige Trim",
+        "with HDA II & LFA2"
+      ],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II & Lane Follow Assist 2",
+      "supported_package_list": [
+        "Highway Driving Assist II & Lane Follow Assist 2"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
+    },
+    {
+      "name": "Genesis GV80 Coupe (with HDA II & LFA2) 2025",
+      "make": "Genesis",
+      "model": "GV80 Coupe",
+      "model_variant": "(with HDA II & LFA2)",
+      "model_variant_list": [
+        "with HDA II & LFA2"
+      ],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II & Lane Follow Assist 2",
+      "supported_package_list": [
+        "Highway Driving Assist II & Lane Follow Assist 2"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
+    },
+    {
+      "name": "GMC Acadia 2018",
+      "make": "GMC",
+      "model": "Acadia",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018",
+      "year_list": [
+        2018
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": "https://www.youtube.com/watch?v=0ZN6DdsBUZo",
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018
+      ]
+    },
+    {
+      "name": "GMC Acadia ASCM Harness 2018",
+      "make": "GMC",
+      "model": "Acadia ASCM Harness",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018",
+      "year_list": [
+        2018
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "3 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": "https://www.youtube.com/watch?v=0ZN6DdsBUZo",
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018
+      ]
+    },
+    {
       "name": "GMC Sierra 1500 2020-21",
       "make": "GMC",
       "model": "Sierra 1500",
@@ -1885,7 +3888,7 @@
         "Driver Alert Package II"
       ],
       "acc": "openpilot available",
-      "no_acc_below": "0 mph",
+      "no_acc_below": "3 mph",
       "no_alc_below": "6 mph",
       "auto_resume_available": false,
       "video": "https://youtu.be/5HbNoBLzRwE",
@@ -1895,6 +3898,165 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "GMC Sierra 1500 No-ACC 2020-21",
+      "make": "GMC",
+      "model": "Sierra 1500 No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2020-21",
+      "year_list": [
+        2020,
+        2021
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "18 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2020,
+        2021
+      ]
+    },
+    {
+      "name": "GMC Yukon 2019-20",
+      "make": "GMC",
+      "model": "Yukon",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019-20",
+      "year_list": [
+        2019,
+        2020
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & LKAS",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & LKAS"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2019,
+        2020
+      ]
+    },
+    {
+      "name": "GMC Yukon No-ACC 2019-20",
+      "make": "GMC",
+      "model": "Yukon No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019-20",
+      "year_list": [
+        2019,
+        2020
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2019,
+        2020
+      ]
+    },
+    {
+      "name": "Holden Astra 2017",
+      "make": "Holden",
+      "model": "Astra",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017",
+      "year_list": [
+        2017
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "18 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          3
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017
+      ]
+    },
+    {
+      "name": "Honda Accord 2016-17",
+      "make": "Honda",
+      "model": "Accord",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2016-17",
+      "year_list": [
+        2016,
+        2017
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "26 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2016,
+        2017
+      ]
     },
     {
       "name": "Honda Accord 2018-22",
@@ -1944,7 +4106,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -1955,6 +4117,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Honda Accord Hybrid 2017",
+      "make": "Honda",
+      "model": "Accord Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017",
+      "year_list": [
+        2017
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "26 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017
+      ]
     },
     {
       "name": "Honda Accord Hybrid 2018-22",
@@ -2004,7 +4195,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2304,6 +4495,41 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Honda Clarity 2018-21",
+      "make": "Honda",
+      "model": "Clarity",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018-21",
+      "year_list": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "3 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018,
+        2019,
+        2020,
+        2021
+      ]
+    },
+    {
       "name": "Honda CR-V 2015-16",
       "make": "Honda",
       "model": "CR-V",
@@ -2381,7 +4607,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2442,7 +4668,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2509,6 +4735,70 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Honda Fit (Taiwan) 2021",
+      "make": "Honda",
+      "model": "Fit",
+      "model_variant": "(Taiwan)",
+      "model_variant_list": [
+        "Taiwan"
+      ],
+      "years": "2021",
+      "year_list": [
+        2021
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "14 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2021
+      ]
+    },
+    {
+      "name": "Honda Fit (Taiwan) 2024-25",
+      "make": "Honda",
+      "model": "Fit",
+      "model_variant": "(Taiwan)",
+      "model_variant_list": [
+        "Taiwan"
+      ],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "14 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
     },
     {
       "name": "Honda Freed 2020",
@@ -2742,6 +5032,65 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Honda Odyssey (Singapore) 2021",
+      "make": "Honda",
+      "model": "Odyssey",
+      "model_variant": "(Singapore)",
+      "model_variant_list": [
+        "Singapore"
+      ],
+      "years": "2021",
+      "year_list": [
+        2021
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "19 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
+      "name": "Honda Odyssey (Taiwan) 2018-19",
+      "make": "Honda",
+      "model": "Odyssey",
+      "model_variant": "(Taiwan)",
+      "model_variant_list": [
+        "Taiwan"
+      ],
+      "years": "2018-19",
+      "year_list": [
+        2018,
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Honda Sensing",
+      "supported_package_list": [
+        "Honda Sensing"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "19 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
       "name": "Honda Passport 2019-25",
       "make": "Honda",
       "model": "Passport",
@@ -2789,7 +5138,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2851,7 +5200,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2862,6 +5211,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Honda Prelude 2026",
+      "make": "Honda",
+      "model": "Prelude",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2026",
+      "year_list": [
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2026
+      ]
     },
     {
       "name": "Honda Ridgeline 2017-25",
@@ -3122,6 +5500,37 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Elantra 2024-25",
+      "make": "Hyundai",
+      "model": "Elantra",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
       "name": "Hyundai Elantra GT 2017-20",
       "make": "Hyundai",
       "model": "Elantra GT",
@@ -3181,6 +5590,39 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Elantra Hybrid 2024-26",
+      "make": "Hyundai",
+      "model": "Elantra Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-26",
+      "year_list": [
+        2024,
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
       "name": "Hyundai Genesis 2015-16",
       "make": "Hyundai",
       "model": "Genesis",
@@ -3236,6 +5678,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai i30 Hybrid 2024",
+      "make": "Hyundai",
+      "model": "i30 Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024",
+      "year_list": [
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024
+      ]
     },
     {
       "name": "Hyundai Ioniq 5 (Southeast Asia and Europe only) 2022-24",
@@ -3332,6 +5803,70 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Ioniq 5 N (with HDA II) 2024",
+      "make": "Hyundai",
+      "model": "Ioniq 5 N",
+      "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
+      "years": "2024",
+      "year_list": [
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024
+      ]
+    },
+    {
+      "name": "Hyundai Ioniq 5 PE (with HDA II & LFA2) 2025-26",
+      "make": "Hyundai",
+      "model": "Ioniq 5 PE",
+      "model_variant": "(with HDA II & LFA2)",
+      "model_variant_list": [
+        "with HDA II & LFA2"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II & Lane Follow Assist 2",
+      "supported_package_list": [
+        "Highway Driving Assist II & Lane Follow Assist 2"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
+    },
+    {
       "name": "Hyundai Ioniq 6 (with HDA II) 2023-24",
       "make": "Hyundai",
       "model": "Ioniq 6",
@@ -3349,7 +5884,7 @@
       "supported_package_list": [
         "Highway Driving Assist II"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3360,6 +5895,39 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Ioniq 9 (with HDA II & LFA2) 2025-26",
+      "make": "Hyundai",
+      "model": "Ioniq 9",
+      "model_variant": "(with HDA II & LFA2)",
+      "model_variant_list": [
+        "with HDA II & LFA2"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II & Lane Follow Assist 2",
+      "supported_package_list": [
+        "Highway Driving Assist II & Lane Follow Assist 2"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
     },
     {
       "name": "Hyundai Ioniq Electric 2019",
@@ -3557,6 +6125,39 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Kona (without HDA II) 2024-25",
+      "make": "Hyundai",
+      "model": "Kona",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
       "name": "Hyundai Kona Electric 2018-21",
       "make": "Hyundai",
       "model": "Kona Electric",
@@ -3632,7 +6233,7 @@
       "supported_package_list": [
         "Smart Cruise Control (SCC)"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3643,6 +6244,37 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Kona Electric (without HDA II) 2024",
+      "make": "Hyundai",
+      "model": "Kona Electric",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024",
+      "year_list": [
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024
+      ]
     },
     {
       "name": "Hyundai Kona Hybrid 2020",
@@ -3670,6 +6302,37 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Kona Hybrid (without HDA II) 2024",
+      "make": "Hyundai",
+      "model": "Kona Hybrid",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024",
+      "year_list": [
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024
+      ]
     },
     {
       "name": "Hyundai Nexo 2021",
@@ -3728,6 +6391,76 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Palisade (with HDA II) 2023-25",
+      "make": "Hyundai",
+      "model": "Palisade",
+      "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
+      "years": "2023-25",
+      "year_list": [
+        2023,
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Hyundai Palisade (without HDA II) 2023-25",
+      "make": "Hyundai",
+      "model": "Palisade",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2023-25",
+      "year_list": [
+        2023,
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist",
+      "supported_package_list": [
+        "Highway Driving Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
       "name": "Hyundai Santa Cruz 2022-24",
       "make": "Hyundai",
       "model": "Santa Cruz",
@@ -3755,6 +6488,37 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Santa Cruz (without HDA II) 2025",
+      "make": "Hyundai",
+      "model": "Santa Cruz",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "Hyundai Santa Fe 2019-20",
@@ -3840,6 +6604,73 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Santa Fe Hybrid (with HDA II & LFA2) 2024-25",
+      "make": "Hyundai",
+      "model": "Santa Fe Hybrid",
+      "model_variant": "(with HDA II & LFA2)",
+      "model_variant_list": [
+        "with HDA II & LFA2"
+      ],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II & Lane Follow Assist 2",
+      "supported_package_list": [
+        "Highway Driving Assist II & Lane Follow Assist 2"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Hyundai Santa Fe Hybrid (without HDA II, LFA2) 2025-26",
+      "make": "Hyundai",
+      "model": "Santa Fe Hybrid",
+      "model_variant": "(without HDA II, LFA2)",
+      "model_variant_list": [
+        "without HDA II",
+        "LFA2"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Lane Follow Assist 2",
+      "supported_package_list": [
+        "Lane Follow Assist 2"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
     },
     {
       "name": "Hyundai Santa Fe Plug-in Hybrid 2022-23",
@@ -3928,6 +6759,39 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Sonata (without HDA II) 2024-25",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
       "name": "Hyundai Sonata Hybrid 2020-23",
       "make": "Hyundai",
       "model": "Sonata Hybrid",
@@ -3956,6 +6820,39 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Sonata Hybrid (without HDA II) 2024-25",
+      "make": "Hyundai",
+      "model": "Sonata Hybrid",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
     },
     {
       "name": "Hyundai Staria 2023",
@@ -4067,6 +6964,39 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Tucson (without HDA II) 2025-26",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
+    },
+    {
       "name": "Hyundai Tucson Diesel 2019",
       "make": "Hyundai",
       "model": "Tucson Diesel",
@@ -4123,6 +7053,39 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Tucson Hybrid (without HDA II) 2025-26",
+      "make": "Hyundai",
+      "model": "Tucson Hybrid",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
+    },
+    {
       "name": "Hyundai Tucson Plug-in Hybrid 2024",
       "make": "Hyundai",
       "model": "Tucson Plug-in Hybrid",
@@ -4148,6 +7111,37 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Tucson Plug-in Hybrid (without HDA II) 2025",
+      "make": "Hyundai",
+      "model": "Tucson Plug-in Hybrid",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "Hyundai Veloster 2019-20",
@@ -4265,6 +7259,35 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Kia Carnival 2025",
+      "make": "Kia",
+      "model": "Carnival",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
+    },
+    {
       "name": "Kia Carnival (China only) 2023",
       "make": "Kia",
       "model": "Carnival",
@@ -4292,6 +7315,128 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Kia Carnival (with HDA II) 2025",
+      "make": "Kia",
+      "model": "Carnival",
+      "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
+    },
+    {
+      "name": "Kia Carnival Hybrid 2025",
+      "make": "Kia",
+      "model": "Carnival Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
+    },
+    {
+      "name": "Kia Carnival Hybrid 2026",
+      "make": "Kia",
+      "model": "Carnival Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2026",
+      "year_list": [
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2026
+      ]
+    },
+    {
+      "name": "Kia Carnival Hybrid (with HDA II) 2025-26",
+      "make": "Kia",
+      "model": "Carnival Hybrid",
+      "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
     },
     {
       "name": "Kia Ceed 2019-21",
@@ -4352,6 +7497,37 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Kia EV6 (with HDA I) 2025",
+      "make": "Kia",
+      "model": "EV6",
+      "model_variant": "(with HDA I)",
+      "model_variant_list": [
+        "with HDA I"
+      ],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist I",
+      "supported_package_list": [
+        "Highway Driving Assist I"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "Kia EV6 (with HDA II) 2022-24",
@@ -4416,6 +7592,37 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Kia EV9 2025-26",
+      "make": "Kia",
+      "model": "EV9",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
+    },
+    {
       "name": "Kia Forte 2019-21",
       "make": "Kia",
       "model": "Forte",
@@ -4473,6 +7680,68 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Kia K4 (with HDA II) 2025",
+      "make": "Kia",
+      "model": "K4",
+      "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
+    },
+    {
+      "name": "Kia K4 (without HDA II) 2025",
+      "make": "Kia",
+      "model": "K4",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
+    },
+    {
       "name": "Kia K5 2021-24",
       "make": "Kia",
       "model": "K5",
@@ -4501,6 +7770,37 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Kia K5 (without HDA II) 2025",
+      "make": "Kia",
+      "model": "K5",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "Kia K5 Hybrid 2020-22",
@@ -5138,6 +8438,39 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Kia Sorento (without HDA II) 2024-25",
+      "make": "Kia",
+      "model": "Sorento",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
       "name": "Kia Sorento Hybrid 2021-23",
       "make": "Kia",
       "model": "Sorento Hybrid",
@@ -5165,6 +8498,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Kia Sorento Hybrid 2026",
+      "make": "Kia",
+      "model": "Sorento Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2026",
+      "year_list": [
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2026
+      ]
     },
     {
       "name": "Kia Sorento Plug-in Hybrid 2022-23",
@@ -5223,6 +8585,37 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Kia Sportage (without HDA II) 2026",
+      "make": "Kia",
+      "model": "Sportage",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2026",
+      "year_list": [
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2026
+      ]
+    },
+    {
       "name": "Kia Sportage Hybrid 2023",
       "make": "Kia",
       "model": "Sportage Hybrid",
@@ -5248,6 +8641,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Kia Sportage Hybrid 2026",
+      "make": "Kia",
+      "model": "Sportage Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2026",
+      "year_list": [
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2026
+      ]
     },
     {
       "name": "Kia Stinger 2018-20",
@@ -5334,6 +8756,103 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Kia Telluride (with HDA II) 2023-24",
+      "make": "Kia",
+      "model": "Telluride",
+      "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
+      "years": "2023-24",
+      "year_list": [
+        2023,
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023,
+        2024
+      ]
+    },
+    {
+      "name": "Kia Telluride (without HDA II) 2023-25",
+      "make": "Kia",
+      "model": "Telluride",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2023-25",
+      "year_list": [
+        2023,
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist",
+      "supported_package_list": [
+        "Highway Driving Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023,
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Kia XCeed Plug-in Hybrid 2021",
+      "make": "Kia",
+      "model": "XCeed Plug-in Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021",
+      "year_list": [
+        2021
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2021
+      ]
     },
     {
       "name": "Lexus CT Hybrid 2017-18",
@@ -6186,19 +9705,21 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Nissan Leaf 2018-23",
+      "name": "Nissan Leaf 2018-25",
       "make": "Nissan",
       "model": "Leaf",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2018-23",
+      "years": "2018-25",
       "year_list": [
         2018,
         2019,
         2020,
         2021,
         2022,
-        2023
+        2023,
+        2024,
+        2025
       ],
       "hardware_needed": "comma four",
       "supported_package": "ProPILOT Assist",
@@ -6217,7 +9738,55 @@
         ],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Nissan Leaf Instrument Cluster 2018-25",
+      "make": "Nissan",
+      "model": "Leaf Instrument Cluster",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018-25",
+      "year_list": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "ProPILOT Assist",
+      "supported_package_list": [
+        "ProPILOT Assist"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": "https://youtu.be/vaMbtAh_0cY",
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          5
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ]
     },
     {
       "name": "Nissan Rogue 2018-20",
@@ -6300,9 +9869,9 @@
         "Adaptive Cruise Control (ACC)"
       ],
       "acc": "Stock",
-      "no_acc_below": "0 mph",
-      "no_alc_below": "32 mph",
-      "auto_resume_available": true,
+      "no_acc_below": "32 mph",
+      "no_alc_below": "1 mph",
+      "auto_resume_available": false,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -6328,7 +9897,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -6339,6 +9908,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Rivian R1S 2025",
+      "make": "Rivian",
+      "model": "R1S",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "Rivian R1T 2022-24",
@@ -6357,7 +9955,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -6368,6 +9966,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Rivian R1T 2025",
+      "make": "Rivian",
+      "model": "R1T",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "SEAT Ateca 2016-23",
@@ -6456,7 +10083,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -6464,6 +10091,39 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Subaru Ascent 2023-25",
+      "make": "Subaru",
+      "model": "Ascent",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023-25",
+      "year_list": [
+        2023,
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023,
+        2024,
+        2025
+      ]
     },
     {
       "name": "Subaru Crosstrek 2018-19",
@@ -6484,7 +10144,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": "https://youtu.be/Agww7oE1k-s?t=26",
       "setup_video": null,
       "footnotes": {
@@ -6514,7 +10174,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -6522,6 +10182,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Subaru Crosstrek 2025",
+      "make": "Subaru",
+      "model": "Crosstrek",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
     },
     {
       "name": "Subaru Forester 2019-21",
@@ -6543,7 +10232,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -6551,6 +10240,39 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Subaru Forester 2022-24",
+      "make": "Subaru",
+      "model": "Forester",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022-24",
+      "year_list": [
+        2022,
+        2023,
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2022,
+        2023,
+        2024
+      ]
     },
     {
       "name": "Subaru Impreza 2017-19",
@@ -6572,7 +10294,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -6601,7 +10323,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -6640,6 +10362,35 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Subaru Legacy 2025",
+      "make": "Subaru",
+      "model": "Legacy",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025
+      ]
+    },
+    {
       "name": "Subaru Outback 2020-22",
       "make": "Subaru",
       "model": "Outback",
@@ -6669,6 +10420,37 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Subaru Outback 2023-24",
+      "make": "Subaru",
+      "model": "Outback",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023-24",
+      "year_list": [
+        2023,
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023,
+        2024
+      ]
+    },
+    {
       "name": "Subaru XV 2018-19",
       "make": "Subaru",
       "model": "XV",
@@ -6687,7 +10469,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": "https://youtu.be/Agww7oE1k-s?t=26",
       "setup_video": null,
       "footnotes": {
@@ -6715,7 +10497,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -6723,6 +10505,74 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Škoda Enyaq 2021-23",
+      "make": "Škoda",
+      "model": "Enyaq",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021-23",
+      "year_list": [
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": [
+          13
+        ]
+      },
+      "years_not_in_upstream": [
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "name": "Škoda Enyaq 2024-25",
+      "make": "Škoda",
+      "model": "Enyaq",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": [
+          13
+        ]
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
     },
     {
       "name": "Škoda Fabia 2022-23",
@@ -7053,17 +10903,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Tesla Model 3 (with HW4) 2024-25",
+      "name": "Tesla Model 3 (with HW4) 2024-26",
       "make": "Tesla",
       "model": "Model 3",
       "model_variant": "(with HW4)",
       "model_variant_list": [
         "with HW4"
       ],
-      "years": "2024-25",
+      "years": "2024-26",
       "year_list": [
         2024,
-        2025
+        2025,
+        2026
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
@@ -7084,7 +10935,9 @@
           8
         ]
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2026
+      ]
     },
     {
       "name": "Tesla Model Y (with HW3) 2020-23",
@@ -9071,6 +12924,160 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Volkswagen ID.3 2020-23",
+      "make": "Volkswagen",
+      "model": "ID.3",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2020-23",
+      "year_list": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "name": "Volkswagen ID.3 2024-25",
+      "make": "Volkswagen",
+      "model": "ID.3",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
+      "name": "Volkswagen ID.4 2021-23",
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021-23",
+      "year_list": [
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
+      "name": "Volkswagen ID.4 2024-25",
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
+      "name": "Volkswagen ID.5 2022-23",
+      "make": "Volkswagen",
+      "model": "ID.5",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022-23",
+      "year_list": [
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2022,
+        2023
+      ]
     },
     {
       "name": "Volkswagen Jetta 2018-23",
