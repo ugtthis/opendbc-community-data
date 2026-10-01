@@ -3,24 +3,25 @@
     "url": "https://github.com/firestar5683/StarPilot/blob/StarPilot/docs/CARS.md",
     "generator": "markdown_to_json.py",
     "source": "StarPilot",
-    "total": "451 cars"
+    "total": "452 cars"
   },
   "footnote_definitions": {
     "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `devel` or `nightly-dev`.",
     "2": "Refers only to the Focus Mk4 (C519) available in Europe/China/Taiwan/Australasia, not the Focus Mk3 (C346) in North and South America/Southeast Asia.",
     "3": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/gm\" target=\"_blank\">GM</a>.",
     "4": "2019 Honda Civic 1.6L Diesel Sedan does not have ALC below 12mph.",
-    "5": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/nissan\" target=\"_blank\">Nissan</a>.",
-    "6": "In the non-US market, openpilot requires the car to come equipped with EyeSight with Lane Keep Assistance.",
-    "7": "Enabling longitudinal control (alpha) will disable all EyeSight functionality, including AEB, LDW, and RAB.",
-    "8": "Some 2023 model years have HW4. To check which hardware type your vehicle has, look for <b>Autopilot computer</b> under <b>Software -> Additional Vehicle Information</b> on your vehicle's touchscreen. See <a href=\"https://www.notateslaapp.com/news/2173/how-to-check-if-your-tesla-has-hardware-4-ai4-or-hardware-3\">this page</a> for more information.",
-    "9": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/tesla\" target=\"_blank\">Tesla</a>.",
-    "10": "openpilot operates above 28mph for Camry 4CYL L, 4CYL LE and 4CYL SE which don't have Full-Speed Range Dynamic Radar Cruise Control.",
-    "11": "Not including the China market Kamiq, which is based on the (currently) unsupported PQ34 platform.",
-    "12": "Refers only to the MQB-based European B8 Passat, not the NMS Passat in the USA/China/Mideast markets.",
-    "13": "Some Škoda vehicles are equipped with heated windshields, which are known to block GPS signal needed for some comma four functionality.",
-    "14": "Only available for vehicles using a gateway (J533) harness. At this time, vehicles using a camera harness are limited to using stock ACC.",
-    "15": "Model-years 2022 and beyond may have a combined CAN gateway and BCM, which is supported by openpilot in software, but doesn't yet have a harness available from the comma store."
+    "5": "Enabling longitudinal control (alpha) will disable all CMBS functionality, including AEB and FCW.",
+    "6": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/nissan\" target=\"_blank\">Nissan</a>.",
+    "7": "In the non-US market, openpilot requires the car to come equipped with EyeSight with Lane Keep Assistance.",
+    "8": "Enabling longitudinal control (alpha) will disable all EyeSight functionality, including AEB, LDW, and RAB.",
+    "9": "Some 2023 model years have HW4. To check which hardware type your vehicle has, look for <b>Autopilot computer</b> under <b>Software -> Additional Vehicle Information</b> on your vehicle's touchscreen. See <a href=\"https://www.notateslaapp.com/news/2173/how-to-check-if-your-tesla-has-hardware-4-ai4-or-hardware-3\">this page</a> for more information.",
+    "10": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/tesla\" target=\"_blank\">Tesla</a>.",
+    "11": "openpilot operates above 28mph for Camry 4CYL L, 4CYL LE and 4CYL SE which don't have Full-Speed Range Dynamic Radar Cruise Control.",
+    "12": "Not including the China market Kamiq, which is based on the (currently) unsupported PQ34 platform.",
+    "13": "Refers only to the MQB-based European B8 Passat, not the NMS Passat in the USA/China/Mideast markets.",
+    "14": "Some Škoda vehicles are equipped with heated windshields, which are known to block GPS signal needed for some comma four functionality.",
+    "15": "Only available for vehicles using a gateway (J533) harness. At this time, vehicles using a camera harness are limited to using stock ACC.",
+    "16": "Model-years 2022 and beyond may have a combined CAN gateway and BCM, which is supported by openpilot in software, but doesn't yet have a harness available from the comma store."
   },
   "cars": [
     {
@@ -2157,20 +2158,19 @@
       ]
     },
     {
-      "name": "Chevrolet Volt No-ACC 2017-18",
+      "name": "Chevrolet Volt No-ACC 2016-18 (OBD Harness)",
       "make": "Chevrolet",
-      "model": "Volt No-ACC",
-      "model_variant": null,
-      "model_variant_list": [],
-      "years": "2017-18",
-      "year_list": [
-        2017,
-        2018
+      "model": "Volt No-ACC 2016-18",
+      "model_variant": "(OBD Harness)",
+      "model_variant_list": [
+        "OBD Harness"
       ],
+      "years": null,
+      "year_list": [],
       "hardware_needed": "comma four",
-      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package": "Redneck ACC",
       "supported_package_list": [
-        "Adaptive Cruise Control (ACC)"
+        "Redneck ACC"
       ],
       "acc": "openpilot",
       "no_acc_below": "0 mph",
@@ -2182,10 +2182,7 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": [
-        2017,
-        2018
-      ]
+      "years_not_in_upstream": []
     },
     {
       "name": "Chrysler Pacifica 2017-18",
@@ -2465,7 +2462,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2492,7 +2489,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2523,7 +2520,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2551,7 +2548,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2580,7 +2577,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2608,7 +2605,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2637,7 +2634,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2665,7 +2662,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2694,7 +2691,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist 2.0"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2725,7 +2722,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2756,7 +2753,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2785,7 +2782,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist 2.0"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2814,7 +2811,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist 2.0"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2844,7 +2841,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist 2.0"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2880,7 +2877,7 @@
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2913,7 +2910,7 @@
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2945,7 +2942,7 @@
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -2975,7 +2972,7 @@
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3002,7 +2999,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3032,7 +3029,7 @@
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3059,7 +3056,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3086,7 +3083,7 @@
       "supported_package_list": [
         "LARIAT Luxury"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3114,7 +3111,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3141,7 +3138,7 @@
       "supported_package_list": [
         "LARIAT Luxury"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3169,7 +3166,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3204,7 +3201,7 @@
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3244,7 +3241,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3271,7 +3268,7 @@
       "supported_package_list": [
         "Adaptive Cruise Control with Lane Centering"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3298,7 +3295,7 @@
       "supported_package_list": [
         "Co-Pilot360 Assist+"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3439,7 +3436,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "Stock",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -3601,6 +3598,38 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Genesis GV70 (3.5T Sport Prestige Trim, with HDA II & LFA2) 2026",
+      "make": "Genesis",
+      "model": "GV70",
+      "model_variant": "(3.5T Sport Prestige Trim, with HDA II & LFA2)",
+      "model_variant_list": [
+        "3.5T Sport Prestige Trim",
+        "with HDA II & LFA2"
+      ],
+      "years": "2026",
+      "year_list": [
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II & Lane Follow Assist 2",
+      "supported_package_list": [
+        "Highway Driving Assist II & Lane Follow Assist 2"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2026
+      ]
     },
     {
       "name": "Genesis GV70 (3.5T Trim, without HDA II) 2022-23",
@@ -9506,7 +9535,7 @@
       "supported_package_list": [
         "Co-Pilot360 Plus"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -9537,7 +9566,7 @@
       "supported_package_list": [
         "Co-Pilot360 Plus"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -9698,7 +9727,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          5
+          6
         ],
         "model": []
       },
@@ -9734,7 +9763,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          5
+          6
         ],
         "model": []
       },
@@ -9773,7 +9802,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          5
+          6
         ],
         "model": []
       },
@@ -9813,7 +9842,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          5
+          6
         ],
         "model": []
       },
@@ -9842,7 +9871,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          5
+          6
         ],
         "model": []
       },
@@ -10532,7 +10561,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       },
       "years_not_in_upstream": [
@@ -10566,7 +10595,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       },
       "years_not_in_upstream": [
@@ -10599,7 +10628,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       },
       "years_not_in_upstream": []
@@ -10630,8 +10659,8 @@
       "footnotes": {
         "make": [],
         "model": [
-          11,
-          13
+          12,
+          14
         ]
       },
       "years_not_in_upstream": []
@@ -10664,7 +10693,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       },
       "years_not_in_upstream": []
@@ -10699,7 +10728,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       },
       "years_not_in_upstream": []
@@ -10732,7 +10761,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       },
       "years_not_in_upstream": []
@@ -10761,7 +10790,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       },
       "years_not_in_upstream": []
@@ -10792,7 +10821,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       },
       "years_not_in_upstream": []
@@ -10824,7 +10853,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       },
       "years_not_in_upstream": []
@@ -10860,7 +10889,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          13
+          14
         ]
       },
       "years_not_in_upstream": []
@@ -10894,10 +10923,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          9
+          10
         ],
         "model": [
-          8
+          9
         ]
       },
       "years_not_in_upstream": []
@@ -10929,10 +10958,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          9
+          10
         ],
         "model": [
-          8
+          9
         ]
       },
       "years_not_in_upstream": [
@@ -10967,10 +10996,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          9
+          10
         ],
         "model": [
-          8
+          9
         ]
       },
       "years_not_in_upstream": []
@@ -11001,10 +11030,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          9
+          10
         ],
         "model": [
-          8
+          9
         ]
       },
       "years_not_in_upstream": []
@@ -13173,7 +13202,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          12
+          13
         ]
       },
       "years_not_in_upstream": []
