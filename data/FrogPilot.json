@@ -3,7 +3,7 @@
     "url": "https://github.com/FrogAi/FrogPilot/blob/FrogPilot/docs/CARS.md",
     "generator": "markdown_to_json.py",
     "source": "FrogPilot",
-    "total": "288 cars"
+    "total": "308 cars"
   },
   "footnote_definitions": {
     "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `devel` or `master-ci`.",
@@ -83,17 +83,19 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Acura RDX 2019-22",
+      "name": "Acura RDX 2019-24",
       "make": "Acura",
       "model": "RDX",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-22",
+      "years": "2019-24",
       "year_list": [
         2019,
         2020,
         2021,
-        2022
+        2022,
+        2023,
+        2024
       ],
       "hardware_needed": "comma 3X",
       "supported_package": "All",
@@ -111,7 +113,9 @@
         "model": []
       },
       "years_not_in_upstream": [
-        2022
+        2022,
+        2023,
+        2024
       ]
     },
     {
@@ -289,6 +293,120 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Buick Baby Enclave 2020-23",
+      "make": "Buick",
+      "model": "Baby Enclave",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2020-23",
+      "year_list": [
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Driver Assist Package",
+      "supported_package_list": [
+        "Driver Assist Package"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
+      "name": "Cadillac CT6 No-ACC",
+      "make": "Cadillac",
+      "model": "CT6 No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": null,
+      "year_list": [],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Lane Keep Assist (LKA)",
+      "supported_package_list": [
+        "Lane Keep Assist (LKA)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
+      "name": "Cadillac XT4 2023",
+      "make": "Cadillac",
+      "model": "XT4",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023",
+      "year_list": [
+        2023
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Driver Assist Package",
+      "supported_package_list": [
+        "Driver Assist Package"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "30 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023
+      ]
+    },
+    {
+      "name": "Cadillac XT5 No-ACC",
+      "make": "Cadillac",
+      "model": "XT5 No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": null,
+      "year_list": [],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Lane Keep Assist (LKA)",
+      "supported_package_list": [
+        "Lane Keep Assist (LKA)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
       "name": "Chevrolet Bolt EUV 2022-23",
       "make": "Chevrolet",
       "model": "Bolt EUV",
@@ -310,6 +428,37 @@
       "no_alc_below": "6 mph",
       "auto_resume_available": false,
       "video": "https://youtu.be/xvwzGMUA210",
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2022,
+        2023
+      ]
+    },
+    {
+      "name": "Chevrolet Bolt EUV No-ACC 2022-23",
+      "make": "Chevrolet",
+      "model": "Bolt EUV No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2022-23",
+      "year_list": [
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Lane Keep Assist (LKA)",
+      "supported_package_list": [
+        "Lane Keep Assist (LKA)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
       "setup_video": null,
       "footnotes": {
         "make": [],
@@ -349,6 +498,47 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Chevrolet Bolt EV No-ACC 2017-23",
+      "make": "Chevrolet",
+      "model": "Bolt EV No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-23",
+      "year_list": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Lane Keep Assist (LKA)",
+      "supported_package_list": [
+        "Lane Keep Assist (LKA)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
       "name": "Chevrolet Equinox 2019-22",
       "make": "Chevrolet",
       "model": "Equinox",
@@ -379,6 +569,70 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Chevrolet Equinox No-ACC 2019-22",
+      "make": "Chevrolet",
+      "model": "Equinox No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2019-22",
+      "year_list": [
+        2019,
+        2020,
+        2021,
+        2022
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Lane Keep Assist (LKA)",
+      "supported_package_list": [
+        "Lane Keep Assist (LKA)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2019,
+        2020,
+        2021,
+        2022
+      ]
+    },
+    {
+      "name": "Chevrolet Malibu No-ACC 2023",
+      "make": "Chevrolet",
+      "model": "Malibu No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023",
+      "year_list": [
+        2023
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Lane Keep Assist (LKA)",
+      "supported_package_list": [
+        "Lane Keep Assist (LKA)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023
+      ]
+    },
+    {
       "name": "Chevrolet Silverado 1500 2020-21",
       "make": "Chevrolet",
       "model": "Silverado 1500",
@@ -407,6 +661,80 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Chevrolet Suburban Premier 2016-20",
+      "make": "Chevrolet",
+      "model": "Suburban Premier",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2016-20",
+      "year_list": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "18 mph",
+      "no_alc_below": "7 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
+      "name": "Chevrolet Suburban Premier No-ACC 2016-20",
+      "make": "Chevrolet",
+      "model": "Suburban Premier No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2016-20",
+      "year_list": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Lane Keep Assist (LKA)",
+      "supported_package_list": [
+        "Lane Keep Assist (LKA)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2016,
+        2017,
+        2018,
+        2019,
+        2020
+      ]
+    },
+    {
       "name": "Chevrolet Trailblazer 2021-22",
       "make": "Chevrolet",
       "model": "Trailblazer",
@@ -433,6 +761,126 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Chevrolet Trailblazer No-ACC 2021-22",
+      "make": "Chevrolet",
+      "model": "Trailblazer No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021-22",
+      "year_list": [
+        2021,
+        2022
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Lane Keep Assist (LKA)",
+      "supported_package_list": [
+        "Lane Keep Assist (LKA)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2021,
+        2022
+      ]
+    },
+    {
+      "name": "Chevrolet Traverse 2023",
+      "make": "Chevrolet",
+      "model": "Traverse",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023",
+      "year_list": [
+        2023
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Driver Assist Package",
+      "supported_package_list": [
+        "Driver Assist Package"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023
+      ]
+    },
+    {
+      "name": "Chevrolet TRAX 2024",
+      "make": "Chevrolet",
+      "model": "TRAX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024",
+      "year_list": [
+        2024
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Adaptive Cruise Control (ACC)",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "3 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024
+      ]
+    },
+    {
+      "name": "Chevrolet Volt No-ACC 2017-18",
+      "make": "Chevrolet",
+      "model": "Volt No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2017-18",
+      "year_list": [
+        2017,
+        2018
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Lane Keep Assist (LKA)",
+      "supported_package_list": [
+        "Lane Keep Assist (LKA)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2017,
+        2018
+      ]
     },
     {
       "name": "Chrysler Pacifica 2017-18",
@@ -922,6 +1370,47 @@
         ]
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Ford Fusion Retrofitted 2013-19",
+      "make": "Ford",
+      "model": "Fusion Retrofitted",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2013-19",
+      "year_list": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Co-Pilot360 Assist+",
+      "supported_package_list": [
+        "Co-Pilot360 Assist+"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019
+      ]
     },
     {
       "name": "Ford Kuga 2020-22",
@@ -1479,6 +1968,31 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "GMC Yukon No-ACC",
+      "make": "GMC",
+      "model": "Yukon No-ACC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": null,
+      "year_list": [],
+      "hardware_needed": "comma 3X",
+      "supported_package": "Lane Keep Assist (LKA)",
+      "supported_package_list": [
+        "Lane Keep Assist (LKA)"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "24 mph",
+      "no_alc_below": "6 mph",
+      "auto_resume_available": false,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
       "name": "Honda Accord 2018-22",
       "make": "Honda",
       "model": "Accord",
@@ -1688,6 +2202,95 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Honda Civic Hatchback Hybrid 2023 (Europe only)",
+      "make": "Honda",
+      "model": "Civic Hatchback Hybrid 2023",
+      "model_variant": "(Europe only)",
+      "model_variant_list": [
+        "Europe only"
+      ],
+      "years": null,
+      "year_list": [],
+      "hardware_needed": "comma 3X",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
+      "name": "Honda Civic Hatchback Hybrid 2025",
+      "make": "Honda",
+      "model": "Civic Hatchback Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025",
+      "year_list": [
+        2025
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
+      "name": "Honda Clarity 2018-21",
+      "make": "Honda",
+      "model": "Clarity",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018-21",
+      "year_list": [
+        2018,
+        2019,
+        2020,
+        2021
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "3 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018,
+        2019,
+        2020,
+        2021
+      ]
     },
     {
       "name": "Honda CR-V 2015-16",
@@ -2412,17 +3015,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Hyundai Ioniq 5 (Southeast Asia only) 2022-23",
+      "name": "Hyundai Ioniq 5 (Non-US only) 2022-24",
       "make": "Hyundai",
       "model": "Ioniq 5",
-      "model_variant": "(Southeast Asia only)",
+      "model_variant": "(Non-US only)",
       "model_variant_list": [
-        "Southeast Asia only"
+        "Non-US only"
       ],
-      "years": "2022-23",
+      "years": "2022-24",
       "year_list": [
         2022,
-        2023
+        2023,
+        2024
       ],
       "hardware_needed": "comma 3X",
       "supported_package": "All",
@@ -2441,20 +3045,25 @@
           5
         ]
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2022,
+        2023,
+        2024
+      ]
     },
     {
-      "name": "Hyundai Ioniq 5 (with HDA II) 2022-23",
+      "name": "Hyundai Ioniq 5 (with HDA II) 2022-24",
       "make": "Hyundai",
       "model": "Ioniq 5",
       "model_variant": "(with HDA II)",
       "model_variant_list": [
         "with HDA II"
       ],
-      "years": "2022-23",
+      "years": "2022-24",
       "year_list": [
         2022,
-        2023
+        2023,
+        2024
       ],
       "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist II",
@@ -2476,17 +3085,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Hyundai Ioniq 5 (without HDA II) 2022-23",
+      "name": "Hyundai Ioniq 5 (without HDA II) 2022-24",
       "make": "Hyundai",
       "model": "Ioniq 5",
       "model_variant": "(without HDA II)",
       "model_variant_list": [
         "without HDA II"
       ],
-      "years": "2022-23",
+      "years": "2022-24",
       "year_list": [
         2022,
-        2023
+        2023,
+        2024
       ],
       "hardware_needed": "comma 3X",
       "supported_package": "Highway Driving Assist",
@@ -3490,12 +4100,12 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Kia EV6 (Southeast Asia only) 2022-24",
+      "name": "Kia EV6 (Non-US only) 2022-24",
       "make": "Kia",
       "model": "EV6",
-      "model_variant": "(Southeast Asia only)",
+      "model_variant": "(Non-US only)",
       "model_variant_list": [
-        "Southeast Asia only"
+        "Non-US only"
       ],
       "years": "2022-24",
       "year_list": [
@@ -3520,7 +4130,11 @@
           5
         ]
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2022,
+        2023,
+        2024
+      ]
     },
     {
       "name": "Kia EV6 (with HDA II) 2022-24",
@@ -4612,19 +5226,20 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Lexus ES Hybrid 2019-24",
+      "name": "Lexus ES Hybrid 2019-25",
       "make": "Lexus",
       "model": "ES Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-24",
+      "years": "2019-25",
       "year_list": [
         2019,
         2020,
         2021,
         2022,
         2023,
-        2024
+        2024,
+        2025
       ],
       "hardware_needed": "comma 3X",
       "supported_package": "All",
@@ -5340,6 +5955,45 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Nissan Leaf Instrument Cluster 2018-23",
+      "make": "Nissan",
+      "model": "Leaf Instrument Cluster",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018-23",
+      "year_list": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma 3X",
+      "supported_package": "ProPILOT Assist",
+      "supported_package_list": [
+        "ProPILOT Assist"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": "https://youtu.be/vaMbtAh_0cY",
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
+    },
+    {
       "name": "Nissan Rogue 2018-20",
       "make": "Nissan",
       "model": "Rogue",
@@ -5417,7 +6071,7 @@
       ],
       "acc": "Stock",
       "no_acc_below": "0 mph",
-      "no_alc_below": "32 mph",
+      "no_alc_below": "1 mph",
       "auto_resume_available": true,
       "video": null,
       "setup_video": null,
@@ -5514,7 +6168,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -5542,7 +6196,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": "https://youtu.be/Agww7oE1k-s?t=26",
       "setup_video": null,
       "footnotes": {
@@ -5572,7 +6226,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -5601,7 +6255,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -5630,7 +6284,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -5659,7 +6313,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
@@ -5745,7 +6399,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": "https://youtu.be/Agww7oE1k-s?t=26",
       "setup_video": null,
       "footnotes": {
@@ -5773,7 +6427,7 @@
       "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
-      "auto_resume_available": false,
+      "auto_resume_available": true,
       "video": null,
       "setup_video": null,
       "footnotes": {
