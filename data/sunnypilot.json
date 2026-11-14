@@ -3,7 +3,7 @@
     "url": "https://github.com/sunnypilot/sunnypilot/blob/master/docs/CARS.md",
     "generator": "markdown_to_json.py",
     "source": "sunnypilot",
-    "total": "351 cars"
+    "total": "357 cars"
   },
   "footnote_definitions": {
     "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `nightly-dev`.",
@@ -3869,6 +3869,39 @@
       ]
     },
     {
+      "name": "Hyundai Kona (without HDA II) 2024-25",
+      "make": "Hyundai",
+      "model": "Kona",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
       "name": "Hyundai Kona Electric 2018-21",
       "make": "Hyundai",
       "model": "Kona Electric",
@@ -4240,6 +4273,41 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Sonata (without HDA II) 2024-26",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-26",
+      "year_list": [
+        2024,
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
       "name": "Hyundai Sonata Hybrid 2020-23",
       "make": "Hyundai",
       "model": "Sonata Hybrid",
@@ -4268,6 +4336,41 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Sonata Hybrid (without HDA II) 2024-26",
+      "make": "Hyundai",
+      "model": "Sonata Hybrid",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-26",
+      "year_list": [
+        2024,
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025,
+        2026
+      ]
     },
     {
       "name": "Hyundai Staria 2023",
@@ -4433,6 +4536,39 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Tucson Hybrid (without HDA II) 2025-26",
+      "make": "Hyundai",
+      "model": "Tucson Hybrid",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
     },
     {
       "name": "Hyundai Tucson Plug-in Hybrid 2024",
@@ -4604,6 +4740,39 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Kia Carnival Hybrid (with HDA II) 2025-26",
+      "make": "Kia",
+      "model": "Carnival Hybrid",
+      "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
     },
     {
       "name": "Kia Ceed 2019-21",
@@ -5314,6 +5483,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Kia Niro Plus EV 2024",
+      "make": "Kia",
+      "model": "Niro Plus EV",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024",
+      "year_list": [
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024
+      ]
     },
     {
       "name": "Kia Optima 2017",
