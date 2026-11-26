@@ -3,7 +3,7 @@
     "url": "https://github.com/sunnypilot/sunnypilot/blob/master/docs/CARS.md",
     "generator": "markdown_to_json.py",
     "source": "sunnypilot",
-    "total": "358 cars"
+    "total": "359 cars"
   },
   "footnote_definitions": {
     "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `nightly-dev`.",
@@ -4515,6 +4515,39 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Tucson (without HDA II) 2025-26",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
     },
     {
       "name": "Hyundai Tucson Diesel 2019",

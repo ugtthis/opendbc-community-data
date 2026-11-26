@@ -3,7 +3,7 @@
     "url": "https://github.com/BluePilotDev/bluepilot/blob/bp-dev/docs/CARS.md",
     "generator": "markdown_to_json.py",
     "source": "bluepilot",
-    "total": "341 cars"
+    "total": "359 cars"
   },
   "footnote_definitions": {
     "1": "openpilot Longitudinal Control (Alpha) is available behind a toggle; the toggle is only available in non-release branches such as `nightly-dev`.",
@@ -11,20 +11,52 @@
     "3": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/gm\" target=\"_blank\">GM</a>.",
     "4": "2019 Honda Civic 1.6L Diesel Sedan does not have ALC below 12mph.",
     "5": "Enabling longitudinal control (alpha) will disable all CMBS functionality, including AEB and FCW.",
-    "6": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/nissan\" target=\"_blank\">Nissan</a>.",
-    "7": "In the non-US market, openpilot requires the car to come equipped with EyeSight with Lane Keep Assistance.",
-    "8": "Enabling longitudinal control (alpha) will disable all EyeSight functionality, including AEB, LDW, and RAB.",
-    "9": "Some 2023 model years have HW4. To check which hardware type your vehicle has, look for <b>Autopilot computer</b> under <b>Software -> Additional Vehicle Information</b> on your vehicle's touchscreen. See <a href=\"https://www.notateslaapp.com/news/2173/how-to-check-if-your-tesla-has-hardware-4-ai4-or-hardware-3\">this page</a> for more information.",
-    "10": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/tesla\" target=\"_blank\">Tesla</a>.",
-    "11": "openpilot operates above 28mph for Camry 4CYL L, 4CYL LE and 4CYL SE which don't have Full-Speed Range Dynamic Radar Cruise Control.",
-    "12": "The J533 harness plugs in at the CAN gateway under the dashboard, just above the steering column. More information can be found at <a href=\"https://docs.howtocomma.com/docs/j533-harness-install\" target=\"_blank\">this guide</a>.",
-    "13": "Not including the China market Kamiq, which is based on the (currently) unsupported PQ34 platform.",
-    "14": "Refers only to the MQB-based European B8 Passat, not the NMS Passat in the USA/China/Mideast markets.",
-    "15": "Some Škoda vehicles are equipped with heated windshields, which are known to block GPS signal needed for some comma four functionality.",
-    "16": "Only available for vehicles using a gateway (J533) harness. At this time, vehicles using a camera harness are limited to using stock ACC.",
-    "17": "Model-years 2022 and beyond may have a combined CAN gateway and BCM, which is supported by openpilot in software, but doesn't yet have a harness available from the comma store."
+    "6": "Mazda vehicles <b>require</b> comma power installation.",
+    "7": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/nissan\" target=\"_blank\">Nissan</a>.",
+    "8": "In the non-US market, openpilot requires the car to come equipped with EyeSight with Lane Keep Assistance.",
+    "9": "Enabling longitudinal control (alpha) will disable all EyeSight functionality, including AEB, LDW, and RAB.",
+    "10": "Model year 2019 can have HW2.5 or HW3, and model years 2023 and 2024 can have HW3 or HW4, depending on build date and factory. To check which hardware type your vehicle has, look for <b>Autopilot computer</b> under <b>Software -> Additional Vehicle Information</b> on your vehicle's touchscreen. See <a href=\"https://www.notateslaapp.com/news/2173/how-to-check-if-your-tesla-has-hardware-4-ai4-or-hardware-3\">this page</a> for more information.",
+    "11": "See more setup details for <a href=\"https://github.com/commaai/openpilot/wiki/tesla\" target=\"_blank\">Tesla</a>.",
+    "12": "openpilot operates above 28mph for Camry 4CYL L, 4CYL LE and 4CYL SE which don't have Full-Speed Range Dynamic Radar Cruise Control.",
+    "13": "The J533 harness plugs in at the CAN gateway under the dashboard, just above the steering column. More information can be found at <a href=\"https://docs.howtocomma.com/docs/j533-harness-install\" target=\"_blank\">this guide</a>.",
+    "14": "Not including the China market Kamiq, which is based on the (currently) unsupported PQ34 platform.",
+    "15": "Refers only to the MQB-based European B8 Passat, not the NMS Passat in the USA/China/Mideast markets.",
+    "16": "Some Škoda vehicles are equipped with heated windshields, which are known to block GPS signal needed for some comma four functionality.",
+    "17": "Only available for vehicles using a gateway (J533) harness. At this time, vehicles using a camera harness are limited to using stock ACC.",
+    "18": "Model-years 2022 and beyond may have a combined CAN gateway and BCM, which is supported by openpilot in software, but doesn't yet have a harness available from the comma store."
   },
   "cars": [
+    {
+      "name": "Acura ADX 2025-26",
+      "make": "Acura",
+      "model": "ADX",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
+    },
     {
       "name": "Acura ILX 2016-18",
       "make": "Acura",
@@ -281,7 +313,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -311,7 +343,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -340,7 +372,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -374,7 +406,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -403,7 +435,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -434,7 +466,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -782,8 +814,37 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
+      "name": "CUPRA Born 2021-23",
+      "make": "CUPRA",
+      "model": "Born",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021-23",
+      "year_list": [
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
         "model": []
       },
       "years_not_in_upstream": []
@@ -2070,16 +2131,17 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda Accord Hybrid 2023-25",
+      "name": "Honda Accord Hybrid 2023-26",
       "make": "Honda",
       "model": "Accord Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2023-25",
+      "years": "2023-26",
       "year_list": [
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
@@ -2099,16 +2161,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda City (Brazil only) 2023",
+      "name": "Honda City (Brazil only) 2023-25",
       "make": "Honda",
       "model": "City",
       "model_variant": "(Brazil only)",
       "model_variant_list": [
         "Brazil only"
       ],
-      "years": "2023",
+      "years": "2023-25",
       "year_list": [
-        2023
+        2023,
+        2024,
+        2025
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
@@ -2125,7 +2189,10 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
     },
     {
       "name": "Honda Civic 2016-18",
@@ -2186,16 +2253,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda Civic 2022-24",
+      "name": "Honda Civic 2022-26",
       "make": "Honda",
       "model": "Civic",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2022-24",
+      "years": "2022-26",
       "year_list": [
         2022,
         2023,
-        2024
+        2024,
+        2025,
+        2026
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
@@ -2272,16 +2341,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda Civic Hatchback 2022-24",
+      "name": "Honda Civic Hatchback 2022-26",
       "make": "Honda",
       "model": "Civic Hatchback",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2022-24",
+      "years": "2022-26",
       "year_list": [
         2022,
         2023,
-        2024
+        2024,
+        2025,
+        2026
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
@@ -2298,7 +2369,10 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
     },
     {
       "name": "Honda Civic Hatchback Hybrid 2025-26",
@@ -2508,17 +2582,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda CR-V Hybrid 2023-26",
+      "name": "Honda CR-V Hybrid 2023-27",
       "make": "Honda",
       "model": "CR-V Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2023-26",
+      "years": "2023-27",
       "year_list": [
         2023,
         2024,
         2025,
-        2026
+        2026,
+        2027
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
@@ -2535,7 +2610,9 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2027
+      ]
     },
     {
       "name": "Honda e 2020",
@@ -2651,16 +2728,18 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda HR-V 2023-25",
+      "name": "Honda HR-V 2023-27",
       "make": "Honda",
       "model": "HR-V",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2023-25",
+      "years": "2023-27",
       "year_list": [
         2023,
         2024,
-        2025
+        2025,
+        2026,
+        2027
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
@@ -3006,12 +3085,70 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Honda Ridgeline 2017-25",
+      "name": "Honda Pilot 2026",
+      "make": "Honda",
+      "model": "Pilot",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2026",
+      "year_list": [
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2026
+      ]
+    },
+    {
+      "name": "Honda Prelude 2026",
+      "make": "Honda",
+      "model": "Prelude",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2026",
+      "year_list": [
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2026
+      ]
+    },
+    {
+      "name": "Honda Ridgeline 2017-26",
       "make": "Honda",
       "model": "Ridgeline",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2017-25",
+      "years": "2017-26",
       "year_list": [
         2017,
         2018,
@@ -3021,7 +3158,8 @@
         2022,
         2023,
         2024,
-        2025
+        2025,
+        2026
       ],
       "hardware_needed": "comma four",
       "supported_package": "Honda Sensing",
@@ -3038,7 +3176,9 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2026
+      ]
     },
     {
       "name": "Hyundai Azera 2022",
@@ -3729,6 +3869,39 @@
       ]
     },
     {
+      "name": "Hyundai Kona (without HDA II) 2024-25",
+      "make": "Hyundai",
+      "model": "Kona",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025
+      ]
+    },
+    {
       "name": "Hyundai Kona Electric 2018-21",
       "make": "Hyundai",
       "model": "Kona Electric",
@@ -3842,6 +4015,41 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Kona Hybrid (without HDA II) 2024-26",
+      "make": "Hyundai",
+      "model": "Kona Hybrid",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-26",
+      "year_list": [
+        2024,
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025,
+        2026
+      ]
     },
     {
       "name": "Hyundai Nexo 2021",
@@ -4100,6 +4308,41 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Sonata (without HDA II) 2024-26",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-26",
+      "year_list": [
+        2024,
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025,
+        2026
+      ]
+    },
+    {
       "name": "Hyundai Sonata Hybrid 2020-23",
       "make": "Hyundai",
       "model": "Sonata Hybrid",
@@ -4128,6 +4371,41 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Hyundai Sonata Hybrid (without HDA II) 2024-26",
+      "make": "Hyundai",
+      "model": "Sonata Hybrid",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2024-26",
+      "year_list": [
+        2024,
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024,
+        2025,
+        2026
+      ]
     },
     {
       "name": "Hyundai Staria 2023",
@@ -4239,6 +4517,39 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Hyundai Tucson (without HDA II) 2025-26",
+      "make": "Hyundai",
+      "model": "Tucson",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
+    },
+    {
       "name": "Hyundai Tucson Diesel 2019",
       "make": "Hyundai",
       "model": "Tucson Diesel",
@@ -4295,13 +4606,47 @@
       "years_not_in_upstream": []
     },
     {
-      "name": "Hyundai Tucson Plug-in Hybrid 2024",
+      "name": "Hyundai Tucson Hybrid (without HDA II) 2025-26",
+      "make": "Hyundai",
+      "model": "Tucson Hybrid",
+      "model_variant": "(without HDA II)",
+      "model_variant_list": [
+        "without HDA II"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
+    },
+    {
+      "name": "Hyundai Tucson Plug-in Hybrid 2023-24",
       "make": "Hyundai",
       "model": "Tucson Plug-in Hybrid",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2024",
+      "years": "2023-24",
       "year_list": [
+        2023,
         2024
       ],
       "hardware_needed": "comma four",
@@ -4319,7 +4664,9 @@
         "make": [],
         "model": []
       },
-      "years_not_in_upstream": []
+      "years_not_in_upstream": [
+        2023
+      ]
     },
     {
       "name": "Hyundai Veloster 2019-20",
@@ -4399,7 +4746,7 @@
       "no_acc_below": "0 mph",
       "no_alc_below": "39 mph",
       "auto_resume_available": true,
-      "video": "https://www.youtube.com/watch?v=jBe4lWnRSu4",
+      "video": null,
       "setup_video": null,
       "footnotes": {
         "make": [],
@@ -4466,6 +4813,39 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Kia Carnival Hybrid (with HDA II) 2025-26",
+      "make": "Kia",
+      "model": "Carnival Hybrid",
+      "model_variant": "(with HDA II)",
+      "model_variant_list": [
+        "with HDA II"
+      ],
+      "years": "2025-26",
+      "year_list": [
+        2025,
+        2026
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Highway Driving Assist II",
+      "supported_package_list": [
+        "Highway Driving Assist II"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2025,
+        2026
+      ]
+    },
+    {
       "name": "Kia Ceed 2019-21",
       "make": "Kia",
       "model": "Ceed",
@@ -4493,6 +4873,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Kia Ceed Plug-in Hybrid 2021",
+      "make": "Kia",
+      "model": "Ceed Plug-in Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021",
+      "year_list": [
+        2021
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2021
+      ]
     },
     {
       "name": "Kia EV6 (Southeast Asia only) 2022-24",
@@ -5147,6 +5556,35 @@
       "years_not_in_upstream": []
     },
     {
+      "name": "Kia Niro Plus EV 2024",
+      "make": "Kia",
+      "model": "Niro Plus EV",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024",
+      "year_list": [
+        2024
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2024
+      ]
+    },
+    {
       "name": "Kia Optima 2017",
       "make": "Kia",
       "model": "Optima",
@@ -5449,6 +5887,35 @@
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Kia Sportage Plug-in Hybrid 2023",
+      "make": "Kia",
+      "model": "Sportage Plug-in Hybrid",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2023",
+      "year_list": [
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Smart Cruise Control (SCC)",
+      "supported_package_list": [
+        "Smart Cruise Control (SCC)"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2023
+      ]
     },
     {
       "name": "Kia Stinger 2018-20",
@@ -6285,7 +6752,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -6321,7 +6788,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -6352,7 +6819,9 @@
       "video": null,
       "setup_video": null,
       "footnotes": {
-        "make": [],
+        "make": [
+          6
+        ],
         "model": []
       },
       "years_not_in_upstream": []
@@ -6381,7 +6850,9 @@
       "video": "https://youtu.be/dA3duO4a0O4",
       "setup_video": null,
       "footnotes": {
-        "make": [],
+        "make": [
+          6
+        ],
         "model": []
       },
       "years_not_in_upstream": []
@@ -6414,7 +6885,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          6
+          7
         ],
         "model": []
       },
@@ -6448,11 +6919,52 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          6
+          7
         ],
         "model": []
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Nissan Leaf IC 2018-23",
+      "make": "Nissan",
+      "model": "Leaf IC",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2018-23",
+      "year_list": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "ProPILOT Assist",
+      "supported_package_list": [
+        "ProPILOT Assist"
+      ],
+      "acc": "Stock",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": false,
+      "video": "https://youtu.be/vaMbtAh_0cY",
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          7
+        ],
+        "model": []
+      },
+      "years_not_in_upstream": [
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+      ]
     },
     {
       "name": "Nissan Rogue 2018-20",
@@ -6479,7 +6991,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          6
+          7
         ],
         "model": []
       },
@@ -6508,7 +7020,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          6
+          7
         ],
         "model": []
       },
@@ -6584,17 +7096,19 @@
       ]
     },
     {
-      "name": "Ram 3500 2019-22",
+      "name": "Ram 3500 2019-24",
       "make": "Ram",
       "model": "3500",
       "model_variant": null,
       "model_variant_list": [],
-      "years": "2019-22",
+      "years": "2019-24",
       "year_list": [
         2019,
         2020,
         2021,
-        2022
+        2022,
+        2023,
+        2024
       ],
       "hardware_needed": "comma four",
       "supported_package": "Adaptive Cruise Control (ACC)",
@@ -6615,7 +7129,9 @@
         2019,
         2020,
         2021,
-        2022
+        2022,
+        2023,
+        2024
       ]
     },
     {
@@ -6635,11 +7151,11 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
-      "video": null,
+      "video": "https://youtu.be/dflSSGQwYNc",
       "setup_video": "https://youtu.be/uaISd1j7Z4U",
       "footnotes": {
         "make": [],
@@ -6662,7 +7178,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -6693,11 +7209,11 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
-      "video": null,
+      "video": "https://youtu.be/dflSSGQwYNc",
       "setup_video": "https://youtu.be/uaISd1j7Z4U",
       "footnotes": {
         "make": [],
@@ -6720,7 +7236,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot",
+      "acc": "openpilot available",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -6764,7 +7280,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -6799,7 +7315,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -6822,7 +7338,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -6850,7 +7366,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -6880,7 +7396,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -6940,7 +7456,7 @@
       "supported_package_list": [
         "All"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -6969,7 +7485,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -6998,7 +7514,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -7183,7 +7699,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -7211,7 +7727,7 @@
       "supported_package_list": [
         "EyeSight Driver Assistance"
       ],
-      "acc": "openpilot available",
+      "acc": "Stock",
       "no_acc_below": "0 mph",
       "no_alc_below": "0 mph",
       "auto_resume_available": true,
@@ -7248,7 +7764,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          15
+          16
         ]
       },
       "years_not_in_upstream": []
@@ -7279,8 +7795,8 @@
       "footnotes": {
         "make": [],
         "model": [
-          13,
-          15
+          14,
+          16
         ]
       },
       "years_not_in_upstream": []
@@ -7312,10 +7828,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": [
-          15
+          16
         ]
       },
       "years_not_in_upstream": []
@@ -7349,10 +7865,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": [
-          15
+          16
         ]
       },
       "years_not_in_upstream": []
@@ -7384,10 +7900,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": [
-          15
+          16
         ]
       },
       "years_not_in_upstream": []
@@ -7415,10 +7931,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": [
-          15
+          16
         ]
       },
       "years_not_in_upstream": []
@@ -7448,10 +7964,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": [
-          15
+          16
         ]
       },
       "years_not_in_upstream": []
@@ -7483,7 +7999,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          15
+          16
         ]
       },
       "years_not_in_upstream": []
@@ -7518,13 +8034,48 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": [
-          15
+          16
         ]
       },
       "years_not_in_upstream": []
+    },
+    {
+      "name": "Tesla Model 3 (with HW2.5) 2019",
+      "make": "Tesla",
+      "model": "Model 3",
+      "model_variant": "(with HW2.5)",
+      "model_variant_list": [
+        "with HW2.5"
+      ],
+      "years": "2019",
+      "year_list": [
+        2019
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "All",
+      "supported_package_list": [
+        "All"
+      ],
+      "acc": "openpilot available",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [
+          11
+        ],
+        "model": [
+          10
+        ]
+      },
+      "years_not_in_upstream": [
+        2019
+      ]
     },
     {
       "name": "Tesla Model 3 (with HW3) 2019-23",
@@ -7555,10 +8106,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          10
+          11
         ],
         "model": [
-          9
+          10
         ]
       },
       "years_not_in_upstream": []
@@ -7589,28 +8140,29 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          10
+          11
         ],
         "model": [
-          9
+          10
         ]
       },
       "years_not_in_upstream": []
     },
     {
-      "name": "Tesla Model Y (with HW3) 2020-23",
+      "name": "Tesla Model Y (with HW3) 2020-24",
       "make": "Tesla",
       "model": "Model Y",
       "model_variant": "(with HW3)",
       "model_variant_list": [
         "with HW3"
       ],
-      "years": "2020-23",
+      "years": "2020-24",
       "year_list": [
         2020,
         2021,
         2022,
-        2023
+        2023,
+        2024
       ],
       "hardware_needed": "comma four",
       "supported_package": "All",
@@ -7625,24 +8177,25 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          10
+          11
         ],
         "model": [
-          9
+          10
         ]
       },
       "years_not_in_upstream": []
     },
     {
-      "name": "Tesla Model Y (with HW4) 2024-25",
+      "name": "Tesla Model Y (with HW4) 2023-25",
       "make": "Tesla",
       "model": "Model Y",
       "model_variant": "(with HW4)",
       "model_variant_list": [
         "with HW4"
       ],
-      "years": "2024-25",
+      "years": "2023-25",
       "year_list": [
+        2023,
         2024,
         2025
       ],
@@ -7659,10 +8212,10 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          10
+          11
         ],
         "model": [
-          9
+          10
         ]
       },
       "years_not_in_upstream": []
@@ -8986,7 +9539,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9018,7 +9571,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9050,7 +9603,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9082,7 +9635,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9116,7 +9669,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9147,7 +9700,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9178,7 +9731,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9207,7 +9760,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9240,7 +9793,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9276,7 +9829,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9311,7 +9864,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9346,7 +9899,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9380,7 +9933,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9413,7 +9966,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9447,7 +10000,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9481,7 +10034,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9516,7 +10069,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9549,7 +10102,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9583,7 +10136,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9617,8 +10170,65 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
+      "name": "Volkswagen ID.4 2021-23",
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2021-23",
+      "year_list": [
+        2021,
+        2022,
+        2023
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
+        "model": []
+      },
+      "years_not_in_upstream": []
+    },
+    {
+      "name": "Volkswagen ID.4 2024-25",
+      "make": "Volkswagen",
+      "model": "ID.4",
+      "model_variant": null,
+      "model_variant_list": [],
+      "years": "2024-25",
+      "year_list": [
+        2024,
+        2025
+      ],
+      "hardware_needed": "comma four",
+      "supported_package": "Adaptive Cruise Control (ACC) & Lane Assist",
+      "supported_package_list": [
+        "Adaptive Cruise Control (ACC) & Lane Assist"
+      ],
+      "acc": "openpilot",
+      "no_acc_below": "0 mph",
+      "no_alc_below": "0 mph",
+      "auto_resume_available": true,
+      "video": null,
+      "setup_video": null,
+      "footnotes": {
+        "make": [],
         "model": []
       },
       "years_not_in_upstream": []
@@ -9650,7 +10260,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9681,7 +10291,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9718,7 +10328,7 @@
       "footnotes": {
         "make": [],
         "model": [
-          14
+          15
         ]
       },
       "years_not_in_upstream": []
@@ -9753,7 +10363,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9789,7 +10399,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9914,7 +10524,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9945,7 +10555,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -9978,7 +10588,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -10008,7 +10618,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -10038,7 +10648,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -10073,7 +10683,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -10104,7 +10714,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
@@ -10140,7 +10750,7 @@
       "setup_video": null,
       "footnotes": {
         "make": [
-          12
+          13
         ],
         "model": []
       },
